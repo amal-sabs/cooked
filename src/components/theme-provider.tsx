@@ -16,7 +16,7 @@ type ThemeProviderState = {
   setTheme: (theme: Theme) => void
 }
 
-const COLOR_SCHEME_QUERY = "(prefers-color-scheme: dark)"
+const COLOR_SCHEME_QUERY = "(prefers-color-scheme: light)"
 const THEME_VALUES: Theme[] = ["dark", "light", "system"]
 
 const ThemeProviderContext = React.createContext<
@@ -32,10 +32,6 @@ function isTheme(value: string | null): value is Theme {
 }
 
 function getSystemTheme(): ResolvedTheme {
-  if (window.matchMedia(COLOR_SCHEME_QUERY).matches) {
-    return "dark"
-  }
-
   return "light"
 }
 
