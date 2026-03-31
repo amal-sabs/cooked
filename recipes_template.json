@@ -1,0 +1,5452 @@
+[
+  {
+    "recipe_name": "Apple Strudel Muffins",
+    "prep_time": "20 mins",
+    "cook_time": "20 mins",
+    "total_time": "45 mins",
+    "servings": "12",
+    "yield": "12 muffins",
+    "rating": 4.5,
+    "url": "https://www.allrecipes.com/recipe/33157/apple-strudel-muffins/",
+    "cuisine_path": "/Bread/Quick Bread Recipes/Muffin Recipes/Apple Muffin Recipes/",
+    "image": "https://www.allrecipes.com/thmb/QTc6kTodu38CuuTDlcAz9XbueDA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/1097944-apple-strudel-muffins-Korona-1x1-2-6710dec0aba7474a80c89f21a2059ebc.jpg",
+    "ingredients": [
+      {
+        "name": "all-purpose flour",
+        "amount": 2.0,
+        "unit": "cups",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "baking powder",
+        "amount": 1.0,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "baking soda",
+        "amount": 0.5,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "white sugar",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "butter",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "eggs",
+        "amount": 2.0,
+        "unit": "large",
+        "template_amount_var": "amountIng7",
+        "template_unit_var": "unitIng7",
+        "template_name_var": "nameIng7"
+      },
+      {
+        "name": "vanilla",
+        "amount": 1.25,
+        "unit": "teaspoons",
+        "template_amount_var": "amountIng8",
+        "template_unit_var": "unitIng8",
+        "template_name_var": "nameIng8"
+      },
+      {
+        "name": "chopped apples",
+        "amount": 1.5,
+        "unit": "cups",
+        "template_amount_var": "amountIng9",
+        "template_unit_var": "unitIng9",
+        "template_name_var": "nameIng9"
+      }
+    ],
+    "directions": [
+      "Preheat the oven to 375 degrees F (190 degrees C). Grease a 12-cup muffin pan.",
+      "Mix flour, baking powder, baking soda, and salt in a medium bowl.",
+      "Beat together sugar, butter, and eggs in a large bowl until smooth. Mix in vanilla. Stir in apples, then gradually blend in flour mixture. Spoon batter into the prepared muffin pan.",
+      "Make topping: Mix brown sugar, flour, and cinnamon in a small bowl. Cut in butter until mixture resembles coarse crumbs. Sprinkle over each muffin top.",
+      "Bake in the preheated oven until a toothpick inserted in the center of a muffin comes out clean, about 20 minutes. Let sit 5 minutes before transferring muffins to a wire rack to cool.",
+      "Korona"
+    ],
+    "nutrition": {
+      "Total": "Sugars 24g",
+      "Saturated": "Fat 6g 29%",
+      "Cholesterol": "54mg 18%",
+      "Sodium": "255mg 11%",
+      "Dietary": "Fiber 1g 4%",
+      "Protein": "3g",
+      "Vitamin": "C 1mg 4%",
+      "Calcium": "33mg 3%",
+      "Iron": "1mg 7%",
+      "Potassium": "63mg 1%"
+    },
+    "template_vars": {
+      "amountIng1": 2.0,
+      "unitIng1": "cups",
+      "nameIng1": "all-purpose flour",
+      "amountIng2": 1.0,
+      "unitIng2": "teaspoon",
+      "nameIng2": "baking powder",
+      "amountIng3": 0.5,
+      "unitIng3": "teaspoon",
+      "nameIng3": "baking soda",
+      "amountIng4": 0.5,
+      "unitIng4": "teaspoon",
+      "nameIng4": "salt",
+      "amountIng5": 1.0,
+      "unitIng5": "cup",
+      "nameIng5": "white sugar",
+      "amountIng6": 0.5,
+      "unitIng6": "cup",
+      "nameIng6": "butter",
+      "amountIng7": 2.0,
+      "unitIng7": "large",
+      "nameIng7": "eggs",
+      "amountIng8": 1.25,
+      "unitIng8": "teaspoons",
+      "nameIng8": "vanilla",
+      "amountIng9": 1.5,
+      "unitIng9": "cups",
+      "nameIng9": "chopped apples"
+    }
+  },
+  {
+    "recipe_name": "Easy Apple Coleslaw",
+    "prep_time": "25 mins",
+    "cook_time": "",
+    "total_time": "25 mins",
+    "servings": "6",
+    "yield": "",
+    "rating": 4.6,
+    "url": "https://www.allrecipes.com/recipe/34615/easy-apple-coleslaw/",
+    "cuisine_path": "/Salad/Fruit Salad Recipes/Apple Salad Recipes/",
+    "image": "https://www.allrecipes.com/thmb/sNVEcSOtmZoKQgndWthT7Lz2wfE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/3538002-3df1eaa60bb940cea21b5637541828a5.jpg",
+    "ingredients": [
+      {
+        "name": "chopped cabbage",
+        "amount": 3.0,
+        "unit": "cups",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "red apple",
+        "amount": 1.0,
+        "unit": "unpeeled",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "cored and chopped",
+        "amount": null,
+        "unit": null,
+        "template_amount_var": "amountIng3",
+        "template_unit_var": null,
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "Granny Smith apple, cored and chopped",
+        "amount": 1.0,
+        "unit": "unpeeled",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": ", grated",
+        "amount": 1.0,
+        "unit": "carrot",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "finely chopped red bell pepper",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "onions, finely chopped",
+        "amount": 2.0,
+        "unit": "green",
+        "template_amount_var": "amountIng7",
+        "template_unit_var": "unitIng7",
+        "template_name_var": "nameIng7"
+      },
+      {
+        "name": "mayonnaise",
+        "amount": 0.3333333333333333,
+        "unit": "cup",
+        "template_amount_var": "amountIng8",
+        "template_unit_var": "unitIng8",
+        "template_name_var": "nameIng8"
+      },
+      {
+        "name": "brown sugar",
+        "amount": 0.3333333333333333,
+        "unit": "cup",
+        "template_amount_var": "amountIng9",
+        "template_unit_var": "unitIng9",
+        "template_name_var": "nameIng9"
+      },
+      {
+        "name": "lemon juice or to taste",
+        "amount": 1.0,
+        "unit": "tablespoon",
+        "template_amount_var": "amountIng10",
+        "template_unit_var": "unitIng10",
+        "template_name_var": "nameIng10"
+      }
+    ],
+    "directions": [
+      "Combine cabbage, red apple, green apple, carrot, red bell pepper, and green onions in a large bowl.",
+      "Mix together mayonnaise, brown sugar, and lemon juice in a small bowl. Pour dressing over cabbage mixture; mix until evenly coated."
+    ],
+    "nutrition": {
+      "Total": "Sugars 20g",
+      "Saturated": "Fat 1g 4%",
+      "Cholesterol": "3mg 1%",
+      "Sodium": "108mg 5%",
+      "Dietary": "Fiber 2g 8%",
+      "Protein": "1g",
+      "Vitamin": "C 33mg 167%",
+      "Calcium": "38mg 3%",
+      "Iron": "0mg 2%",
+      "Potassium": "206mg 4%"
+    },
+    "template_vars": {
+      "amountIng1": 3.0,
+      "unitIng1": "cups",
+      "nameIng1": "chopped cabbage",
+      "amountIng2": 1.0,
+      "unitIng2": "unpeeled",
+      "nameIng2": "red apple",
+      "amountIng3": null,
+      "unitIng3": null,
+      "nameIng3": "cored and chopped",
+      "amountIng4": 1.0,
+      "unitIng4": "unpeeled",
+      "nameIng4": "Granny Smith apple, cored and chopped",
+      "amountIng5": 1.0,
+      "unitIng5": "carrot",
+      "nameIng5": ", grated",
+      "amountIng6": 0.5,
+      "unitIng6": "cup",
+      "nameIng6": "finely chopped red bell pepper",
+      "amountIng7": 2.0,
+      "unitIng7": "green",
+      "nameIng7": "onions, finely chopped",
+      "amountIng8": 0.3333333333333333,
+      "unitIng8": "cup",
+      "nameIng8": "mayonnaise",
+      "amountIng9": 0.3333333333333333,
+      "unitIng9": "cup",
+      "nameIng9": "brown sugar",
+      "amountIng10": 1.0,
+      "unitIng10": "tablespoon",
+      "nameIng10": "lemon juice or to taste"
+    }
+  },
+  {
+    "recipe_name": "Pork Tenderloin with Apples and Onions",
+    "prep_time": "15 mins",
+    "cook_time": "45 mins",
+    "total_time": "1 hrs",
+    "servings": "6",
+    "yield": "",
+    "rating": 4.8,
+    "url": "https://www.allrecipes.com/recipe/275977/pork-tenderloin-with-apples-and-onions/",
+    "cuisine_path": "/Meat and Poultry/Pork/Pork Tenderloin Recipes/",
+    "image": "https://www.allrecipes.com/thmb/ptDXctfp5NjeM-gEfBVU5FNGrGs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/7122690-ded28351dcdd4eedb0d36c70a0463ae7.jpg",
+    "ingredients": [
+      {
+        "name": "(1 1/2 pound) pork tenderloins",
+        "amount": 2.0,
+        "unit": null,
+        "template_amount_var": "amountIng1",
+        "template_unit_var": null,
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 2.0,
+        "unit": "teaspoons",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "sea salt",
+        "amount": 1.0,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "vegetable oil, divided, or more as needed",
+        "amount": 2.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "Granny Smith apples - peeled, cored and sliced into eighths",
+        "amount": 3.0,
+        "unit": "medium",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "sweet onions, sliced vertically",
+        "amount": 2.0,
+        "unit": "medium",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "chopped fresh thyme, divided",
+        "amount": 3.0,
+        "unit": "teaspoons",
+        "template_amount_var": "amountIng7",
+        "template_unit_var": "unitIng7",
+        "template_name_var": "nameIng7"
+      },
+      {
+        "name": "ground black pepper or to taste",
+        "amount": 0.25,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng8",
+        "template_unit_var": "unitIng8",
+        "template_name_var": "nameIng8"
+      },
+      {
+        "name": "Dijon mustard",
+        "amount": 1.0,
+        "unit": "tablespoon",
+        "template_amount_var": "amountIng9",
+        "template_unit_var": "unitIng9",
+        "template_name_var": "nameIng9"
+      },
+      {
+        "name": "chicken stock",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng10",
+        "template_unit_var": "unitIng10",
+        "template_name_var": "nameIng10"
+      },
+      {
+        "name": "butter",
+        "amount": 1.0,
+        "unit": "tablespoon",
+        "template_amount_var": "amountIng11",
+        "template_unit_var": "unitIng11",
+        "template_name_var": "nameIng11"
+      }
+    ],
+    "directions": [
+      "Preheat the oven to 425 degrees F (220 degrees C).",
+      "Trim silver skin from pork tenderloins; pat dry using paper towels. Rub 2 teaspoons vegetable oil over tenderloins, then rub with sea salt.",
+      "Heat 1 tablespoon vegetable oil in a large, oven-proof skillet over medium heat until it shimmers. Cook tenderloins in hot oil, rotating to brown all sides, about 10 minutes. Transfer pork to a large plate.",
+      "Add remaining 1 tablespoon vegetable oil to any drippings in the skillet. Cook apples and onions in hot oil, stirring occasionally, until onions turn translucent, about 5 minutes; add more oil if the skillet gets dry. Season with 1 teaspoon thyme and black pepper; stir gently to combine. Remove from heat.",
+      "Use a pastry brush to spread Dijon mustard evenly over tenderloins. Sprinkle with remaining 2 teaspoons thyme. Nestle tenderloins into the skillet with apple mixture.",
+      "Roast, uncovered, in the preheated oven until an instant-read thermometer inserted into the center of tenderloins reads at least 145 degrees F (63 degrees C), about 15 minutes. Remove the skillet from the oven and transfer pork to a large platter. Cover with aluminum foil and let rest.",
+      "Meanwhile, pour chicken stock into a saucepan and cook over medium-high heat until reduced by half, 8 to 10 minutes. Pour into the skillet with apple mixture. Cook over medium-high heat until boiling, about 5 minutes; stir in butter until melted.",
+      "Slice pork and serve over apple mixture."
+    ],
+    "nutrition": {
+      "Total": "Sugars 9g",
+      "Saturated": "Fat 4g 19%",
+      "Cholesterol": "104mg 35%",
+      "Sodium": "563mg 24%",
+      "Dietary": "Fiber 2g 7%",
+      "Protein": "36g",
+      "Vitamin": "C 7mg 34%",
+      "Calcium": "24mg 2%",
+      "Iron": "5mg 30%",
+      "Potassium": "704mg 15%"
+    },
+    "template_vars": {
+      "amountIng1": 2.0,
+      "unitIng1": null,
+      "nameIng1": "(1 1/2 pound) pork tenderloins",
+      "amountIng2": 2.0,
+      "unitIng2": "teaspoons",
+      "nameIng2": "vegetable oil",
+      "amountIng3": 1.0,
+      "unitIng3": "teaspoon",
+      "nameIng3": "sea salt",
+      "amountIng4": 2.0,
+      "unitIng4": "tablespoons",
+      "nameIng4": "vegetable oil",
+      "amountIng5": 3.0,
+      "unitIng5": "medium",
+      "nameIng5": "Granny Smith apples",
+      "amountIng6": 2.0,
+      "unitIng6": "medium",
+      "nameIng6": "sweet onions",
+      "amountIng7": 3.0,
+      "unitIng7": "teaspoons",
+      "nameIng7": "chopped fresh thyme",
+      "amountIng8": 0.25,
+      "unitIng8": "teaspoon",
+      "nameIng8": "ground black pepper",
+      "amountIng9": 1.0,
+      "unitIng9": "tablespoon",
+      "nameIng9": "Dijon mustard",
+      "amountIng10": 1.0,
+      "unitIng10": "cup",
+      "nameIng10": "chicken stock",
+      "amountIng11": 1.0,
+      "unitIng11": "tablespoon",
+      "nameIng11": "butter"
+    }
+  },
+  {
+    "recipe_name": "Oliebollen (Dutch Doughnuts)",
+    "prep_time": "20 mins",
+    "cook_time": "10 mins",
+    "total_time": "1 hrs 35 mins",
+    "servings": "12",
+    "yield": "1 dozen",
+    "rating": 4.3,
+    "url": "https://www.allrecipes.com/recipe/46299/oliebollen-dutch-doughnuts/",
+    "cuisine_path": "/Bread/Pastries/Doughnuts/",
+    "image": "https://www.allrecipes.com/thmb/z0hOkzWARH8A5EcKtAvFE_5QppY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/3062572-oliebollen-dutch-doughnuts-Venessa-Benlolo-4x3-1-0870006cb16349e0984cb636d71a4899.jpg",
+    "ingredients": [
+      {
+        "name": "(0.6 ounce) cake compressed fresh yeast",
+        "amount": 1.0,
+        "unit": null,
+        "template_amount_var": "amountIng1",
+        "template_unit_var": null,
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "lukewarm milk",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "all-purpose flour",
+        "amount": 2.25,
+        "unit": "cups",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "salt",
+        "amount": 2.0,
+        "unit": "teaspoons",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "egg",
+        "amount": 1.0,
+        "unit": "large",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "dried currants",
+        "amount": 0.75,
+        "unit": "cup",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "raisins",
+        "amount": 0.75,
+        "unit": "cup",
+        "template_amount_var": "amountIng7",
+        "template_unit_var": "unitIng7",
+        "template_name_var": "nameIng7"
+      },
+      {
+        "name": "Granny Smith apple - peeled, cored and finely chopped",
+        "amount": 1.0,
+        "unit": "medium",
+        "template_amount_var": "amountIng8",
+        "template_unit_var": "unitIng8",
+        "template_name_var": "nameIng8"
+      },
+      {
+        "name": "vegetable oil for deep-frying",
+        "amount": 1.0,
+        "unit": "quart",
+        "template_amount_var": "amountIng9",
+        "template_unit_var": "unitIng9",
+        "template_name_var": "nameIng9"
+      },
+      {
+        "name": "confectioners' sugar for dusting",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng10",
+        "template_unit_var": "unitIng10",
+        "template_name_var": "nameIng10"
+      }
+    ],
+    "directions": [
+      "Break up compressed yeast and stir into warm milk. Let stand for a few minutes to dissolve.",
+      "Sift flour and salt into a large bowl. Stir in yeast mixture and egg until smooth. Stir in currants, raisins, and apple. Cover the bowl and set in a warm place to rise until doubled in volume, about 1 hour.",
+      "Heat oil in a deep-fryer to 375 degrees F (190 degrees C).",
+      "Use two metal spoons to shape scoops of dough into 12 balls. Drop them carefully into the hot oil and fry until golden brown, about 8 minutes. Remove doughnuts with a slotted spoon and drain on paper towels.",
+      "Dust doughnuts with confectioners' sugar. Transfer to a serving platter and dust with more confectioners' sugar."
+    ],
+    "nutrition": {
+      "Total": "Sugars 25g",
+      "Saturated": "Fat 1g 7%",
+      "Cholesterol": "17mg 6%",
+      "Sodium": "405mg 18%",
+      "Dietary": "Fiber 2g 7%",
+      "Protein": "5g",
+      "Vitamin": "C 1mg 7%",
+      "Calcium": "44mg 3%",
+      "Iron": "2mg 9%",
+      "Potassium": "240mg 5%"
+    },
+    "template_vars": {
+      "amountIng1": 1.0,
+      "unitIng1": null,
+      "nameIng1": "(0.6 ounce) cake compressed fresh yeast",
+      "amountIng2": 1.0,
+      "unitIng2": "cup",
+      "nameIng2": "lukewarm milk",
+      "amountIng3": 2.25,
+      "unitIng3": "cups",
+      "nameIng3": "all-purpose flour",
+      "amountIng4": 2.0,
+      "unitIng4": "teaspoons",
+      "nameIng4": "salt",
+      "amountIng5": 1.0,
+      "unitIng5": "large",
+      "nameIng5": "egg",
+      "amountIng6": 0.75,
+      "unitIng6": "cup",
+      "nameIng6": "dried currants",
+      "amountIng7": 0.75,
+      "unitIng7": "cup",
+      "nameIng7": "raisins",
+      "amountIng8": 1.0,
+      "unitIng8": "medium",
+      "nameIng8": "Granny Smith apple",
+      "amountIng9": 1.0,
+      "unitIng9": "quart",
+      "nameIng9": "vegetable oil",
+      "amountIng10": 1.0,
+      "unitIng10": "cup",
+      "nameIng10": "confectioners' sugar"
+    }
+  },
+  {
+    "recipe_name": "Old Fashioned Cocktail",
+    "prep_time": "5 mins",
+    "cook_time": "",
+    "total_time": "5 mins",
+    "servings": "1",
+    "yield": "",
+    "rating": 4.7,
+    "url": "https://www.allrecipes.com/recipe/221320/old-fashioned-cocktail/",
+    "cuisine_path": "/Drinks Recipes/Cocktail Recipes/Whiskey Drinks Recipes/",
+    "image": "https://www.allrecipes.com/thmb/5aNNk0uzLsz1PmkScs397gd67JY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8226721-7a2d83baddc84cc6837c28164c116fc8.jpg",
+    "ingredients": [
+      {
+        "name": "cube",
+        "amount": 1.0,
+        "unit": "sugar",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "water",
+        "amount": 1.0,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "bitters",
+        "amount": 1.0,
+        "unit": "dash",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "whiskey (rye or bourbon)",
+        "amount": 2.0,
+        "unit": "fluid ounces",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "lemon twist",
+        "amount": 1.0,
+        "unit": null,
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "ice cubes, or as needed",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "orange slice, for garnish",
+        "amount": 1.0,
+        "unit": null,
+        "template_amount_var": "amountIng7",
+        "template_unit_var": "unitIng7",
+        "template_name_var": "nameIng7"
+      },
+      {
+        "name": "maraschino cherry, for garnish",
+        "amount": 1.0,
+        "unit": null,
+        "template_amount_var": "amountIng8",
+        "template_unit_var": "unitIng8",
+        "template_name_var": "nameIng8"
+      }
+    ],
+    "directions": [
+      "Muddle sugar cube, water, and bitters in an old fashioned glass for 1 minute. Pour in whiskey; stir for 1 minute.",
+      "Squeeze lemon twist over the glass and drop it in. Add ice cubes. Garnish with orange slice and maraschino cherry; serve with a swizzle stick."
+    ],
+    "nutrition": {
+      "Sodium": "7mg 0%",
+      "Total": "Sugars 4g",
+      "Dietary": "Fiber 0g 0%",
+      "Calcium": "8mg 1%",
+      "Potassium": "12mg 0%"
+    },
+    "template_vars": {
+      "amountIng1": 1.0,
+      "unitIng1": "sugar",
+      "nameIng1": "cube",
+      "amountIng2": 1.0,
+      "unitIng2": "teaspoon",
+      "nameIng2": "water",
+      "amountIng3": 1.0,
+      "unitIng3": "dash",
+      "nameIng3": "bitters",
+      "amountIng4": 2.0,
+      "unitIng4": "fluid ounces",
+      "nameIng4": "whiskey (rye or bourbon)",
+      "amountIng5": 1.0,
+      "unitIng5": null,
+      "nameIng5": "lemon twist",
+      "amountIng6": 0.5,
+      "unitIng6": "cup",
+      "nameIng6": "ice cubes, or as needed",
+      "amountIng7": 1.0,
+      "unitIng7": null,
+      "nameIng7": "orange slice",
+      "amountIng8": 1.0,
+      "unitIng8": null,
+      "nameIng8": "maraschino cherry, for garnish"
+    }
+  },
+  {
+    "recipe_name": "Pineapple Upside-Down Bundt Cake",
+    "prep_time": "30 mins",
+    "cook_time": "35 mins",
+    "total_time": "1 hrs 15 mins",
+    "servings": "12",
+    "yield": "1 10-inch bundt cake",
+    "rating": 4.9,
+    "url": "https://www.allrecipes.com/recipe/272616/pineapple-upside-down-bundt-cake/",
+    "cuisine_path": "/Desserts/Fruit Desserts/Cherry Dessert Recipes/",
+    "image": "https://www.allrecipes.com/thmb/srekPtZAvSl0NfhyhARMaXbXALk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Pineapple-Upside-Down-Bundt-Cake-2000-ece59af0172b423182e18f5ce21a0b27.jpeg",
+    "ingredients": [
+      {
+        "name": "cooking spray with flour",
+        "amount": null,
+        "unit": null,
+        "template_amount_var": "amountIng1",
+        "template_unit_var": null,
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "melted butter",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "packed brown sugar",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "(8 ounce) can pineapple rings",
+        "amount": 1.0,
+        "unit": null,
+        "template_amount_var": "amountIng4",
+        "template_unit_var": null,
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "(4 ounce) jar maraschino cherries",
+        "amount": 1.0,
+        "unit": null,
+        "template_amount_var": "amountIng5",
+        "template_unit_var": null,
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "(15.25 ounce) package yellow cake mix",
+        "amount": 1.0,
+        "unit": null,
+        "template_amount_var": "amountIng6",
+        "template_unit_var": null,
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "(3.5 ounce) package instant vanilla pudding mix",
+        "amount": 1.0,
+        "unit": null,
+        "template_amount_var": "amountIng7",
+        "template_unit_var": null,
+        "template_name_var": "nameIng7"
+      },
+      {
+        "name": "whole milk, or more as needed",
+        "amount": 0.25,
+        "unit": "cup",
+        "template_amount_var": "amountIng8",
+        "template_unit_var": "unitIng8",
+        "template_name_var": "nameIng8"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 0.3333333333333333,
+        "unit": "cup",
+        "template_amount_var": "amountIng9",
+        "template_unit_var": "unitIng9",
+        "template_name_var": "nameIng9"
+      },
+      {
+        "name": "eggs",
+        "amount": 3.0,
+        "unit": "large",
+        "template_amount_var": "amountIng10",
+        "template_unit_var": "unitIng10",
+        "template_name_var": "nameIng10"
+      }
+    ],
+    "directions": [
+      "Preheat the oven to 350 degrees F (175 degrees C). Grease a 10-inch fluted tube pan (such as Bundt) with cooking spray with flour.",
+      "Pour melted butter into the bottom of the prepared pan. Sprinkle brown sugar evenly on top. Drain pineapple rings over a measuring cup; reserve juice. Cut rings in half. Alternate placing halved pineapple rings and maraschino cherries around the pan. Set aside.",
+      "Combine cake mix and pudding mix in a large mixing bowl. Pour enough milk into the reserved pineapple juice to make 1 cup of liquid; add to cake and pudding mixture. Pour in vegetable oil. Mix on low speed, adding 1 egg at a time, until blended. Increase speed to medium; mix until thoroughly combined and smooth, about 2 minutes. Pour batter over pineapples and cherries in the pan.",
+      "Bake in the preheated oven until a toothpick inserted into the center comes out clean, 35 to 40 minutes. Let cool for 10 minutes before removing from the pan."
+    ],
+    "nutrition": {
+      "Total": "Sugars 37g",
+      "Saturated": "Fat 7g 34%",
+      "Cholesterol": "63mg 21%",
+      "Sodium": "477mg 21%",
+      "Dietary": "Fiber 1g 3%",
+      "Protein": "4g",
+      "Vitamin": "C 2mg 10%",
+      "Calcium": "82mg 6%",
+      "Iron": "1mg 6%",
+      "Potassium": "85mg 2%"
+    },
+    "template_vars": {
+      "amountIng1": null,
+      "unitIng1": null,
+      "nameIng1": "cooking spray with flour",
+      "amountIng2": 0.5,
+      "unitIng2": "cup",
+      "nameIng2": "melted butter",
+      "amountIng3": 0.5,
+      "unitIng3": "cup",
+      "nameIng3": "packed brown sugar",
+      "amountIng4": 1.0,
+      "unitIng4": null,
+      "nameIng4": "(8 ounce) can pineapple rings",
+      "amountIng5": 1.0,
+      "unitIng5": null,
+      "nameIng5": "(4 ounce) jar maraschino cherries",
+      "amountIng6": 1.0,
+      "unitIng6": null,
+      "nameIng6": "(15.25 ounce) package yellow cake mix",
+      "amountIng7": 1.0,
+      "unitIng7": null,
+      "nameIng7": "(3.5 ounce) package instant vanilla pudding mix",
+      "amountIng8": 0.25,
+      "unitIng8": "cup",
+      "nameIng8": "whole milk",
+      "amountIng9": 0.3333333333333333,
+      "unitIng9": "cup",
+      "nameIng9": "vegetable oil",
+      "amountIng10": 3.0,
+      "unitIng10": "large",
+      "nameIng10": "eggs"
+    }
+  },
+  {
+    "recipe_name": "Fresh Cherry Muffins",
+    "prep_time": "20 mins",
+    "cook_time": "20 mins",
+    "total_time": "40 mins",
+    "servings": "12",
+    "yield": "1 dozen",
+    "rating": 4.6,
+    "url": "https://www.allrecipes.com/recipe/254770/fresh-cherry-muffins/",
+    "cuisine_path": "/Bread/Quick Bread Recipes/Muffin Recipes/",
+    "image": "https://www.allrecipes.com/thmb/9g68Te8Rwy_P4I73UwEiQHkxjMw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/3816579-a0f5eba436f54bf88f160432e2ee2027.jpg",
+    "ingredients": [
+      {
+        "name": "all-purpose flour",
+        "amount": 1.5,
+        "unit": "cups",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "white sugar",
+        "amount": 0.75,
+        "unit": "cup",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "baking powder",
+        "amount": 2.0,
+        "unit": "teaspoons",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 0.3333333333333333,
+        "unit": "cup",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "milk",
+        "amount": 0.3333333333333333,
+        "unit": "cup",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "egg",
+        "amount": 1.0,
+        "unit": null,
+        "template_amount_var": "amountIng7",
+        "template_unit_var": "unitIng7",
+        "template_name_var": "nameIng7"
+      },
+      {
+        "name": "almond extract",
+        "amount": 0.5,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng8",
+        "template_unit_var": "unitIng8",
+        "template_name_var": "nameIng8"
+      },
+      {
+        "name": "fresh pitted and quartered sweet cherries",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng9",
+        "template_unit_var": "unitIng9",
+        "template_name_var": "nameIng9"
+      },
+      {
+        "name": "white sugar",
+        "amount": 1.0,
+        "unit": "tablespoon",
+        "template_amount_var": "amountIng10",
+        "template_unit_var": "unitIng10",
+        "template_name_var": "nameIng10"
+      }
+    ],
+    "directions": [
+      "Preheat oven to 400 degrees F (200 degrees C). Line a muffin tin with paper liners.",
+      "Mix flour, 3/4 cup sugar, baking powder, and salt together in a bowl.",
+      "Whisk oil, milk, egg, and almond extract together in a small bowl. Pour into flour mixture; stir gently until incorporated. Fold cherries into the batter.",
+      "Spoon batter into the muffin cups, filling each 2/3 of the way full. Sprinkle 1 tablespoon sugar on top.",
+      "Bake muffins in the preheated oven until a toothpick inserted into the center comes out clean, about 20 minutes. Transfer to a wire rack to cool."
+    ],
+    "nutrition": {
+      "Total": "Sugars 16g",
+      "Saturated": "Fat 1g 6%",
+      "Cholesterol": "16mg 5%",
+      "Sodium": "187mg 8%",
+      "Dietary": "Fiber 1g 3%",
+      "Protein": "3g",
+      "Vitamin": "C 1mg 5%",
+      "Calcium": "60mg 5%",
+      "Iron": "1mg 5%",
+      "Potassium": "60mg 1%"
+    },
+    "template_vars": {
+      "amountIng1": 1.5,
+      "unitIng1": "cups",
+      "nameIng1": "all-purpose flour",
+      "amountIng2": 0.75,
+      "unitIng2": "cup",
+      "nameIng2": "white sugar",
+      "amountIng3": 2.0,
+      "unitIng3": "teaspoons",
+      "nameIng3": "baking powder",
+      "amountIng4": 0.5,
+      "unitIng4": "teaspoon",
+      "nameIng4": "salt",
+      "amountIng5": 0.3333333333333333,
+      "unitIng5": "cup",
+      "nameIng5": "vegetable oil",
+      "amountIng6": 0.3333333333333333,
+      "unitIng6": "cup",
+      "nameIng6": "milk",
+      "amountIng7": 1.0,
+      "unitIng7": null,
+      "nameIng7": "egg",
+      "amountIng8": 0.5,
+      "unitIng8": "teaspoon",
+      "nameIng8": "almond extract",
+      "amountIng9": 1.0,
+      "unitIng9": "cup",
+      "nameIng9": "fresh pitted and quartered sweet cherries",
+      "amountIng10": 1.0,
+      "unitIng10": "tablespoon",
+      "nameIng10": "white sugar"
+    }
+  },
+  {
+    "recipe_name": "Simple Summer Smoothie",
+    "prep_time": "10 mins",
+    "cook_time": "",
+    "total_time": "10 mins",
+    "servings": "4",
+    "yield": "4 cups",
+    "rating": 4.5,
+    "url": "https://www.allrecipes.com/recipe/172463/simple-summer-smoothie/",
+    "cuisine_path": "/Breakfast and Brunch/Drinks/",
+    "image": "https://www.allrecipes.com/thmb/LTfr8Z4Pq79_FgbP6A3AJAASPTg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/4883666-simple-summer-smoothie-Chef-V-4x3-1-f08fef2c92ff488ba3178dc4330e04f8.jpg",
+    "ingredients": [
+      {
+        "name": "egg",
+        "amount": 1.0,
+        "unit": null,
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "frozen strawberries",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "frozen blueberries",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "frozen cherries",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "ice cubes",
+        "amount": 4.0,
+        "unit": null,
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "orange juice",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "vanilla yogurt",
+        "amount": 0.75,
+        "unit": "cup",
+        "template_amount_var": "amountIng7",
+        "template_unit_var": "unitIng7",
+        "template_name_var": "nameIng7"
+      },
+      {
+        "name": "honey (Optional)",
+        "amount": 0.5,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng8",
+        "template_unit_var": "unitIng8",
+        "template_name_var": "nameIng8"
+      }
+    ],
+    "directions": [
+      "Place the banana, strawberries, blueberries, cherries, and ice cubes into a blender. Pour in the orange juice, vanilla yogurt, and honey. Puree until smooth."
+    ],
+    "nutrition": {
+      "Total": "Sugars 23g",
+      "Saturated": "Fat 1g 3%",
+      "Cholesterol": "2mg 1%",
+      "Sodium": "34mg 1%",
+      "Dietary": "Fiber 4g 13%",
+      "Protein": "4g",
+      "Vitamin": "C 43mg 214%",
+      "Calcium": "101mg 8%",
+      "Iron": "1mg 5%",
+      "Potassium": "420mg 9%"
+    },
+    "template_vars": {
+      "amountIng1": 1.0,
+      "unitIng1": null,
+      "nameIng1": "banana",
+      "amountIng2": 1.0,
+      "unitIng2": "cup",
+      "nameIng2": "frozen strawberries",
+      "amountIng3": 1.0,
+      "unitIng3": "cup",
+      "nameIng3": "frozen blueberries",
+      "amountIng4": 1.0,
+      "unitIng4": "cup",
+      "nameIng4": "frozen cherries",
+      "amountIng5": 4.0,
+      "unitIng5": null,
+      "nameIng5": "ice cubes",
+      "amountIng6": 0.5,
+      "unitIng6": "cup",
+      "nameIng6": "orange juice",
+      "amountIng7": 0.75,
+      "unitIng7": "cup",
+      "nameIng7": "vanilla yogurt",
+      "amountIng8": 0.5,
+      "unitIng8": "teaspoon",
+      "nameIng8": "honey (Optional)"
+    }
+  },
+  {
+    "recipe_name": "Chocolate Covered Cherry Cookies",
+    "prep_time": "20 mins",
+    "cook_time": "10 mins",
+    "total_time": "30 mins",
+    "servings": "18",
+    "yield": "18 cookies",
+    "rating": 4.6,
+    "url": "https://www.allrecipes.com/recipe/9979/chocolate-covered-cherry-cookies-ii/",
+    "cuisine_path": "/Desserts/Cookies/Chocolate Cookie Recipes/",
+    "image": "https://www.allrecipes.com/thmb/B6_R5Oj5gRWnAB7dHT-ADOE9Guw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/735071-74d0a4fb2a6d45dba2aa7ece0c2a67f2.jpg",
+    "ingredients": [
+      {
+        "name": "white sugar",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "butter",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": null,
+        "amount": 1.0,
+        "unit": "egg",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "vanilla extract",
+        "amount": 1.5,
+        "unit": "teaspoons",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "all-purpose flour",
+        "amount": 1.5,
+        "unit": "cups",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "unsweetened cocoa powder",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "salt",
+        "amount": 0.25,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng7",
+        "template_unit_var": "unitIng7",
+        "template_name_var": "nameIng7"
+      },
+      {
+        "name": "baking soda",
+        "amount": 0.25,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng8",
+        "template_unit_var": "unitIng8",
+        "template_name_var": "nameIng8"
+      },
+      {
+        "name": "baking powder",
+        "amount": 0.25,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng9",
+        "template_unit_var": "unitIng9",
+        "template_name_var": "nameIng9"
+      },
+      {
+        "name": "(10 ounce) jar maraschino cherries",
+        "amount": 1.0,
+        "unit": null,
+        "template_amount_var": "amountIng10",
+        "template_unit_var": null,
+        "template_name_var": "nameIng10"
+      },
+      {
+        "name": "sweetened condensed milk",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng11",
+        "template_unit_var": "unitIng11",
+        "template_name_var": "nameIng11"
+      },
+      {
+        "name": "semisweet chocolate chips",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng12",
+        "template_unit_var": "unitIng12",
+        "template_name_var": "nameIng12"
+      }
+    ],
+    "directions": [
+      "Preheat the oven to 350 degrees F (180 degrees C).",
+      "Beat sugar and butter together in a large bowl with an electric mixer until light and fluffy. Add egg and vanilla; beat well. Stir in flour, cocoa powder, salt, baking soda, and baking powder until smooth. Roll dough into walnut-size balls and place 2 inches apart on ungreased cookie sheets. Make an indentation with your thumb in the center of each cookie.",
+      "Drain cherries and reserve juice. Place a cherry in the indentation of each cookie ball.",
+      "Combine chocolate chips with condensed milk in a saucepan over low heat; stir until chocolate is melted. Stir in 4 teaspoons of cherry juice. Drizzle or spoon about 1 teaspoon of chocolate cherry mixture over each cherry to cover.",
+      "Bake in the preheated for 10 minutes. Cool on the baking sheets briefly before removing to a wire rack to cool completely."
+    ],
+    "nutrition": {
+      "Total": "Carbohydrate 36g 13%",
+      "Saturated": "Fat 6g 28%",
+      "Cholesterol": "17mg 6%",
+      "Sodium": "100mg 4%",
+      "Dietary": "Fiber 2g 6%",
+      "Protein": "3g",
+      "Vitamin": "C 0mg 1%",
+      "Calcium": "39mg 3%",
+      "Iron": "1mg 7%",
+      "Potassium": "159mg 3%"
+    },
+    "template_vars": {
+      "amountIng1": 1.0,
+      "unitIng1": "cup",
+      "nameIng1": "white sugar",
+      "amountIng2": 0.5,
+      "unitIng2": "cup",
+      "nameIng2": "butter",
+      "amountIng3": 1.0,
+      "unitIng3": "egg",
+      "nameIng3": null,
+      "amountIng4": 1.5,
+      "unitIng4": "teaspoons",
+      "nameIng4": "vanilla extract",
+      "amountIng5": 1.5,
+      "unitIng5": "cups",
+      "nameIng5": "all-purpose flour",
+      "amountIng6": 0.5,
+      "unitIng6": "cup",
+      "nameIng6": "unsweetened cocoa powder",
+      "amountIng7": 0.25,
+      "unitIng7": "teaspoon",
+      "nameIng7": "salt",
+      "amountIng8": 0.25,
+      "unitIng8": "teaspoon",
+      "nameIng8": "baking soda",
+      "amountIng9": 0.25,
+      "unitIng9": "teaspoon",
+      "nameIng9": "baking powder",
+      "amountIng10": 1.0,
+      "unitIng10": null,
+      "nameIng10": "(10 ounce) jar maraschino cherries",
+      "amountIng11": 0.5,
+      "unitIng11": "cup",
+      "nameIng11": "sweetened condensed milk",
+      "amountIng12": 1.0,
+      "unitIng12": "cup",
+      "nameIng12": "semisweet chocolate chips"
+    }
+  },
+  {
+    "recipe_name": "Paleo Almond Date Cookies",
+    "prep_time": "25 mins",
+    "cook_time": "15 mins",
+    "total_time": "50 mins",
+    "servings": "24",
+    "yield": "2 dozen",
+    "rating": 4.6,
+    "url": "https://www.allrecipes.com/recipe/246422/paleo-almond-date-cookies/",
+    "cuisine_path": "/Desserts/Nut Dessert Recipes/Almond Dessert Recipes/",
+    "image": "https://www.allrecipes.com/thmb/6ASjAVDl6LPVmUQCs7Dv_SbL93M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8580052-paleo-almond-date-cookies-Katy-Freund-4x3-1-520e76f55341426881a8f86e1d35e831.jpg",
+    "ingredients": [
+      {
+        "name": "blanched almond flour",
+        "amount": 2.5,
+        "unit": "cups",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "pitted and chopped dates",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "chopped dried cherries",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "chopped walnuts",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "chia seeds",
+        "amount": 2.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "or more to taste",
+        "amount": null,
+        "unit": null,
+        "template_amount_var": "amountIng6",
+        "template_unit_var": null,
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "baking soda",
+        "amount": 0.5,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng7",
+        "template_unit_var": "unitIng7",
+        "template_name_var": "nameIng7"
+      },
+      {
+        "name": "sea salt",
+        "amount": 0.5,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng8",
+        "template_unit_var": "unitIng8",
+        "template_name_var": "nameIng8"
+      },
+      {
+        "name": "coconut oil",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng9",
+        "template_unit_var": "unitIng9",
+        "template_name_var": "nameIng9"
+      },
+      {
+        "name": null,
+        "amount": 1.0,
+        "unit": "egg",
+        "template_amount_var": "amountIng10",
+        "template_unit_var": "unitIng10",
+        "template_name_var": "nameIng10"
+      },
+      {
+        "name": "maple syrup",
+        "amount": 2.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng11",
+        "template_unit_var": "unitIng11",
+        "template_name_var": "nameIng11"
+      },
+      {
+        "name": "vanilla extract",
+        "amount": 1.0,
+        "unit": "tablespoon",
+        "template_amount_var": "amountIng12",
+        "template_unit_var": "unitIng12",
+        "template_name_var": "nameIng12"
+      }
+    ],
+    "directions": [
+      "Preheat oven to 350 degrees F (175 degrees C). Line 2 baking sheets with parchment paper.",
+      "Combine almond flour, dates, cherries, walnuts, chia seeds, baking soda, and sea salt in a large bowl; whisk to blend. Add coconut oil, egg, maple syrup, and vanilla extract; blend well with a spoon or fork until dough comes together.",
+      "Scoop dough onto prepared baking sheets with a small cookie scoop.",
+      "Bake in the preheated oven until edges are golden, about 15 minutes. Turn off oven and let cookies sit with oven door closed, about 10 minutes more. Remove from oven and let cool."
+    ],
+    "nutrition": {
+      "Total": "Sugars 8g",
+      "Saturated": "Fat 5g 24%",
+      "Cholesterol": "8mg 3%",
+      "Sodium": "67mg 3%",
+      "Dietary": "Fiber 3g 9%",
+      "Protein": "4g",
+      "Vitamin": "C 0mg 1%",
+      "Calcium": "13mg 1%",
+      "Iron": "1mg 4%",
+      "Potassium": "68mg 1%"
+    },
+    "template_vars": {
+      "amountIng1": 2.5,
+      "unitIng1": "cups",
+      "nameIng1": "blanched almond flour",
+      "amountIng2": 1.0,
+      "unitIng2": "cup",
+      "nameIng2": "pitted and chopped dates",
+      "amountIng3": 0.5,
+      "unitIng3": "cup",
+      "nameIng3": "chopped dried cherries",
+      "amountIng4": 0.5,
+      "unitIng4": "cup",
+      "nameIng4": "chopped walnuts",
+      "amountIng5": 2.0,
+      "unitIng5": "tablespoons",
+      "nameIng5": "chia seeds",
+      "amountIng6": null,
+      "unitIng6": null,
+      "nameIng6": "or more to taste",
+      "amountIng7": 0.5,
+      "unitIng7": "teaspoon",
+      "nameIng7": "baking soda",
+      "amountIng8": 0.5,
+      "unitIng8": "teaspoon",
+      "nameIng8": "sea salt",
+      "amountIng9": 0.5,
+      "unitIng9": "cup",
+      "nameIng9": "coconut oil",
+      "amountIng10": 1.0,
+      "unitIng10": "egg",
+      "nameIng10": null,
+      "amountIng11": 2.0,
+      "unitIng11": "tablespoons",
+      "nameIng11": "maple syrup",
+      "amountIng12": 1.0,
+      "unitIng12": "tablespoon",
+      "nameIng12": "vanilla extract"
+    }
+  },
+  {
+    "recipe_name": "Fruity Sweet and Sour Sauce",
+    "prep_time": "1 mins",
+    "cook_time": "9 mins",
+    "total_time": "10 mins",
+    "servings": "16",
+    "yield": "2 cups",
+    "rating": 4.2,
+    "url": "https://www.allrecipes.com/recipe/108206/fruity-sweet-and-sour-sauce/",
+    "cuisine_path": "/Side Dish/Sauces and Condiments/Sauces/",
+    "image": "https://www.allrecipes.com/thmb/aV5o01JSiWiirznA4E3pJ1jxa2I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/503065-4c05644e31ce4795b7baade18d555aa1.jpg",
+    "ingredients": [
+      {
+        "name": "white sugar",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "white vinegar",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "maraschino cherry juice",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "pineapple juice",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "cornstarch",
+        "amount": 1.5,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "cold water",
+        "amount": 0.25,
+        "unit": "cup",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      }
+    ],
+    "directions": [
+      "Mix the sugar, vinegar, maraschino cherry juice, and pineapple juice in a saucepan over medium-low heat, stirring to dissolve the sugar.",
+      "Place the cornstarch in a small bowl, and stir the water into it to make a smooth paste. Stir the cornstarch paste into the juice mixture, and bring to a simmer. Stir constantly until the mixture thickens, about 1 minute."
+    ],
+    "nutrition": {
+      "Sodium": "0mg 0%",
+      "Total": "Sugars 7g",
+      "Vitamin": "C 1mg 4%",
+      "Calcium": "3mg 0%",
+      "Iron": "0mg 1%",
+      "Potassium": "22mg 0%"
+    },
+    "template_vars": {
+      "amountIng1": 0.5,
+      "unitIng1": "cup",
+      "nameIng1": "white sugar",
+      "amountIng2": 0.5,
+      "unitIng2": "cup",
+      "nameIng2": "white vinegar",
+      "amountIng3": 0.5,
+      "unitIng3": "cup",
+      "nameIng3": "maraschino cherry juice",
+      "amountIng4": 0.5,
+      "unitIng4": "cup",
+      "nameIng4": "pineapple juice",
+      "amountIng5": 1.5,
+      "unitIng5": "tablespoons",
+      "nameIng5": "cornstarch",
+      "amountIng6": 0.25,
+      "unitIng6": "cup",
+      "nameIng6": "cold water"
+    }
+  },
+  {
+    "recipe_name": "Fig and Arugula Salad",
+    "prep_time": "15 mins",
+    "cook_time": "",
+    "total_time": "15 mins",
+    "servings": "4",
+    "yield": "4 servings",
+    "rating": 4.8,
+    "url": "https://www.allrecipes.com/recipe/220468/fig-and-arugula-salad/",
+    "cuisine_path": "/Salad/Green Salad Recipes/Arugula Salad Recipes/",
+    "image": "https://www.allrecipes.com/thmb/EeQbkDBjWV_LTmILIDOpmWYCyJA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2331988-1ce9b36dd5064c888b5483d655661d76.jpg",
+    "ingredients": [
+      {
+        "name": "arugula",
+        "amount": 4.0,
+        "unit": "cups",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "figs, quartered",
+        "amount": 8.0,
+        "unit": "fresh",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "grated Parmesan cheese",
+        "amount": 0.25,
+        "unit": "cup",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "toasted pine nuts",
+        "amount": 2.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "honey",
+        "amount": 2.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "balsamic vinegar",
+        "amount": 2.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      }
+    ],
+    "directions": [
+      "Toss arugula, figs, Parmesan cheese, and pine nuts together in a large bowl.",
+      "Drizzle honey and balsamic vinegar over salad before serving."
+    ],
+    "nutrition": {
+      "Total": "Sugars 27g",
+      "Saturated": "Fat 1g 7%",
+      "Cholesterol": "4mg 1%",
+      "Sodium": "85mg 4%",
+      "Dietary": "Fiber 3g 12%",
+      "Protein": "4g",
+      "Vitamin": "C 5mg 26%",
+      "Calcium": "127mg 10%",
+      "Iron": "1mg 7%",
+      "Potassium": "349mg 7%"
+    },
+    "template_vars": {
+      "amountIng1": 4.0,
+      "unitIng1": "cups",
+      "nameIng1": "arugula",
+      "amountIng2": 8.0,
+      "unitIng2": "fresh",
+      "nameIng2": "figs, quartered",
+      "amountIng3": 0.25,
+      "unitIng3": "cup",
+      "nameIng3": "grated Parmesan cheese",
+      "amountIng4": 2.0,
+      "unitIng4": "tablespoons",
+      "nameIng4": "toasted pine nuts",
+      "amountIng5": 2.0,
+      "unitIng5": "tablespoons",
+      "nameIng5": "honey",
+      "amountIng6": 2.0,
+      "unitIng6": "tablespoons",
+      "nameIng6": "balsamic vinegar"
+    }
+  },
+  {
+    "recipe_name": "Fig Smoothie",
+    "prep_time": "5 mins",
+    "cook_time": "",
+    "total_time": "5 mins",
+    "servings": "2",
+    "yield": "2 servings",
+    "rating": 4.4,
+    "url": "https://www.allrecipes.com/recipe/190893/fig-smoothie/",
+    "cuisine_path": "/Breakfast and Brunch/Drinks/",
+    "image": "https://www.allrecipes.com/thmb/uAiq8BMgn7zW-BDv_Hwc6ecUa8w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6863836-fig-smoothie-Allrecipes-Magazine-4x3-1-fd36de8f9b304832adad243a42ead48e.jpg",
+    "ingredients": [
+      {
+        "name": "bananas, peeled and chopped",
+        "amount": 2.0,
+        "unit": "frozen",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "figs, halved",
+        "amount": 6.0,
+        "unit": "fresh",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "milk",
+        "amount": 0.75,
+        "unit": "cup",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "orange juice",
+        "amount": 0.75,
+        "unit": "cup",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      }
+    ],
+    "directions": [
+      "Place the bananas, figs, milk, and orange juice into a blender. Cover, and puree until smooth. Pour into glasses to serve."
+    ],
+    "nutrition": {
+      "Total": "Sugars 58g",
+      "Saturated": "Fat 1g 7%",
+      "Cholesterol": "7mg 2%",
+      "Sodium": "42mg 2%",
+      "Dietary": "Fiber 9g 31%",
+      "Protein": "6g",
+      "Vitamin": "C 61mg 304%",
+      "Calcium": "190mg 15%",
+      "Iron": "1mg 7%",
+      "Potassium": "1191mg 25%"
+    },
+    "template_vars": {
+      "amountIng1": 2.0,
+      "unitIng1": "frozen",
+      "nameIng1": "bananas, peeled and chopped",
+      "amountIng2": 6.0,
+      "unitIng2": "fresh",
+      "nameIng2": "figs, halved",
+      "amountIng3": 0.75,
+      "unitIng3": "cup",
+      "nameIng3": "milk",
+      "amountIng4": 0.75,
+      "unitIng4": "cup",
+      "nameIng4": "orange juice"
+    }
+  },
+  {
+    "recipe_name": "Stuffed Leg of Lamb with Balsamic-Fig-Basil Sauce",
+    "prep_time": "50 mins",
+    "cook_time": "1 hrs",
+    "total_time": "2 hrs",
+    "servings": "6",
+    "yield": "1 lamb roast",
+    "rating": 4.8,
+    "url": "https://www.allrecipes.com/recipe/112260/stuffed-leg-of-lamb-with-balsamic-fig-basil-sauce/",
+    "cuisine_path": "/Meat and Poultry/Lamb/Leg/",
+    "image": "https://www.allrecipes.com/thmb/Ldbc-dwMKsu_egoSmhOIGlvNNcI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/601260-696275d25a7e45cab54defc0b25fd76d.jpg",
+    "ingredients": [
+      {
+        "name": "coarsely chopped prunes",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "currants",
+        "amount": 0.25,
+        "unit": "cup",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "creme de cassis liqueur",
+        "amount": 2.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "minced fresh rosemary",
+        "amount": 1.5,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "minced fresh thyme",
+        "amount": 1.5,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "ground coriander",
+        "amount": 0.5,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "salt",
+        "amount": 1.25,
+        "unit": "teaspoons",
+        "template_amount_var": "amountIng7",
+        "template_unit_var": "unitIng7",
+        "template_name_var": "nameIng7"
+      },
+      {
+        "name": "freshly ground black pepper",
+        "amount": 1.0,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng8",
+        "template_unit_var": "unitIng8",
+        "template_name_var": "nameIng8"
+      },
+      {
+        "name": "(4 pound) boneless leg of lamb, rolled and tied",
+        "amount": 1.0,
+        "unit": null,
+        "template_amount_var": "amountIng9",
+        "template_unit_var": null,
+        "template_name_var": "nameIng9"
+      },
+      {
+        "name": "chopped roasted and salted almonds",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng10",
+        "template_unit_var": "unitIng10",
+        "template_name_var": "nameIng10"
+      },
+      {
+        "name": "chopped fresh mint",
+        "amount": 2.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng11",
+        "template_unit_var": "unitIng11",
+        "template_name_var": "nameIng11"
+      },
+      {
+        "name": "garlic, cut into thirds",
+        "amount": 3.0,
+        "unit": "cloves",
+        "template_amount_var": "amountIng12",
+        "template_unit_var": "unitIng12",
+        "template_name_var": "nameIng12"
+      },
+      {
+        "name": "olive oil",
+        "amount": 2.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng13",
+        "template_unit_var": "unitIng13",
+        "template_name_var": "nameIng13"
+      },
+      {
+        "name": "balsamic vinegar",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng14",
+        "template_unit_var": "unitIng14",
+        "template_name_var": "nameIng14"
+      },
+      {
+        "name": "butter",
+        "amount": 5.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng15",
+        "template_unit_var": "unitIng15",
+        "template_name_var": "nameIng15"
+      },
+      {
+        "name": "honey",
+        "amount": 3.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng16",
+        "template_unit_var": "unitIng16",
+        "template_name_var": "nameIng16"
+      },
+      {
+        "name": "thinly sliced, stemmed Calimyrna figs",
+        "amount": 0.3333333333333333,
+        "unit": "cup",
+        "template_amount_var": "amountIng17",
+        "template_unit_var": "unitIng17",
+        "template_name_var": "nameIng17"
+      },
+      {
+        "name": "chopped fresh basil",
+        "amount": 5.0,
+        "unit": "teaspoons",
+        "template_amount_var": "amountIng19",
+        "template_unit_var": "unitIng19",
+        "template_name_var": "nameIng19"
+      },
+      {
+        "name": "mint",
+        "amount": 6.0,
+        "unit": "leaves",
+        "template_amount_var": "amountIng20",
+        "template_unit_var": "unitIng20",
+        "template_name_var": "nameIng20"
+      },
+      {
+        "name": "basil",
+        "amount": 6.0,
+        "unit": "leaves",
+        "template_amount_var": "amountIng21",
+        "template_unit_var": "unitIng21",
+        "template_name_var": "nameIng21"
+      }
+    ],
+    "directions": [
+      "Preheat oven to 400 degrees F (200 degrees C).",
+      "Combine the chopped prunes and currants with the creme de cassis in a small bowl, and set aside. In another small bowl, combine the rosemary, thyme, coriander, salt, and pepper; set aside.",
+      "Untie and unroll the lamb, lay it out flat on the work surface. Trim off excess fat, and cut any thick parts open so that it is evenly thick and somewhat rectangular in shape. Sprinkle half of the herb mixture over the lamb. Mix the almonds and chopped mint into the prune mixture; spread evenly over the lamb. Roll up starting at one of the short sides, and tie with kitchen twine in 1-inch intervals. Cut 9 slits about 1-inch deep into the top of the lamb, and insert a slice of garlic in each. Rub with olive oil, and sprinkle with the remaining herb mixture.",
+      "Place lamb seam-side up on a rack set in a roasting pan. Roast in the preheated oven to desired doneness. For medium-rare, a thermometer inserted into the center will read 140 degrees F (60 degrees C). Remove lamb from the oven and cover with foil. Allow to rest for 15 minutes while proceeding with the recipe.",
+      "While the lamb is resting, bring the balsamic vinegar to a boil in a small saucepan over high heat. Boil until the vinegar has reduced by half, 4 to 5 minutes. Once reduced, stir in the butter, honey, and sliced figs. Stir until the butter has melted, then remove from the heat, stir in the chopped basil and set aside.",
+      "To serve, remove the twine from the lamb and cut into 1/2 inch thick slices. Arrange on a warm serving platter and drizzle with the fig sauce, garnish with mint and basil leaves."
+    ],
+    "nutrition": {
+      "Total": "Sugars 23g",
+      "Saturated": "Fat 15g 76%",
+      "Cholesterol": "147mg 49%",
+      "Sodium": "649mg 28%",
+      "Dietary": "Fiber 3g 11%",
+      "Protein": "38g",
+      "Vitamin": "C 5mg 25%",
+      "Calcium": "86mg 7%",
+      "Iron": "4mg 21%",
+      "Potassium": "691mg 15%"
+    },
+    "template_vars": {
+      "amountIng1": 0.5,
+      "unitIng1": "cup",
+      "nameIng1": "coarsely chopped prunes",
+      "amountIng2": 0.25,
+      "unitIng2": "cup",
+      "nameIng2": "currants",
+      "amountIng3": 2.0,
+      "unitIng3": "tablespoons",
+      "nameIng3": "creme de cassis liqueur",
+      "amountIng4": 1.5,
+      "unitIng4": "tablespoons",
+      "nameIng4": "minced fresh rosemary",
+      "amountIng5": 1.5,
+      "unitIng5": "tablespoons",
+      "nameIng5": "minced fresh thyme",
+      "amountIng6": 0.5,
+      "unitIng6": "teaspoon",
+      "nameIng6": "ground coriander",
+      "amountIng7": 1.25,
+      "unitIng7": "teaspoons",
+      "nameIng7": "salt",
+      "amountIng8": 1.0,
+      "unitIng8": "teaspoon",
+      "nameIng8": "freshly ground black pepper",
+      "amountIng9": 1.0,
+      "unitIng9": null,
+      "nameIng9": "(4 pound) boneless leg of lamb, rolled and tied",
+      "amountIng10": 0.5,
+      "unitIng10": "cup",
+      "nameIng10": "chopped roasted and salted almonds",
+      "amountIng11": 2.0,
+      "unitIng11": "tablespoons",
+      "nameIng11": "chopped fresh mint",
+      "amountIng12": 3.0,
+      "unitIng12": "cloves",
+      "nameIng12": "garlic, cut into thirds",
+      "amountIng13": 2.0,
+      "unitIng13": "tablespoons",
+      "nameIng13": "olive oil",
+      "amountIng14": 0.5,
+      "unitIng14": "cup",
+      "nameIng14": "balsamic vinegar",
+      "amountIng15": 5.0,
+      "unitIng15": "tablespoons",
+      "nameIng15": "butter",
+      "amountIng16": 3.0,
+      "unitIng16": "tablespoons",
+      "nameIng16": "honey",
+      "amountIng17": 0.3333333333333333,
+      "unitIng17": "cup",
+      "nameIng17": "thinly sliced stemmed Calimyrna figs",
+      "amountIng19": 5.0,
+      "unitIng19": "teaspoons",
+      "nameIng19": "chopped fresh basil",
+      "amountIng20": 6.0,
+      "unitIng20": "leaves",
+      "nameIng20": "mint",
+      "amountIng21": 6.0,
+      "unitIng21": "leaves",
+      "nameIng21": "basil"
+    }
+  },
+  {
+    "recipe_name": "Chicken Tenders with Balsamic-Fig Sauce",
+    "prep_time": "15 mins",
+    "cook_time": "20 mins",
+    "total_time": "35 mins",
+    "servings": "4",
+    "yield": "4 servings",
+    "rating": 4.4,
+    "url": "https://www.allrecipes.com/recipe/275396/chicken-tenders-with-balsamic-fig-sauce/",
+    "cuisine_path": "/Meat and Poultry/Chicken/",
+    "image": "https://www.allrecipes.com/thmb/9TKTb5kGEb5YoG9IJ9w55Lm_ZIw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6937516-6253e2e57cc14c86a341a529ed3c2478.jpg",
+    "ingredients": [
+      {
+        "name": "chicken tenders",
+        "amount": 1.0,
+        "unit": "pound",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "salt and ground black pepper to taste",
+        "amount": null,
+        "unit": null,
+        "template_amount_var": "amountIng2",
+        "template_unit_var": null,
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "all-purpose flour",
+        "amount": 0.25,
+        "unit": "cup",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "olive oil",
+        "amount": 2.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "butter",
+        "amount": 1.0,
+        "unit": "tablespoon",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      }
+    ],
+    "directions": [
+      "Season chicken with salt and pepper on both sides and lightly coat with flour, shaking off excess.",
+      "Heat olive oil and butter in a large nonstick skillet over medium heat. Add chicken to the skillet and cook until tenders are golden brown, no longer pink in the centers, and juices run clear, 5 to 6 minutes, flipping halfway through. Transfer to a plate and cover loosely with aluminum foil to keep warm.",
+      "Add shallot and garlic to the same skillet and cook until softened, about 2 minutes. Add red wine and balsamic and let simmer until reduced by half, 3 to 5 minutes. Stir in figs, thyme, Dijon mustard, honey, and salt; bring to a boil. Reduce heat to low or medium-low and let simmer until thickened, about 3 minutes. Remove from heat and stir in butter.",
+      "Spoon sauce over warm chicken tenders, or add chicken back into the skillet to briefly reheat, and serve immediately."
+    ],
+    "nutrition": {
+      "Total": "Sugars 13g",
+      "Saturated": "Fat 4g 22%",
+      "Cholesterol": "80mg 27%",
+      "Sodium": "456mg 20%",
+      "Dietary": "Fiber 2g 6%",
+      "Protein": "27g",
+      "Vitamin": "C 3mg 13%",
+      "Calcium": "46mg 4%",
+      "Iron": "2mg 11%",
+      "Potassium": "432mg 9%"
+    },
+    "template_vars": {
+      "amountIng1": 1.0,
+      "unitIng1": "pound",
+      "nameIng1": "chicken tenders",
+      "amountIng2": null,
+      "unitIng2": null,
+      "nameIng2": "salt and ground black pepper",
+      "amountIng3": 0.25,
+      "unitIng3": "cup",
+      "nameIng3": "all-purpose flour",
+      "amountIng4": 2.0,
+      "unitIng4": "tablespoons",
+      "nameIng4": "olive oil",
+      "amountIng5": 1.0,
+      "unitIng5": "tablespoon",
+      "nameIng5": "butter"
+    }
+  },
+  {
+    "recipe_name": "Fabulous Fig Scones",
+    "prep_time": "15 mins",
+    "cook_time": "30 mins",
+    "total_time": "45 mins",
+    "servings": "8",
+    "yield": "8 scones",
+    "rating": 4.1,
+    "url": "https://www.allrecipes.com/recipe/244480/fabulous-fig-scones/",
+    "cuisine_path": "/Bread/Quick Bread Recipes/Scone Recipes/",
+    "image": "https://www.allrecipes.com/thmb/VGeOPxm17RqH9R_UsD6OXEeKJf4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2390389-6eef71d601d148e4a01f394cb5a42214.jpg",
+    "ingredients": [
+      {
+        "name": "whole wheat pastry flour",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "old-fashioned rolled oats",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "baking powder",
+        "amount": 2.0,
+        "unit": "teaspoons",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "canola oil",
+        "amount": 0.25,
+        "unit": "cup",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": ", lightly beaten",
+        "amount": 1.0,
+        "unit": "egg",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "honey",
+        "amount": 0.25,
+        "unit": "cup",
+        "template_amount_var": "amountIng7",
+        "template_unit_var": "unitIng7",
+        "template_name_var": "nameIng7"
+      },
+      {
+        "name": "white sugar",
+        "amount": 0.25,
+        "unit": "cup",
+        "template_amount_var": "amountIng8",
+        "template_unit_var": "unitIng8",
+        "template_name_var": "nameIng8"
+      },
+      {
+        "name": "diced fresh figs",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng9",
+        "template_unit_var": "unitIng9",
+        "template_name_var": "nameIng9"
+      }
+    ],
+    "directions": [
+      "Preheat oven to 350 degrees F (175 degrees C). Line a baking sheet with parchment paper and lightly sprinkle flour over paper.",
+      "Whisk flour, oats, baking powder, and salt together in a bowl. Whisk oil and egg together in a separate bowl until smooth; add honey and mix well. Mix oil mixture into flour mixture just until batter is moistened. Sprinkle sugar over figs in a bowl and toss to coat; fold into batter.",
+      "Transfer batter to the middle of the prepared baking sheet and form into a 7-inch circle.",
+      "Bake in the preheated oven for 10 minutes. Score the batter into 8 sections and continue baking until scones are cooked through and lightly browned on top, about 20 minutes more. Cut into 8 scones and slide every other scone back from the circle to allow cooling."
+    ],
+    "nutrition": {
+      "Total": "Sugars 18g",
+      "Saturated": "Fat 1g 4%",
+      "Cholesterol": "21mg 7%",
+      "Sodium": "276mg 12%",
+      "Dietary": "Fiber 2g 8%",
+      "Protein": "3g",
+      "Vitamin": "C 1mg 3%",
+      "Calcium": "89mg 7%",
+      "Iron": "1mg 4%",
+      "Potassium": "114mg 2%"
+    },
+    "template_vars": {
+      "amountIng1": 1.0,
+      "unitIng1": "cup",
+      "nameIng1": "whole wheat pastry flour",
+      "amountIng2": 0.5,
+      "unitIng2": "cup",
+      "nameIng2": "old-fashioned rolled oats",
+      "amountIng3": 2.0,
+      "unitIng3": "teaspoons",
+      "nameIng3": "baking powder",
+      "amountIng4": 0.5,
+      "unitIng4": "teaspoon",
+      "nameIng4": "salt",
+      "amountIng5": 0.25,
+      "unitIng5": "cup",
+      "nameIng5": "canola oil",
+      "amountIng6": 1.0,
+      "unitIng6": "egg",
+      "nameIng6": ", lightly beaten",
+      "amountIng7": 0.25,
+      "unitIng7": "cup",
+      "nameIng7": "honey",
+      "amountIng8": 0.25,
+      "unitIng8": "cup",
+      "nameIng8": "white sugar",
+      "amountIng9": 1.0,
+      "unitIng9": "cup",
+      "nameIng9": "diced fresh figs"
+    }
+  },
+  {
+    "recipe_name": "Tomato Watermelon Salad",
+    "prep_time": "20 mins",
+    "cook_time": "",
+    "total_time": "20 mins",
+    "servings": "12",
+    "yield": "",
+    "rating": 4.7,
+    "url": "https://www.allrecipes.com/recipe/228277/tomato-watermelon-salad/",
+    "cuisine_path": "/Salad/Fruit Salad Recipes/",
+    "image": "https://www.allrecipes.com/thmb/dbBA9tBVoOQ-E47hgnlowAMRuk8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/1020663-f4488803c5c745ed967140f051d0adb3.jpg",
+    "ingredients": [
+      {
+        "name": "seedless watermelon, cut into 1-inch cubes",
+        "amount": 1.0,
+        "unit": "large",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": ", cut into 1-inch dice",
+        "amount": 4.0,
+        "unit": "tomatoes",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "crumbled feta cheese",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "sweet onion, thinly sliced",
+        "amount": 1.0,
+        "unit": "large",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "leaves, sliced thinly",
+        "amount": 12.0,
+        "unit": "mint",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "olive oil",
+        "amount": 0.25,
+        "unit": "cup",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "white balsamic vinegar",
+        "amount": 2.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng7",
+        "template_unit_var": "unitIng7",
+        "template_name_var": "nameIng7"
+      },
+      {
+        "name": "coarse salt, or to taste",
+        "amount": 1.0,
+        "unit": "pinch",
+        "template_amount_var": "amountIng8",
+        "template_unit_var": "unitIng8",
+        "template_name_var": "nameIng8"
+      },
+      {
+        "name": "ground black pepper, or to taste",
+        "amount": 1.0,
+        "unit": "pinch",
+        "template_amount_var": "amountIng9",
+        "template_unit_var": "unitIng9",
+        "template_name_var": "nameIng9"
+      }
+    ],
+    "directions": [
+      "Gently mix watermelon, tomatoes, feta cheese, onion, and mint in a large bowl.",
+      "Whisk olive oil, vinegar, salt, and pepper together in a small bowl; drizzle over salad and gently toss to coat."
+    ],
+    "nutrition": {
+      "Total": "Sugars 49g",
+      "Saturated": "Fat 3g 13%",
+      "Cholesterol": "11mg 4%",
+      "Sodium": "151mg 7%",
+      "Dietary": "Fiber 4g 14%",
+      "Protein": "7g",
+      "Vitamin": "C 68mg 340%",
+      "Calcium": "123mg 9%",
+      "Iron": "2mg 12%",
+      "Potassium": "986mg 21%"
+    },
+    "template_vars": {
+      "amountIng1": 1.0,
+      "unitIng1": "large",
+      "nameIng1": "seedless watermelon, cut into 1-inch cubes",
+      "amountIng2": 4.0,
+      "unitIng2": "tomatoes",
+      "nameIng2": ", cut into 1-inch dice",
+      "amountIng3": 1.0,
+      "unitIng3": "cup",
+      "nameIng3": "crumbled feta cheese",
+      "amountIng4": 1.0,
+      "unitIng4": "large",
+      "nameIng4": "sweet onion, thinly sliced",
+      "amountIng5": 12.0,
+      "unitIng5": "mint",
+      "nameIng5": "leaves, sliced thinly",
+      "amountIng6": 0.25,
+      "unitIng6": "cup",
+      "nameIng6": "olive oil",
+      "amountIng7": 2.0,
+      "unitIng7": "tablespoons",
+      "nameIng7": "white balsamic vinegar",
+      "amountIng8": 1.0,
+      "unitIng8": "pinch",
+      "nameIng8": "coarse salt, or to taste",
+      "amountIng9": 1.0,
+      "unitIng9": "pinch",
+      "nameIng9": "ground black pepper, or to taste"
+    }
+  },
+  {
+    "recipe_name": "Watermelon Margaritas",
+    "prep_time": "10 mins",
+    "cook_time": "",
+    "total_time": "10 mins",
+    "servings": "4",
+    "yield": "4 margaritas",
+    "rating": 4.5,
+    "url": "https://www.allrecipes.com/recipe/257444/watermelon-margaritas/",
+    "cuisine_path": "/Drinks Recipes/Cocktail Recipes/Tequila Drinks Recipes/",
+    "image": "https://www.allrecipes.com/thmb/t-Lg-F6E2TgUcBq1SORFxxWwU6I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/4487369-99ac34317610445a9637fd48d63ab150.jpg",
+    "ingredients": [
+      {
+        "name": "cubed seeded watermelon",
+        "amount": 2.0,
+        "unit": "cups",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "crushed ice",
+        "amount": 2.0,
+        "unit": "cups",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "tequila",
+        "amount": 0.3333333333333333,
+        "unit": "cup",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "white sugar",
+        "amount": 0.25,
+        "unit": "cup",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "lime juice",
+        "amount": 0.25,
+        "unit": "cup",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "vodka",
+        "amount": 1.0,
+        "unit": "tablespoon",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "orange liqueur",
+        "amount": 1.0,
+        "unit": "tablespoon",
+        "template_amount_var": "amountIng7",
+        "template_unit_var": "unitIng7",
+        "template_name_var": "nameIng7"
+      }
+    ],
+    "directions": [
+      "Combine watermelon, ice, tequila, sugar, lime juice, vodka, and orange liqueur in a blender; blend well. Pour margaritas into glasses."
+    ],
+    "nutrition": {
+      "Total": "Sugars 19g",
+      "Sodium": "2mg 0%",
+      "Dietary": "Fiber 0g 1%",
+      "Protein": "1g",
+      "Vitamin": "C 11mg 54%",
+      "Calcium": "8mg 1%",
+      "Iron": "0mg 1%",
+      "Potassium": "104mg 2%"
+    },
+    "template_vars": {
+      "amountIng1": 2.0,
+      "unitIng1": "cups",
+      "nameIng1": "cubed seeded watermelon",
+      "amountIng2": 2.0,
+      "unitIng2": "cups",
+      "nameIng2": "crushed ice",
+      "amountIng3": 0.3333333333333333,
+      "unitIng3": "cup",
+      "nameIng3": "tequila",
+      "amountIng4": 0.25,
+      "unitIng4": "cup",
+      "nameIng4": "white sugar",
+      "amountIng5": 0.25,
+      "unitIng5": "cup",
+      "nameIng5": "lime juice",
+      "amountIng6": 1.0,
+      "unitIng6": "tablespoon",
+      "nameIng6": "vodka",
+      "amountIng7": 1.0,
+      "unitIng7": "tablespoon",
+      "nameIng7": "orange liqueur"
+    }
+  },
+  {
+    "recipe_name": "Chilled Cantaloupe Soup",
+    "prep_time": "20 mins",
+    "cook_time": "",
+    "total_time": "1 hrs 20 mins",
+    "servings": "6",
+    "yield": "6 servings",
+    "rating": 3.9,
+    "url": "https://www.allrecipes.com/recipe/12912/chilled-cantaloupe-soup/",
+    "cuisine_path": "/Soups, Stews and Chili Recipes/Soup Recipes/Fruit Soup Recipes/",
+    "image": "https://www.allrecipes.com/thmb/x7xVHQ0MTf8u_P2Gm2g9hoSc1ys=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/19125-61dcf1cab4044e179cef30c4d0ed814f.jpg",
+    "ingredients": [
+      {
+        "name": "- peeled, seeded and cubed",
+        "amount": 1.0,
+        "unit": "cantaloupe",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "orange juice",
+        "amount": 2.0,
+        "unit": "cups",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "fresh lime juice",
+        "amount": 1.0,
+        "unit": "tablespoon",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "ground cinnamon",
+        "amount": 0.25,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      }
+    ],
+    "directions": [
+      "Peel, seed, and cube the cantaloupe.",
+      "Place cantaloupe and 1/2 cup orange juice in a blender or food processor; cover, and process until smooth. Transfer to large bowl. Stir in lime juice, cinnamon, and remaining orange juice. Cover, and refrigerate for at least one hour. Garnish with mint if desired."
+    ],
+    "nutrition": {
+      "Total": "Sugars 14g",
+      "Saturated": "Fat 0g 1%",
+      "Sodium": "16mg 1%",
+      "Dietary": "Fiber 1g 4%",
+      "Protein": "1g",
+      "Vitamin": "C 76mg 380%",
+      "Calcium": "19mg 1%",
+      "Iron": "0mg 2%",
+      "Potassium": "414mg 9%"
+    },
+    "template_vars": {
+      "amountIng1": 1.0,
+      "unitIng1": "cantaloupe",
+      "nameIng1": "- peeled, seeded and cubed",
+      "amountIng2": 2.0,
+      "unitIng2": "cups",
+      "nameIng2": "orange juice",
+      "amountIng3": 1.0,
+      "unitIng3": "tablespoon",
+      "nameIng3": "fresh lime juice",
+      "amountIng4": 0.25,
+      "unitIng4": "teaspoon",
+      "nameIng4": "ground cinnamon"
+    }
+  },
+  {
+    "recipe_name": "Watermelon Juice",
+    "prep_time": "5 mins",
+    "cook_time": "",
+    "total_time": "5 mins",
+    "servings": "4",
+    "yield": "4 cups",
+    "rating": 4.1,
+    "url": "https://www.allrecipes.com/recipe/228280/watermelon-juice/",
+    "cuisine_path": "/Drinks Recipes/Juice Recipes/",
+    "image": "https://www.allrecipes.com/thmb/xvW54TDL73gz_EoQ8VJt6yP4MMU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/1132046-5ac3764ad90a4714a7b9804762bdb25f.jpg",
+    "ingredients": [
+      {
+        "name": "diced seedless watermelon",
+        "amount": 2.0,
+        "unit": "cups",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "water",
+        "amount": 2.0,
+        "unit": "cups",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "white sugar, or more to taste",
+        "amount": 1.0,
+        "unit": "tablespoon",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      }
+    ],
+    "directions": [
+      "Blend watermelon, water, and sugar in a blender until smooth."
+    ],
+    "nutrition": {
+      "Total": "Sugars 8g",
+      "Sodium": "4mg 0%",
+      "Dietary": "Fiber 0g 1%",
+      "Protein": "1g",
+      "Vitamin": "C 6mg 31%",
+      "Calcium": "9mg 1%",
+      "Iron": "0mg 1%",
+      "Potassium": "86mg 2%"
+    },
+    "template_vars": {
+      "amountIng1": 2.0,
+      "unitIng1": "cups",
+      "nameIng1": "diced seedless watermelon",
+      "amountIng2": 2.0,
+      "unitIng2": "cups",
+      "nameIng2": "water",
+      "amountIng3": 1.0,
+      "unitIng3": "tablespoon",
+      "nameIng3": "white sugar, or more to taste"
+    }
+  },
+  {
+    "recipe_name": "Easy Garlic-Lemon Scallops",
+    "prep_time": "10 mins",
+    "cook_time": "5 mins",
+    "total_time": "15 mins",
+    "servings": "6",
+    "yield": "",
+    "rating": 4.6,
+    "url": "https://www.allrecipes.com/recipe/132358/easy-garlic-lemon-scallops/",
+    "cuisine_path": "/Seafood/Shellfish/Scallops/",
+    "image": "https://www.allrecipes.com/thmb/fr-hpDF8IwYM31OoGBEggvLy_7I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5916120-easy-garlic-lemon-scallops-DavidWest-1x1-1-92620e9944204c7ca0339f547e14dc83.jpg",
+    "ingredients": [
+      {
+        "name": "butter",
+        "amount": 0.75,
+        "unit": "cup",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "minced garlic",
+        "amount": 3.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "large sea scallops",
+        "amount": 2.0,
+        "unit": "pounds",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "fresh lemon juice",
+        "amount": 2.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "salt",
+        "amount": 1.0,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "pepper",
+        "amount": 0.125,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      }
+    ],
+    "directions": [
+      "Melt butter in a large skillet over medium heat. Stir in garlic and cook for a few seconds until fragrant.",
+      "Arrange scallops in a single layer in the skillet; cook until golden brown on one side, about 2 minutes. Turn scallops over using tongs and continue cooking until firm and opaque, about 2 minutes more. Transfer scallops to a platter, reserving butter in the skillet.",
+      "Whisk lemon juice, salt, and pepper into butter; pour sauce over scallops to serve.",
+      "David West"
+    ],
+    "nutrition": {
+      "Total": "Sugars 0g",
+      "Saturated": "Fat 15g 73%",
+      "Cholesterol": "152mg 51%",
+      "Sodium": "988mg 43%",
+      "Dietary": "Fiber 0g 0%",
+      "Protein": "39g",
+      "Vitamin": "C 4mg 18%",
+      "Calcium": "72mg 6%",
+      "Iron": "4mg 20%",
+      "Potassium": "635mg 14%"
+    },
+    "template_vars": {
+      "amountIng1": 0.75,
+      "unitIng1": "cup",
+      "nameIng1": "butter",
+      "amountIng2": 3.0,
+      "unitIng2": "tablespoons",
+      "nameIng2": "minced garlic",
+      "amountIng3": 2.0,
+      "unitIng3": "pounds",
+      "nameIng3": "large sea scallops",
+      "amountIng4": 2.0,
+      "unitIng4": "tablespoons",
+      "nameIng4": "fresh lemon juice",
+      "amountIng5": 1.0,
+      "unitIng5": "teaspoon",
+      "nameIng5": "salt",
+      "amountIng6": 0.125,
+      "unitIng6": "teaspoon",
+      "nameIng6": "pepper"
+    }
+  },
+  {
+    "recipe_name": "Easy Lemon-Pepper Chicken Wings",
+    "prep_time": "10 mins",
+    "cook_time": "10 mins",
+    "total_time": "20 mins",
+    "servings": "4",
+    "yield": "12 chicken wings",
+    "rating": 4.7,
+    "url": "https://www.allrecipes.com/recipe/236418/easy-lemon-pepper-chicken-wings/",
+    "cuisine_path": "/Meat and Poultry/Chicken/Wings/",
+    "image": "https://www.allrecipes.com/thmb/XDRAJmrYmKHBt1jk3blJDPhXFao=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2912641-d633d9fb7cc7419b8f5d7819399e9971.jpg",
+    "ingredients": [
+      {
+        "name": "oil, or as needed",
+        "amount": 2.0,
+        "unit": "cups",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "extra-virgin olive oil",
+        "amount": 2.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "lemon-pepper seasoning",
+        "amount": 1.0,
+        "unit": "tablespoon",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "wings",
+        "amount": 12.0,
+        "unit": "chicken",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      }
+    ],
+    "directions": [
+      "Heat oil in a deep-fryer or large saucepan to 375 degrees F (190 degrees C).",
+      "Stir olive oil and lemon-pepper together in a bowl.",
+      "Fry wings in hot oil until no longer pink at the bone and the juices run clear, about 8 minutes; an instant-read thermometer inserted near the bone should read 165 degrees F (74 degrees C).",
+      "Toss hot wings with lemon-pepper mixture to coat."
+    ],
+    "nutrition": {
+      "Total": "Sugars 0g",
+      "Saturated": "Fat 17g 85%",
+      "Cholesterol": "58mg 19%",
+      "Sodium": "409mg 18%",
+      "Dietary": "Fiber 0g 0%",
+      "Protein": "21g",
+      "Calcium": "12mg 1%",
+      "Iron": "1mg 5%",
+      "Potassium": "148mg 3%"
+    },
+    "template_vars": {
+      "amountIng1": 2.0,
+      "unitIng1": "cups",
+      "nameIng1": "oil, or as needed",
+      "amountIng2": 2.0,
+      "unitIng2": "tablespoons",
+      "nameIng2": "extra-virgin olive oil",
+      "amountIng3": 1.0,
+      "unitIng3": "tablespoon",
+      "nameIng3": "lemon-pepper seasoning",
+      "amountIng4": 12.0,
+      "unitIng4": "chicken",
+      "nameIng4": "wings"
+    }
+  },
+  {
+    "recipe_name": "Cranberry Orange Bread",
+    "prep_time": "15 mins",
+    "cook_time": "1 hrs",
+    "total_time": "1 hrs 25 mins",
+    "servings": "8",
+    "yield": "1 loaf",
+    "rating": 4.6,
+    "url": "https://www.allrecipes.com/recipe/228118/cranberry-orange-bread/",
+    "cuisine_path": "/Bread/Quick Bread Recipes/Fruit Bread Recipes/Cranberry Bread Recipes/",
+    "image": "https://www.allrecipes.com/thmb/kLBAhCwOg-ZPcftZ5OoQs_O8sFw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/228118-cranberry-orange-bread-vat-4X3-3-d8dfb893eaf54d3cb59cd015a7612b56.jpg",
+    "ingredients": [
+      {
+        "name": "flour",
+        "amount": 2.0,
+        "unit": "cups",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "white sugar",
+        "amount": 0.75,
+        "unit": "cup",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "baking powder",
+        "amount": 1.5,
+        "unit": "teaspoons",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "salt",
+        "amount": 0.75,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "baking soda",
+        "amount": 0.5,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "unsalted butter, cut into pieces and softened",
+        "amount": 0.25,
+        "unit": "cup",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "orange juice",
+        "amount": 0.75,
+        "unit": "cup",
+        "template_amount_var": "amountIng7",
+        "template_unit_var": "unitIng7",
+        "template_name_var": "nameIng7"
+      },
+      {
+        "name": "grated orange zest",
+        "amount": 1.0,
+        "unit": "tablespoon",
+        "template_amount_var": "amountIng8",
+        "template_unit_var": "unitIng8",
+        "template_name_var": "nameIng8"
+      },
+      {
+        "name": "egg, beaten",
+        "amount": 1.0,
+        "unit": "large",
+        "template_amount_var": "amountIng9",
+        "template_unit_var": "unitIng9",
+        "template_name_var": "nameIng9"
+      },
+      {
+        "name": "chopped cranberries",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng10",
+        "template_unit_var": "unitIng10",
+        "template_name_var": "nameIng10"
+      },
+      {
+        "name": "chopped walnuts (Optional)",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng11",
+        "template_unit_var": "unitIng11",
+        "template_name_var": "nameIng11"
+      }
+    ],
+    "directions": [
+      "Preheat the oven to 350 degrees F (175 degrees C). Grease an 8 1/2x4 1/2-inch loaf pan.",
+      "Combine flour, sugar, baking powder, salt, and baking soda in a bowl. Stir butter into flour mixture until combined. Add orange juice, orange zest, and egg; mix well. Fold in cranberries and walnuts. Spoon batter into the prepared pan.",
+      "Bake in the preheated oven until a toothpick inserted into the center comes out clean, 60 to 75 minutes. Cool in the pan for 10 minutes before removing to cool completely on a wire rack."
+    ],
+    "nutrition": {
+      "Total": "Sugars 22g",
+      "Saturated": "Fat 4g 22%",
+      "Cholesterol": "39mg 13%",
+      "Sodium": "439mg 19%",
+      "Dietary": "Fiber 2g 8%",
+      "Protein": "5g",
+      "Vitamin": "C 15mg 73%",
+      "Calcium": "73mg 6%",
+      "Iron": "2mg 11%",
+      "Potassium": "136mg 3%"
+    },
+    "template_vars": {
+      "amountIng1": 2.0,
+      "unitIng1": "cups",
+      "nameIng1": "flour",
+      "amountIng2": 0.75,
+      "unitIng2": "cup",
+      "nameIng2": "white sugar",
+      "amountIng3": 1.5,
+      "unitIng3": "teaspoons",
+      "nameIng3": "baking powder",
+      "amountIng4": 0.75,
+      "unitIng4": "teaspoon",
+      "nameIng4": "salt",
+      "amountIng5": 0.5,
+      "unitIng5": "teaspoon",
+      "nameIng5": "baking soda",
+      "amountIng6": 0.25,
+      "unitIng6": "cup",
+      "nameIng6": "unsalted butter, cut into pieces and softened",
+      "amountIng7": 0.75,
+      "unitIng7": "cup",
+      "nameIng7": "orange juice",
+      "amountIng8": 1.0,
+      "unitIng8": "tablespoon",
+      "nameIng8": "grated orange zest",
+      "amountIng9": 1.0,
+      "unitIng9": "large",
+      "nameIng9": "egg, beaten",
+      "amountIng10": 1.0,
+      "unitIng10": "cup",
+      "nameIng10": "chopped cranberries",
+      "amountIng11": 0.5,
+      "unitIng11": "cup",
+      "nameIng11": "chopped walnuts (Optional)"
+    }
+  },
+  {
+    "recipe_name": "Pan-Fried Shrimp",
+    "prep_time": "5 mins",
+    "cook_time": "5 mins",
+    "total_time": "10 mins",
+    "servings": "4",
+    "yield": "1 pound shrimp",
+    "rating": 4.5,
+    "url": "https://www.allrecipes.com/recipe/258426/pan-fried-shrimp/",
+    "cuisine_path": "/Seafood/Shellfish/Shrimp/",
+    "image": "https://www.allrecipes.com/thmb/-B_6W9N3G5M3A0RlkzJlDF23ckw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/4600372-d5c775915fe34f12a76d6dede8b6a4af.jpg",
+    "ingredients": [
+      {
+        "name": "butter, divided",
+        "amount": 8.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "peeled and deveined bay shrimp",
+        "amount": 1.0,
+        "unit": "pound",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "lemon juice, divided",
+        "amount": 1.0,
+        "unit": "tablespoon",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "garlic salt, or to taste",
+        "amount": 1.0,
+        "unit": "pinch",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "salt and ground black pepper to taste",
+        "amount": null,
+        "unit": null,
+        "template_amount_var": "amountIng5",
+        "template_unit_var": null,
+        "template_name_var": "nameIng5"
+      }
+    ],
+    "directions": [
+      "Melt 6 tablespoons butter in a large skillet over high heat. Add shrimp; cook and stir in hot butter until browned, about 2 minutes. Reduce heat to medium-low.",
+      "Stir in 1 1/2 teaspoons lemon juice, garlic salt, salt, and pepper; cook until heated through, about 1 minute. Remove from heat; stir in remaining 2 tablespoons butter and 1 1/2 teaspoons lemon juice."
+    ],
+    "nutrition": {
+      "Total": "Sugars 0g",
+      "Saturated": "Fat 15g 74%",
+      "Cholesterol": "234mg 78%",
+      "Sodium": "483mg 21%",
+      "Protein": "19g",
+      "Vitamin": "C 4mg 19%",
+      "Calcium": "42mg 3%",
+      "Iron": "3mg 15%",
+      "Potassium": "173mg 4%"
+    },
+    "template_vars": {
+      "amountIng1": 8.0,
+      "unitIng1": "tablespoons",
+      "nameIng1": "butter, divided",
+      "amountIng2": 1.0,
+      "unitIng2": "pound",
+      "nameIng2": "peeled and deveined bay shrimp",
+      "amountIng3": 1.0,
+      "unitIng3": "tablespoon",
+      "nameIng3": "lemon juice, divided",
+      "amountIng4": 1.0,
+      "unitIng4": "pinch",
+      "nameIng4": "garlic salt, or to taste",
+      "amountIng5": null,
+      "unitIng5": null,
+      "nameIng5": "salt and ground black pepper to taste"
+    }
+  },
+  {
+    "recipe_name": "Classic Bisquick Peach Cobbler",
+    "prep_time": "10 mins",
+    "cook_time": "50 mins",
+    "total_time": "1 hrs",
+    "servings": "6",
+    "yield": "1 8x8-inch dish",
+    "rating": 4.5,
+    "url": "https://www.allrecipes.com/recipe/234261/classic-bisquick-peach-cobbler/",
+    "cuisine_path": "/Everyday Cooking/",
+    "image": "https://www.allrecipes.com/thmb/J-uyHIdzAceXAduTfjp6ki_bWIg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/1285677-5b06bb34585541b297853ea03299861d.jpg",
+    "ingredients": [
+      {
+        "name": "Original Bisquick® mix",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "milk",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "ground nutmeg",
+        "amount": 0.5,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "butter or margarine, melted",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "(29 ounce) can sliced peaches, drained",
+        "amount": 1.0,
+        "unit": null,
+        "template_amount_var": "amountIng5",
+        "template_unit_var": null,
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "sugar",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      }
+    ],
+    "directions": [
+      "Preheat the oven to 350 degrees F (175 degrees C).",
+      "Stir together Bisquick mix, milk, and nutmeg in an ungreased 8x8-inch baking dish. Stir in melted butter or margarine until blended.",
+      "Stir together peaches and sugar in a bowl until combined; spoon over batter.",
+      "Bake in the preheated oven until golden, 50 to 60 minutes."
+    ],
+    "nutrition": {
+      "Total": "Sugars 50g",
+      "Saturated": "Fat 11g 56%",
+      "Cholesterol": "44mg 15%",
+      "Sodium": "383mg 17%",
+      "Dietary": "Fiber 2g 8%",
+      "Protein": "4g",
+      "Vitamin": "C 5mg 25%",
+      "Calcium": "91mg 7%",
+      "Iron": "1mg 6%",
+      "Potassium": "266mg 6%"
+    },
+    "template_vars": {
+      "amountIng1": 1.0,
+      "unitIng1": "cup",
+      "nameIng1": "Original Bisquick® mix",
+      "amountIng2": 1.0,
+      "unitIng2": "cup",
+      "nameIng2": "milk",
+      "amountIng3": 0.5,
+      "unitIng3": "teaspoon",
+      "nameIng3": "ground nutmeg",
+      "amountIng4": 0.5,
+      "unitIng4": "cup",
+      "nameIng4": "butter or margarine, melted",
+      "amountIng5": 1.0,
+      "unitIng5": null,
+      "nameIng5": "(29 ounce) can sliced peaches, drained",
+      "amountIng6": 1.0,
+      "unitIng6": "cup",
+      "nameIng6": "sugar"
+    }
+  },
+  {
+    "recipe_name": "Blueberry and Peach Crisp",
+    "prep_time": "15 mins",
+    "cook_time": "30 mins",
+    "total_time": "45 mins",
+    "servings": "9",
+    "yield": "1 8-inch square dish",
+    "rating": 4.5,
+    "url": "https://www.allrecipes.com/recipe/239090/blueberry-and-peach-crisp/",
+    "cuisine_path": "/Desserts/Fruit Desserts/Peach Dessert Recipes/",
+    "image": "https://www.allrecipes.com/thmb/EXRlLBYCcVojmG1vSSpVkBXvSgw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/3947440-8b1b534b385f4543bf5bb6d4aa76cab8.jpg",
+    "ingredients": [
+      {
+        "name": "(10 ounce) packages frozen sliced peaches(such as Cascadian Farm®), thawed and drained",
+        "amount": 2.0,
+        "unit": null,
+        "template_amount_var": "amountIng1",
+        "template_unit_var": null,
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "(10 ounce) package frozen blueberries(such as Cascadian Farm®), thawed and drained",
+        "amount": 1.0,
+        "unit": null,
+        "template_amount_var": "amountIng2",
+        "template_unit_var": null,
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "lemon juice",
+        "amount": 2.0,
+        "unit": "teaspoons",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "all-purpose flour",
+        "amount": 2.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "white sugar",
+        "amount": 2.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      }
+    ],
+    "directions": [
+      "Preheat oven to 350 degrees F (175 degrees C).",
+      "Gently stir peaches, blueberries, and lemon juice together in an 8-inch square baking dish. Stir 2 tablespoons flour and white sugar into the fruit mixture.",
+      "Stir oats, brown sugar, 1/4 cup flour, almonds, cinnamon, and nutmeg together in a small bowl. Mash butter into the oats mixture with a pastry cutter or a fork until the mixture is crumbly; sprinkle over the fruit to cover.",
+      "Bake in preheated oven until the fruit is bubbling and the topping is golden brown, about 30 minutes."
+    ],
+    "nutrition": {
+      "Total": "Sugars 28g",
+      "Saturated": "Fat 4g 18%",
+      "Cholesterol": "14mg 5%",
+      "Sodium": "43mg 2%",
+      "Dietary": "Fiber 3g 11%",
+      "Protein": "3g",
+      "Vitamin": "C 61mg 304%",
+      "Calcium": "27mg 2%",
+      "Iron": "1mg 6%",
+      "Potassium": "164mg 3%"
+    },
+    "template_vars": {
+      "amountIng1": 2.0,
+      "unitIng1": null,
+      "nameIng1": "(10 ounce) packages frozen sliced peaches(such as Cascadian Farm®), thawed and drained",
+      "amountIng2": 1.0,
+      "unitIng2": null,
+      "nameIng2": "(10 ounce) package frozen blueberries(such as Cascadian Farm®), thawed and drained",
+      "amountIng3": 2.0,
+      "unitIng3": "teaspoons",
+      "nameIng3": "lemon juice",
+      "amountIng4": 2.0,
+      "unitIng4": "tablespoons",
+      "nameIng4": "all-purpose flour",
+      "amountIng5": 2.0,
+      "unitIng5": "tablespoons",
+      "nameIng5": "white sugar"
+    }
+  },
+  {
+    "recipe_name": "Peach French Toast",
+    "prep_time": "9 hrs",
+    "cook_time": "45 mins",
+    "total_time": "9 hrs 45 mins",
+    "servings": "8",
+    "yield": "8 servings",
+    "rating": 4.5,
+    "url": "https://www.allrecipes.com/recipe/72662/grandmas-peach-french-toast/",
+    "cuisine_path": "/Breakfast and Brunch/French Toast Recipes/",
+    "image": "https://www.allrecipes.com/thmb/d53mn93zN6ziE2H6YCKLeurwoUI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5337339-4187382f2337406c998fa1c1e224d461.jpg",
+    "ingredients": [
+      {
+        "name": "packed brown sugar",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "butter",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "water",
+        "amount": 2.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "(29 ounce) can sliced peaches, drained",
+        "amount": 1.0,
+        "unit": null,
+        "template_amount_var": "amountIng4",
+        "template_unit_var": null,
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "(3/4 inch thick) slices day-old French bread",
+        "amount": 12.0,
+        "unit": null,
+        "template_amount_var": "amountIng5",
+        "template_unit_var": null,
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": null,
+        "amount": 5.0,
+        "unit": "eggs",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "vanilla extract",
+        "amount": 1.0,
+        "unit": "tablespoon",
+        "template_amount_var": "amountIng7",
+        "template_unit_var": "unitIng7",
+        "template_name_var": "nameIng7"
+      },
+      {
+        "name": "ground cinnamon, or to taste",
+        "amount": 1.0,
+        "unit": "pinch",
+        "template_amount_var": "amountIng8",
+        "template_unit_var": "unitIng8",
+        "template_name_var": "nameIng8"
+      }
+    ],
+    "directions": [
+      "In a saucepan, stir together the brown sugar, butter and water. Bring to a boil, then reduce heat to low, and simmer for 10 minutes, stirring frequently.",
+      "Pour the brown sugar mixture into a 9x13 inch baking dish, and tilt the dish to cover the entire bottom. Place peaches in a layer over the sugar coating, then top with slices of French bread. In a medium bowl, whisk together the eggs and vanilla. Slowly pour over the bread slices to coat evenly. Sprinkle cinnamon over the top. Cover and refrigerate for 8 hours or overnight.",
+      "Remove the dish from the refrigerator about 30 minutes before baking to come to room temperature. Preheat the oven to 350 degrees F (175 degrees C).",
+      "Bake for 25 to 30 minutes in the preheated oven, or until the bread is golden brown. Spoon out portions to serve."
+    ],
+    "nutrition": {
+      "Total": "Sugars 38g",
+      "Saturated": "Fat 8g 42%",
+      "Cholesterol": "147mg 49%",
+      "Sodium": "276mg 12%",
+      "Dietary": "Fiber 2g 7%",
+      "Protein": "7g",
+      "Vitamin": "C 4mg 19%",
+      "Calcium": "60mg 5%",
+      "Iron": "2mg 10%",
+      "Potassium": "242mg 5%"
+    },
+    "template_vars": {
+      "amountIng1": 1.0,
+      "unitIng1": "cup",
+      "nameIng1": "packed brown sugar",
+      "amountIng2": 0.5,
+      "unitIng2": "cup",
+      "nameIng2": "butter",
+      "amountIng3": 2.0,
+      "unitIng3": "tablespoons",
+      "nameIng3": "water",
+      "amountIng4": 1.0,
+      "unitIng4": null,
+      "nameIng4": "(29 ounce) can sliced peaches, drained",
+      "amountIng5": 12.0,
+      "unitIng5": null,
+      "nameIng5": "(3/4 inch thick) slices day-old French bread",
+      "amountIng6": 5.0,
+      "unitIng6": "eggs",
+      "nameIng6": null,
+      "amountIng7": 1.0,
+      "unitIng7": "tablespoon",
+      "nameIng7": "vanilla extract",
+      "amountIng8": 1.0,
+      "unitIng8": "pinch",
+      "nameIng8": "ground cinnamon, or to taste"
+    }
+  },
+  {
+    "recipe_name": "Grilled Brie and Pear Sandwich",
+    "prep_time": "10 mins",
+    "cook_time": "5 mins",
+    "total_time": "15 mins",
+    "servings": "1",
+    "yield": "1 sandwich",
+    "rating": 4.8,
+    "url": "https://www.allrecipes.com/recipe/237472/grilled-brie-and-pear-sandwich/",
+    "cuisine_path": "/Main Dishes/Sandwich Recipes/Grilled Cheese/",
+    "image": "https://www.allrecipes.com/thmb/4RJwFW483KKARGzA7Pga2kdOAMs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/1123463-grilled-brie-and-pear-sandwich-Chef-John-1x1-1-cedc15402ec247c493bc97ec3debc47e.jpg",
+    "ingredients": [
+      {
+        "name": "butter, softened",
+        "amount": 2.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "slices French bread",
+        "amount": 2.0,
+        "unit": "thick",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "slices  Brie cheese, or more to taste",
+        "amount": 6.0,
+        "unit": "thin",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "thyme leaves, or to taste",
+        "amount": 12.0,
+        "unit": "fresh",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "cracked black pepper",
+        "amount": 1.0,
+        "unit": "pinch",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "pear (such as Bosc)",
+        "amount": 6.0,
+        "unit": "slices",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "salt to taste",
+        "amount": null,
+        "unit": null,
+        "template_amount_var": "amountIng7",
+        "template_unit_var": null,
+        "template_name_var": "nameIng7"
+      }
+    ],
+    "directions": [
+      "Generously butter one side of each slice of bread.",
+      "Heat a skillet over medium heat.",
+      "Place bread slices butter-side down into hot skillet. Arrange Brie cheese slices on top of each piece of bread. Sprinkle thyme and cracked black pepper over the top.",
+      "Spread pear slices in a single layer over the Brie cheese on one slice of bread and top with a pinch of salt.",
+      "Flip the slice of bread without pears onto the slice of bread with the pear slices. Continue cooking sandwich until cheese and pear are heated through and cheese is melted, 2 to 3 minutes per side. Transfer to a plate and cut into halves.",
+      "Chef John"
+    ],
+    "nutrition": {
+      "Total": "Sugars 10g",
+      "Saturated": "Fat 26g 128%",
+      "Cholesterol": "121mg 40%",
+      "Sodium": "998mg 43%",
+      "Dietary": "Fiber 6g 23%",
+      "Protein": "22g",
+      "Vitamin": "C 23mg 116%",
+      "Calcium": "209mg 16%",
+      "Iron": "5mg 30%",
+      "Potassium": "375mg 8%"
+    },
+    "template_vars": {
+      "amountIng1": 2.0,
+      "unitIng1": "tablespoons",
+      "nameIng1": "butter, softened",
+      "amountIng2": 2.0,
+      "unitIng2": "thick",
+      "nameIng2": "slices French bread",
+      "amountIng3": 6.0,
+      "unitIng3": "thin",
+      "nameIng3": "slices  Brie cheese, or more to taste",
+      "amountIng4": 12.0,
+      "unitIng4": "fresh",
+      "nameIng4": "thyme leaves, or to taste",
+      "amountIng5": 1.0,
+      "unitIng5": "pinch",
+      "nameIng5": "cracked black pepper",
+      "amountIng6": 6.0,
+      "unitIng6": "slices",
+      "nameIng6": "pear (such as Bosc)",
+      "amountIng7": null,
+      "unitIng7": null,
+      "nameIng7": "salt to taste"
+    }
+  },
+  {
+    "recipe_name": "Pork Tenderloin with Balsamic Plum Reduction",
+    "prep_time": "15 mins",
+    "cook_time": "30 mins",
+    "total_time": "45 mins",
+    "servings": "4",
+    "yield": "4 servings",
+    "rating": 4.7,
+    "url": "https://www.allrecipes.com/recipe/215141/pork-tenderloin-with-balsamic-plum-reduction/",
+    "cuisine_path": "/Meat and Poultry/Pork/Pork Tenderloin Recipes/",
+    "image": "https://www.allrecipes.com/thmb/kMjhbq7uHbopsQTX2SzY7WShLZw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/3721441-c996e7e3ea414222af4ad8e1d6236aba.jpg",
+    "ingredients": [
+      {
+        "name": "tenderloin",
+        "amount": 1.0,
+        "unit": "pork",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "salt and ground black pepper to taste",
+        "amount": null,
+        "unit": null,
+        "template_amount_var": "amountIng2",
+        "template_unit_var": null,
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "olive oil",
+        "amount": 1.0,
+        "unit": "tablespoon",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": ", pitted and chopped",
+        "amount": 1.5,
+        "unit": "plums",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "balsamic vinegar",
+        "amount": 2.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "brown sugar",
+        "amount": 1.0,
+        "unit": "tablespoon",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "honey",
+        "amount": 1.0,
+        "unit": "tablespoon",
+        "template_amount_var": "amountIng7",
+        "template_unit_var": "unitIng7",
+        "template_name_var": "nameIng7"
+      },
+      {
+        "name": "blueberry juice (Optional)",
+        "amount": 2.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng8",
+        "template_unit_var": "unitIng8",
+        "template_name_var": "nameIng8"
+      }
+    ],
+    "directions": [
+      "Preheat oven to 400 degrees F (200 degrees C). Line a baking sheet with foil.",
+      "Season the pork tenderloin with salt and pepper. Heat olive oil in a heavy skillet over high heat until the oil shimmers; gently lay the tenderloin into the hot oil. After about 1 minute, gently loosen the meat from the bottom of the skillet, if necessary. Cook until the pork is seared a golden brown color, about 3 minutes per side. Transfer the pork to the lined baking sheet.",
+      "Roast the seared tenderloin in the preheated oven until a thermometer inserted into the center of the pork reads at least 145 degrees F (63 degrees C), about 15 minutes. Remove the pork from the oven and allow to rest for 10 minutes before slicing into medallions.",
+      "Cook the plums, balsamic vinegar, brown sugar, honey, and blueberry juice in a small saucepan over medium-low heat, stirring often, until the plums are soft, about 10 minutes. Transfer the sauce to a blender and blend until smooth. Return the sauce to the saucepan and simmer until reduced and thickened to the consistency of apple butter, about 5 more minutes. Spoon plum sauce over the sliced pork to serve."
+    ],
+    "nutrition": {
+      "Total": "Sugars 12g",
+      "Saturated": "Fat 1g 7%",
+      "Cholesterol": "49mg 16%",
+      "Sodium": "42mg 2%",
+      "Dietary": "Fiber 0g 1%",
+      "Protein": "18g",
+      "Vitamin": "C 2mg 12%",
+      "Calcium": "11mg 1%",
+      "Iron": "1mg 5%",
+      "Potassium": "334mg 7%"
+    },
+    "template_vars": {
+      "amountIng1": 1.0,
+      "unitIng1": "pork",
+      "nameIng1": "tenderloin",
+      "amountIng2": null,
+      "unitIng2": null,
+      "nameIng2": "salt and ground black pepper to taste",
+      "amountIng3": 1.0,
+      "unitIng3": "tablespoon",
+      "nameIng3": "olive oil",
+      "amountIng4": 1.5,
+      "unitIng4": "plums",
+      "nameIng4": ", pitted and chopped",
+      "amountIng5": 2.0,
+      "unitIng5": "tablespoons",
+      "nameIng5": "balsamic vinegar",
+      "amountIng6": 1.0,
+      "unitIng6": "tablespoon",
+      "nameIng6": "brown sugar",
+      "amountIng7": 1.0,
+      "unitIng7": "tablespoon",
+      "nameIng7": "honey",
+      "amountIng8": 2.0,
+      "unitIng8": "tablespoons",
+      "nameIng8": "blueberry juice (Optional)"
+    }
+  },
+  {
+    "recipe_name": "Rich Banana Bread",
+    "prep_time": "10 mins",
+    "cook_time": "1 hrs",
+    "total_time": "1 hrs 20 mins",
+    "servings": "10",
+    "yield": "1 9x5-inch loaf",
+    "rating": 4.8,
+    "url": "https://www.allrecipes.com/recipe/17066/janets-rich-banana-bread/",
+    "cuisine_path": "/Quick Bread Recipes/Fruit Bread Recipes/Banana Bread/Banana Nut Bread Recipes/",
+    "image": "https://www.allrecipes.com/thmb/xSzZXZa-O4S6fE4BdpzTIO8aHTw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/171761-32f2d2cf9fb64f0c839fa15b69672b0e.jpg",
+    "ingredients": [
+      {
+        "name": "white sugar",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "butter, melted",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": null,
+        "amount": 2.0,
+        "unit": "eggs",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "vanilla extract",
+        "amount": 1.0,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "all-purpose flour",
+        "amount": 1.5,
+        "unit": "cups",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "baking soda",
+        "amount": 1.0,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng7",
+        "template_unit_var": "unitIng7",
+        "template_name_var": "nameIng7"
+      },
+      {
+        "name": "sour cream",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng8",
+        "template_unit_var": "unitIng8",
+        "template_name_var": "nameIng8"
+      },
+      {
+        "name": "chopped walnuts",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng9",
+        "template_unit_var": "unitIng9",
+        "template_name_var": "nameIng9"
+      },
+      {
+        "name": "bananas, sliced",
+        "amount": 2.0,
+        "unit": "medium",
+        "template_amount_var": "amountIng10",
+        "template_unit_var": "unitIng10",
+        "template_name_var": "nameIng10"
+      }
+    ],
+    "directions": [
+      "Preheat the oven to 350 degrees F (175 degrees C). Grease a 9x5-inch loaf pan.",
+      "Stir sugar and melted butter together in a large bowl. Add eggs and vanilla; mix well. Combine flour, baking soda, and salt; stir into butter mixture until smooth. Fold in banana slices, sour cream, and walnuts; transfer into the prepared pan.",
+      "Bake in the preheated oven until a toothpick inserted into the center of the loaf comes out clean, about 1 hour. Cool loaf in the pan for 10 minutes before inverting onto a wire rack to cool completely.",
+      "FoodFun"
+    ],
+    "nutrition": {
+      "Total": "Carbohydrate 36g 13%",
+      "Saturated": "Fat 8g 39%",
+      "Cholesterol": "30mg 10%",
+      "Sodium": "295mg 13%",
+      "Dietary": "Fiber 1g 3%",
+      "Protein": "3g",
+      "Vitamin": "C 0mg 1%",
+      "Calcium": "25mg 2%",
+      "Iron": "1mg 6%",
+      "Potassium": "66mg 1%"
+    },
+    "template_vars": {
+      "amountIng1": 1.0,
+      "unitIng1": "cup",
+      "nameIng1": "white sugar",
+      "amountIng2": 0.5,
+      "unitIng2": "cup",
+      "nameIng2": "butter, melted",
+      "amountIng3": 2.0,
+      "unitIng3": "eggs",
+      "nameIng3": null,
+      "amountIng4": 1.0,
+      "unitIng4": "teaspoon",
+      "nameIng4": "vanilla extract",
+      "amountIng5": 1.5,
+      "unitIng5": "cups",
+      "nameIng5": "all-purpose flour",
+      "amountIng6": 1.0,
+      "unitIng6": "teaspoon",
+      "nameIng6": "baking soda",
+      "amountIng7": 0.5,
+      "unitIng7": "teaspoon",
+      "nameIng7": "salt",
+      "amountIng8": 0.5,
+      "unitIng8": "cup",
+      "nameIng8": "sour cream",
+      "amountIng9": 0.5,
+      "unitIng9": "cup",
+      "nameIng9": "chopped walnuts",
+      "amountIng10": 2.0,
+      "unitIng10": "medium",
+      "nameIng10": "bananas, sliced"
+    }
+  },
+  {
+    "recipe_name": "White Sangria with Kiwi",
+    "prep_time": "20 mins",
+    "cook_time": "",
+    "total_time": "20 mins",
+    "servings": "8",
+    "yield": "8 servings",
+    "rating": 4.3,
+    "url": "https://www.allrecipes.com/recipe/222834/white-sangria-with-kiwi/",
+    "cuisine_path": "/Drinks Recipes/Sangria Recipes/",
+    "image": "https://www.allrecipes.com/thmb/vRE3Pm6VOoNImHPSMagXe5NjbFo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/844865-a9bf1f673ff94230840086059961e1ad.jpg",
+    "ingredients": [
+      {
+        "name": "(750 milliliter) bottle Chardonnay wine",
+        "amount": 1.0,
+        "unit": null,
+        "template_amount_var": "amountIng1",
+        "template_unit_var": null,
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "club soda",
+        "amount": 1.0,
+        "unit": "liter",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "orange-flavored liqueur (such as Cointreau®)",
+        "amount": 3.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "white sugar",
+        "amount": 2.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "seedless green grapes",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": ", peeled and sliced",
+        "amount": 2.0,
+        "unit": "kiwis",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "pear, thinly sliced",
+        "amount": 1.0,
+        "unit": "large",
+        "template_amount_var": "amountIng7",
+        "template_unit_var": "unitIng7",
+        "template_name_var": "nameIng7"
+      },
+      {
+        "name": "ice cubes",
+        "amount": null,
+        "unit": null,
+        "template_amount_var": "amountIng8",
+        "template_unit_var": null,
+        "template_name_var": "nameIng8"
+      },
+      {
+        "name": "mint",
+        "amount": 8.0,
+        "unit": "sprigs",
+        "template_amount_var": "amountIng9",
+        "template_unit_var": "unitIng9",
+        "template_name_var": "nameIng9"
+      }
+    ],
+    "directions": [
+      "Mix Chardonnay wine, club soda, orange-flavored liqueur, sugar, grapes, kiwis, and pear in a large pitcher. Stir until sugar is dissolved. Pour wine mixture into wine glasses filled with ice, making sure each glass has some fruit. Garnish with mint sprigs."
+    ],
+    "nutrition": {
+      "Total": "Sugars 14g",
+      "Sodium": "10mg 0%",
+      "Dietary": "Fiber 2g 6%",
+      "Protein": "1g",
+      "Vitamin": "C 22mg 112%",
+      "Calcium": "29mg 2%",
+      "Iron": "1mg 3%",
+      "Potassium": "200mg 4%"
+    },
+    "template_vars": {
+      "amountIng1": 1.0,
+      "unitIng1": null,
+      "nameIng1": "(750 milliliter) bottle Chardonnay wine",
+      "amountIng2": 1.0,
+      "unitIng2": "liter",
+      "nameIng2": "club soda",
+      "amountIng3": 3.0,
+      "unitIng3": "tablespoons",
+      "nameIng3": "orange-flavored liqueur (such as Cointreau®)",
+      "amountIng4": 2.0,
+      "unitIng4": "tablespoons",
+      "nameIng4": "white sugar",
+      "amountIng5": 1.0,
+      "unitIng5": "cup",
+      "nameIng5": "seedless green grapes",
+      "amountIng6": 2.0,
+      "unitIng6": "kiwis",
+      "nameIng6": ", peeled and sliced",
+      "amountIng7": 1.0,
+      "unitIng7": "large",
+      "nameIng7": "pear, thinly sliced",
+      "amountIng8": null,
+      "unitIng8": null,
+      "nameIng8": "ice cubes",
+      "amountIng9": 8.0,
+      "unitIng9": "sprigs",
+      "nameIng9": "mint"
+    }
+  },
+  {
+    "recipe_name": "Chicken, Avocado and Mango Salad",
+    "prep_time": "30 mins",
+    "cook_time": "",
+    "total_time": "30 mins",
+    "servings": "8",
+    "yield": "8 servings",
+    "rating": 4.2,
+    "url": "https://www.allrecipes.com/recipe/75019/chicken-avocado-and-mango-salad/",
+    "cuisine_path": "/Salad/",
+    "image": "https://www.allrecipes.com/thmb/MEEySj0bKm5a6AUlBIGbjQGIyGM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/1119464-d7b2428fffdb4880bfa95887ee7b3c05.jpg",
+    "ingredients": [
+      {
+        "name": "brown sugar",
+        "amount": 2.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "water",
+        "amount": 0.25,
+        "unit": "cup",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "lime juice",
+        "amount": 0.3333333333333333,
+        "unit": "cup",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "chili garlic sauce",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "shredded, cooked chicken",
+        "amount": 4.0,
+        "unit": "cups",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "mangos - peeled, seeded and diced",
+        "amount": 2.0,
+        "unit": "medium",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "- peeled, pitted and diced",
+        "amount": 2.0,
+        "unit": "avocados",
+        "template_amount_var": "amountIng7",
+        "template_unit_var": "unitIng7",
+        "template_name_var": "nameIng7"
+      },
+      {
+        "name": "(10 ounce) package spring lettuce mix",
+        "amount": 1.0,
+        "unit": null,
+        "template_amount_var": "amountIng8",
+        "template_unit_var": null,
+        "template_name_var": "nameIng8"
+      }
+    ],
+    "directions": [
+      "In a saucepan over medium-high heat, stir together the brown sugar and water. Bring to a boil, then pour into a medium bowl. Stir in the garlic chili sauce and lime juice. Set the dressing aside.",
+      "In a large bowl, toss together the chicken, mangos and avocados. Arrange the spring salad mix on serving plates, then top with a few spoonfuls of the chicken mixture. Pour dressing over the top."
+    ],
+    "nutrition": {
+      "Total": "Sugars 12g",
+      "Saturated": "Fat 4g 18%",
+      "Cholesterol": "55mg 18%",
+      "Sodium": "698mg 30%",
+      "Dietary": "Fiber 5g 19%",
+      "Protein": "19g",
+      "Vitamin": "C 31mg 153%",
+      "Calcium": "37mg 3%",
+      "Iron": "2mg 11%",
+      "Potassium": "526mg 11%"
+    },
+    "template_vars": {
+      "amountIng1": 2.0,
+      "unitIng1": "tablespoons",
+      "nameIng1": "brown sugar",
+      "amountIng2": 0.25,
+      "unitIng2": "cup",
+      "nameIng2": "water",
+      "amountIng3": 0.3333333333333333,
+      "unitIng3": "cup",
+      "nameIng3": "lime juice",
+      "amountIng4": 0.5,
+      "unitIng4": "cup",
+      "nameIng4": "chili garlic sauce",
+      "amountIng5": 4.0,
+      "unitIng5": "cups",
+      "nameIng5": "shredded, cooked chicken",
+      "amountIng6": 2.0,
+      "unitIng6": "medium",
+      "nameIng6": "mangos - peeled, seeded and diced",
+      "amountIng7": 2.0,
+      "unitIng7": "avocados",
+      "nameIng7": "- peeled, pitted and diced",
+      "amountIng8": 1.0,
+      "unitIng8": null,
+      "nameIng8": "(10 ounce) package spring lettuce mix"
+    }
+  },
+  {
+    "recipe_name": "Papaya Boats",
+    "prep_time": "15 mins",
+    "cook_time": "",
+    "total_time": "15 mins",
+    "servings": "4",
+    "yield": "4 servings",
+    "rating": 4.4,
+    "url": "https://www.allrecipes.com/recipe/72371/papaya-boats/",
+    "cuisine_path": "/Desserts/Specialty Dessert Recipes/",
+    "image": "https://www.allrecipes.com/thmb/guz4wJD0AO--TbfnfjMULu50R3Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/37285-cc52706d6be04d3bba8c737302f1fa4f.jpg",
+    "ingredients": [
+      {
+        "name": "fat-free plain yogurt",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "walnuts",
+        "amount": 0.25,
+        "unit": "cup",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "raisins",
+        "amount": 0.25,
+        "unit": "cup",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "chopped fresh strawberries",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "papayas, cut in half lengthwise and seeded",
+        "amount": 2.0,
+        "unit": "medium",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "honey",
+        "amount": 2.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      }
+    ],
+    "directions": [
+      "In a bowl, mix the yogurt, walnuts, and raisins. Fold in the strawberries. Spoon the mixture into the centers of the papaya halves. Drizzle with honey to serve."
+    ],
+    "nutrition": {
+      "Total": "Sugars 26g",
+      "Saturated": "Fat 1g 3%",
+      "Cholesterol": "1mg 0%",
+      "Sodium": "52mg 2%",
+      "Dietary": "Fiber 3g 11%",
+      "Protein": "6g",
+      "Vitamin": "C 73mg 366%",
+      "Calcium": "160mg 12%",
+      "Iron": "1mg 4%",
+      "Potassium": "537mg 11%"
+    },
+    "template_vars": {
+      "amountIng1": 1.0,
+      "unitIng1": "cup",
+      "nameIng1": "fat-free plain yogurt",
+      "amountIng2": 0.25,
+      "unitIng2": "cup",
+      "nameIng2": "walnuts",
+      "amountIng3": 0.25,
+      "unitIng3": "cup",
+      "nameIng3": "raisins",
+      "amountIng4": 1.0,
+      "unitIng4": "cup",
+      "nameIng4": "chopped fresh strawberries",
+      "amountIng5": 2.0,
+      "unitIng5": "medium",
+      "nameIng5": "papayas, cut in half lengthwise and seeded",
+      "amountIng6": 2.0,
+      "unitIng6": "tablespoons",
+      "nameIng6": "honey"
+    }
+  },
+  {
+    "recipe_name": "Mango Papaya Fruit Salad",
+    "prep_time": "20 mins",
+    "cook_time": "",
+    "total_time": "1 hrs 20 mins",
+    "servings": "8",
+    "yield": "8 servings",
+    "rating": 4.0,
+    "url": "https://www.allrecipes.com/recipe/270424/mango-papaya-fruit-salad/",
+    "cuisine_path": "/Salad/Fruit Salad Recipes/",
+    "image": "https://www.allrecipes.com/thmb/Ih4dX4qpsYckLO6P-GS7NWBcA-o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6794131-232c30d2b5e842798f7724cb50418f4f.jpg",
+    "ingredients": [
+      {
+        "name": "freshly squeezed lime juice",
+        "amount": 0.25,
+        "unit": "cup",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "honey",
+        "amount": 0.25,
+        "unit": "cup",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "finely grated lime zest",
+        "amount": 1.0,
+        "unit": "tablespoon",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "balsamic vinegar",
+        "amount": 1.0,
+        "unit": "tablespoon",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "brown sugar",
+        "amount": 1.0,
+        "unit": "tablespoon",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": ", peeled and diced, or to taste",
+        "amount": 2.0,
+        "unit": "mangos",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "papaya, peeled and diced",
+        "amount": 1.0,
+        "unit": "large",
+        "template_amount_var": "amountIng7",
+        "template_unit_var": "unitIng7",
+        "template_name_var": "nameIng7"
+      }
+    ],
+    "directions": [
+      "Whisk lime juice, honey, lime zest, balsamic vinegar, and brown sugar together in a small bowl.",
+      "Place mangos and papaya in a large bowl. Stir lime dressing again and pour over fruit. Lightly stir fruit and dressing, cover, and refrigerate for 1 hour."
+    ],
+    "nutrition": {
+      "Total": "Sugars 18g",
+      "Sodium": "3mg 0%",
+      "Dietary": "Fiber 1g 5%",
+      "Protein": "0g",
+      "Vitamin": "C 29mg 146%",
+      "Calcium": "14mg 1%",
+      "Iron": "0mg 1%",
+      "Potassium": "142mg 3%"
+    },
+    "template_vars": {
+      "amountIng1": 0.25,
+      "unitIng1": "cup",
+      "nameIng1": "freshly squeezed lime juice",
+      "amountIng2": 0.25,
+      "unitIng2": "cup",
+      "nameIng2": "honey",
+      "amountIng3": 1.0,
+      "unitIng3": "tablespoon",
+      "nameIng3": "finely grated lime zest",
+      "amountIng4": 1.0,
+      "unitIng4": "tablespoon",
+      "nameIng4": "balsamic vinegar",
+      "amountIng5": 1.0,
+      "unitIng5": "tablespoon",
+      "nameIng5": "brown sugar",
+      "amountIng6": 2.0,
+      "unitIng6": "mangos",
+      "nameIng6": ", peeled and diced, or to taste",
+      "amountIng7": 1.0,
+      "unitIng7": "large",
+      "nameIng7": "papaya, peeled and diced"
+    }
+  },
+  {
+    "recipe_name": "Avocado Soup with Chicken and Lime",
+    "prep_time": "10 mins",
+    "cook_time": "20 mins",
+    "total_time": "30 mins",
+    "servings": "4",
+    "yield": "4 servings",
+    "rating": 4.5,
+    "url": "https://www.allrecipes.com/recipe/20809/avocado-soup-with-chicken-and-lime/",
+    "cuisine_path": "/Soups, Stews and Chili Recipes/Soup Recipes/Vegetable Soup Recipes/",
+    "image": "https://www.allrecipes.com/thmb/BZ9yflTw9g2FI8vuHyGtx-rSQBk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/368123-ea4ab1fb79cf46c8b3745616803ab8d1.jpg",
+    "ingredients": [
+      {
+        "name": "(6 inch) corn tortillas, julienned",
+        "amount": 4.0,
+        "unit": null,
+        "template_amount_var": "amountIng1",
+        "template_unit_var": null,
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "olive oil",
+        "amount": 1.5,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "onion, sliced thinly",
+        "amount": 1.0,
+        "unit": "white",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "garlic, thinly sliced",
+        "amount": 8.0,
+        "unit": "cloves",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "jalapeno peppers, sliced",
+        "amount": 4.0,
+        "unit": "fresh",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "skinless, boneless chicken breast halves - cut into thin strips",
+        "amount": 8.0,
+        "unit": "ounces",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "chicken broth",
+        "amount": 1.0,
+        "unit": "quart",
+        "template_amount_var": "amountIng7",
+        "template_unit_var": "unitIng7",
+        "template_name_var": "nameIng7"
+      },
+      {
+        "name": "fresh lime juice",
+        "amount": 0.25,
+        "unit": "cup",
+        "template_amount_var": "amountIng8",
+        "template_unit_var": "unitIng8",
+        "template_name_var": "nameIng8"
+      },
+      {
+        "name": ", seeded and diced",
+        "amount": 1.0,
+        "unit": "tomato",
+        "template_amount_var": "amountIng9",
+        "template_unit_var": "unitIng9",
+        "template_name_var": "nameIng9"
+      },
+      {
+        "name": "salt and ground black pepper to taste",
+        "amount": null,
+        "unit": null,
+        "template_amount_var": "amountIng10",
+        "template_unit_var": null,
+        "template_name_var": "nameIng10"
+      },
+      {
+        "name": "- peeled, pitted and diced",
+        "amount": 1.0,
+        "unit": "avocado",
+        "template_amount_var": "amountIng11",
+        "template_unit_var": "unitIng11",
+        "template_name_var": "nameIng11"
+      },
+      {
+        "name": "chopped fresh cilantro",
+        "amount": 0.25,
+        "unit": "cup",
+        "template_amount_var": "amountIng12",
+        "template_unit_var": "unitIng12",
+        "template_name_var": "nameIng12"
+      }
+    ],
+    "directions": [
+      "Preheat oven to 400 degrees F (200 degrees C). Arrange tortilla strips on a baking sheet.",
+      "Bake in the preheated oven until lightly browned, 3 to 5 minutes.",
+      "Heat oil in a large saucepan over medium heat. Cook onion, garlic, and jalapenos in oil until lightly browned, 4 to 5 minutes. Stir in chicken, chicken broth, lime juice, tomato, salt and pepper. Gently simmer until chicken is no longer pink, about 10 minutes. Stir in avocado and cilantro and heat through, 3 to 5 minutes. Adjust seasonings to taste.",
+      "Ladle soup into bowls and sprinkle with tortilla strips to serve."
+    ],
+    "nutrition": {
+      "Total": "Sugars 4g",
+      "Saturated": "Fat 2g 12%",
+      "Cholesterol": "37mg 12%",
+      "Sodium": "1048mg 46%",
+      "Dietary": "Fiber 7g 23%",
+      "Protein": "17g",
+      "Vitamin": "C 24mg 122%",
+      "Calcium": "59mg 5%",
+      "Iron": "1mg 8%",
+      "Potassium": "590mg 13%"
+    },
+    "template_vars": {
+      "amountIng1": 4.0,
+      "unitIng1": null,
+      "nameIng1": "(6 inch) corn tortillas, julienned",
+      "amountIng2": 1.5,
+      "unitIng2": "tablespoons",
+      "nameIng2": "olive oil",
+      "amountIng3": 1.0,
+      "unitIng3": "white",
+      "nameIng3": "onion, sliced thinly",
+      "amountIng4": 8.0,
+      "unitIng4": "cloves",
+      "nameIng4": "garlic, thinly sliced",
+      "amountIng5": 4.0,
+      "unitIng5": "fresh",
+      "nameIng5": "jalapeno peppers, sliced",
+      "amountIng6": 8.0,
+      "unitIng6": "ounces",
+      "nameIng6": "skinless, boneless chicken breast halves - cut into thin strips",
+      "amountIng7": 1.0,
+      "unitIng7": "quart",
+      "nameIng7": "chicken broth",
+      "amountIng8": 0.25,
+      "unitIng8": "cup",
+      "nameIng8": "fresh lime juice",
+      "amountIng9": 1.0,
+      "unitIng9": "tomato",
+      "nameIng9": ", seeded and diced",
+      "amountIng10": null,
+      "unitIng10": null,
+      "nameIng10": "salt and ground black pepper to taste",
+      "amountIng11": 1.0,
+      "unitIng11": "avocado",
+      "nameIng11": "- peeled, pitted and diced",
+      "amountIng12": 0.25,
+      "unitIng12": "cup",
+      "nameIng12": "chopped fresh cilantro"
+    }
+  },
+  {
+    "recipe_name": "Meyer Lemon Avocado Toast",
+    "prep_time": "10 mins",
+    "cook_time": "3 mins",
+    "total_time": "13 mins",
+    "servings": "2",
+    "yield": "2 servings",
+    "rating": 4.8,
+    "url": "https://www.allrecipes.com/recipe/257457/meyer-lemon-avocado-toast/",
+    "cuisine_path": "/Main Dishes/Sandwich Recipes/",
+    "image": "https://www.allrecipes.com/thmb/W7qxZ1EaZNXan2kpORUQXBg6x8g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/4487253-e6669e70d4114beb857b6aeac7814444.jpg",
+    "ingredients": [
+      {
+        "name": "whole grain bread",
+        "amount": 2.0,
+        "unit": "slices",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": null,
+        "amount": 0.5,
+        "unit": "avocado",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "chopped fresh cilantro, or more to taste",
+        "amount": 2.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "Meyer lemon juice, or to taste",
+        "amount": 1.0,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "Meyer lemon zest",
+        "amount": 0.25,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "cayenne pepper",
+        "amount": 1.0,
+        "unit": "pinch",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "fine sea salt",
+        "amount": 1.0,
+        "unit": "pinch",
+        "template_amount_var": "amountIng7",
+        "template_unit_var": "unitIng7",
+        "template_name_var": "nameIng7"
+      },
+      {
+        "name": "chia seeds",
+        "amount": 0.25,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng8",
+        "template_unit_var": "unitIng8",
+        "template_name_var": "nameIng8"
+      }
+    ],
+    "directions": [
+      "Toast bread slices to desired doneness, 3 to 5 minutes.",
+      "Mash avocado in a bowl; stir in cilantro, Meyer lemon juice, Meyer lemon zest, cayenne pepper, and sea salt. Spread avocado mixture onto toast and top with chia seeds."
+    ],
+    "nutrition": {
+      "Total": "Sugars 2g",
+      "Saturated": "Fat 0g 1%",
+      "Sodium": "271mg 12%",
+      "Dietary": "Fiber 2g 8%",
+      "Protein": "4g",
+      "Vitamin": "C 3mg 13%",
+      "Calcium": "31mg 2%",
+      "Iron": "3mg 14%",
+      "Potassium": "82mg 2%"
+    },
+    "template_vars": {
+      "amountIng1": 2.0,
+      "unitIng1": "slices",
+      "nameIng1": "whole grain bread",
+      "amountIng2": 0.5,
+      "unitIng2": "avocado",
+      "nameIng2": null,
+      "amountIng3": 2.0,
+      "unitIng3": "tablespoons",
+      "nameIng3": "chopped fresh cilantro, or more to taste",
+      "amountIng4": 1.0,
+      "unitIng4": "teaspoon",
+      "nameIng4": "Meyer lemon juice, or to taste",
+      "amountIng5": 0.25,
+      "unitIng5": "teaspoon",
+      "nameIng5": "Meyer lemon zest",
+      "amountIng6": 1.0,
+      "unitIng6": "pinch",
+      "nameIng6": "cayenne pepper",
+      "amountIng7": 1.0,
+      "unitIng7": "pinch",
+      "nameIng7": "fine sea salt",
+      "amountIng8": 0.25,
+      "unitIng8": "teaspoon",
+      "nameIng8": "chia seeds"
+    }
+  },
+  {
+    "recipe_name": "Mexican Baked Fish",
+    "prep_time": "15 mins",
+    "cook_time": "15 mins",
+    "total_time": "30 mins",
+    "servings": "6",
+    "yield": "6 servings",
+    "rating": 4.5,
+    "url": "https://www.allrecipes.com/recipe/12745/mexican-baked-fish/",
+    "cuisine_path": "/Cuisine/Latin American/Mexican/",
+    "image": "https://www.allrecipes.com/thmb/ldGs8fNihUT5Qo_6Ey04a-jArXU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/1014287-9b69e5001c4940b6800cb35485b47602.jpg",
+    "ingredients": [
+      {
+        "name": "cod",
+        "amount": 1.5,
+        "unit": "pounds",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "salsa",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "shredded sharp Cheddar cheese",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "coarsely crushed corn chips",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "- peeled, pitted and sliced",
+        "amount": 1.0,
+        "unit": "avocado",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "sour cream",
+        "amount": 0.25,
+        "unit": "cup",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      }
+    ],
+    "directions": [
+      "Preheat oven to 400 degrees F (200 degrees C). Lightly grease one 8x12 inch baking dish.",
+      "Rinse fish fillets under cold water, and pat dry with paper towels. Lay fillets side by side in the prepared baking dish. Pour the salsa over the top, and sprinkle evenly with the shredded cheese. Top with the crushed corn chips.",
+      "Bake, uncovered, in the preheated oven for 15 minutes, or until fish is opaque and flakes with a fork. Serve topped with sliced avocado and sour cream."
+    ],
+    "nutrition": {
+      "Total": "Sugars 2g",
+      "Saturated": "Fat 7g 36%",
+      "Cholesterol": "69mg 23%",
+      "Sodium": "529mg 23%",
+      "Dietary": "Fiber 3g 12%",
+      "Protein": "28g",
+      "Vitamin": "C 7mg 34%",
+      "Calcium": "213mg 16%",
+      "Iron": "1mg 5%",
+      "Potassium": "717mg 15%"
+    },
+    "template_vars": {
+      "amountIng1": 1.5,
+      "unitIng1": "pounds",
+      "nameIng1": "cod",
+      "amountIng2": 1.0,
+      "unitIng2": "cup",
+      "nameIng2": "salsa",
+      "amountIng3": 1.0,
+      "unitIng3": "cup",
+      "nameIng3": "shredded sharp Cheddar cheese",
+      "amountIng4": 0.5,
+      "unitIng4": "cup",
+      "nameIng4": "coarsely crushed corn chips",
+      "amountIng5": 1.0,
+      "unitIng5": "avocado",
+      "nameIng5": "- peeled, pitted and sliced",
+      "amountIng6": 0.25,
+      "unitIng6": "cup",
+      "nameIng6": "sour cream"
+    }
+  },
+  {
+    "recipe_name": "Caribbean Chicken",
+    "prep_time": "15 mins",
+    "cook_time": "30 mins",
+    "total_time": "45 mins",
+    "servings": "4",
+    "yield": "4 servings",
+    "rating": 4.0,
+    "url": "https://www.allrecipes.com/recipe/36908/caribbean-chicken/",
+    "cuisine_path": "/Cuisine/Latin American/Caribbean/",
+    "image": "https://www.allrecipes.com/thmb/3G40LYeJgBoEGhDoIkPWpgHez8Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/12820-098656b798be486c80007c8a88833eee.jpg",
+    "ingredients": [
+      {
+        "name": "paprika",
+        "amount": 1.0,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "onion powder",
+        "amount": 1.0,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "garlic powder",
+        "amount": 1.0,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "dried parsley",
+        "amount": 1.0,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "dried oregano",
+        "amount": 0.5,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "salt",
+        "amount": 1.0,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "pepper",
+        "amount": 1.0,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng7",
+        "template_unit_var": "unitIng7",
+        "template_name_var": "nameIng7"
+      },
+      {
+        "name": ", skinless chicken breast halves",
+        "amount": 4.0,
+        "unit": "boneless",
+        "template_amount_var": "amountIng8",
+        "template_unit_var": "unitIng8",
+        "template_name_var": "nameIng8"
+      },
+      {
+        "name": "duck sauce",
+        "amount": 0.25,
+        "unit": "cup",
+        "template_amount_var": "amountIng9",
+        "template_unit_var": "unitIng9",
+        "template_name_var": "nameIng9"
+      },
+      {
+        "name": "marinara sauce",
+        "amount": 0.25,
+        "unit": "cup",
+        "template_amount_var": "amountIng10",
+        "template_unit_var": "unitIng10",
+        "template_name_var": "nameIng10"
+      },
+      {
+        "name": "mango hot sauce",
+        "amount": 1.0,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng11",
+        "template_unit_var": "unitIng11",
+        "template_name_var": "nameIng11"
+      },
+      {
+        "name": "fresh pink grapefruit juice, divided",
+        "amount": 0.75,
+        "unit": "cup",
+        "template_amount_var": "amountIng12",
+        "template_unit_var": "unitIng12",
+        "template_name_var": "nameIng12"
+      },
+      {
+        "name": "Italian seasoned bread crumbs",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng13",
+        "template_unit_var": "unitIng13",
+        "template_name_var": "nameIng13"
+      },
+      {
+        "name": "nectarine, pitted and sliced",
+        "amount": 1.0,
+        "unit": "ripe",
+        "template_amount_var": "amountIng14",
+        "template_unit_var": "unitIng14",
+        "template_name_var": "nameIng14"
+      }
+    ],
+    "directions": [
+      "Preheat oven to 375 degrees F (190 degrees C). Line a baking dish with parchment paper.",
+      "In a large bowl, mix together paprika, onion powder, garlic powder, parsley, oregano, salt and pepper. Toss with chicken breasts until evenly coated. In a bowl, combine duck sauce, marinara sauce, mango hot sauce and 1/4 cup grapefruit juice. Coat chicken evenly with sauce mixture. Place bread crumbs in a shallow dish, and dredge chicken until evenly breaded. Place chicken in baking dish. Place nectarine slices around the edge of baking dish.",
+      "Bake in preheated oven for 15 minutes. Turn the chicken, pour 1/2 cup grapefruit juice over chicken, and continue cooking for another 15 minutes or until done."
+    ],
+    "nutrition": {
+      "Total": "Sugars 12g",
+      "Saturated": "Fat 1g 3%",
+      "Cholesterol": "68mg 23%",
+      "Sodium": "1240mg 54%",
+      "Dietary": "Fiber 2g 9%",
+      "Protein": "33g",
+      "Vitamin": "C 23mg 115%",
+      "Calcium": "73mg 6%",
+      "Iron": "3mg 18%",
+      "Potassium": "517mg 11%"
+    },
+    "template_vars": {
+      "amountIng1": 1.0,
+      "unitIng1": "teaspoon",
+      "nameIng1": "paprika",
+      "amountIng2": 1.0,
+      "unitIng2": "teaspoon",
+      "nameIng2": "onion powder",
+      "amountIng3": 1.0,
+      "unitIng3": "teaspoon",
+      "nameIng3": "garlic powder",
+      "amountIng4": 1.0,
+      "unitIng4": "teaspoon",
+      "nameIng4": "dried parsley",
+      "amountIng5": 0.5,
+      "unitIng5": "teaspoon",
+      "nameIng5": "dried oregano",
+      "amountIng6": 1.0,
+      "unitIng6": "teaspoon",
+      "nameIng6": "salt",
+      "amountIng7": 1.0,
+      "unitIng7": "teaspoon",
+      "nameIng7": "pepper",
+      "amountIng8": 4.0,
+      "unitIng8": "boneless",
+      "nameIng8": ", skinless chicken breast halves",
+      "amountIng9": 0.25,
+      "unitIng9": "cup",
+      "nameIng9": "duck sauce",
+      "amountIng10": 0.25,
+      "unitIng10": "cup",
+      "nameIng10": "marinara sauce",
+      "amountIng11": 1.0,
+      "unitIng11": "teaspoon",
+      "nameIng11": "mango hot sauce",
+      "amountIng12": 0.75,
+      "unitIng12": "cup",
+      "nameIng12": "fresh pink grapefruit juice, divided",
+      "amountIng13": 1.0,
+      "unitIng13": "cup",
+      "nameIng13": "Italian seasoned bread crumbs",
+      "amountIng14": 1.0,
+      "unitIng14": "ripe",
+      "nameIng14": "nectarine, pitted and sliced"
+    }
+  },
+  {
+    "recipe_name": "Incredibly Delicious Italian Cream Cake",
+    "prep_time": "30 mins",
+    "cook_time": "30 mins",
+    "total_time": "1 hrs 25 mins",
+    "servings": "12",
+    "yield": "1 3-layer",
+    "rating": 4.5,
+    "url": "https://www.allrecipes.com/recipe/7871/incredibly-delicious-italian-cream-cake/",
+    "cuisine_path": "/Cuisine/European/Italian/",
+    "image": "https://www.allrecipes.com/thmb/K6c5zMcr5nq5rb75NlIE_LOGSPs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2556678-incredibly-delicious-italian-cream-cake-Yoly-1x1-2-51735f4035424c1491bb635b26d6d1b1.jpg",
+    "ingredients": [
+      {
+        "name": "buttermilk",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "baking soda",
+        "amount": 1.0,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "butter",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "shortening",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "white sugar",
+        "amount": 2.0,
+        "unit": "cups",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "eggs",
+        "amount": 5.0,
+        "unit": "large",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "vanilla extract",
+        "amount": 1.0,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng7",
+        "template_unit_var": "unitIng7",
+        "template_name_var": "nameIng7"
+      },
+      {
+        "name": "flaked coconut",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng8",
+        "template_unit_var": "unitIng8",
+        "template_name_var": "nameIng8"
+      },
+      {
+        "name": "baking powder",
+        "amount": 1.0,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng9",
+        "template_unit_var": "unitIng9",
+        "template_name_var": "nameIng9"
+      },
+      {
+        "name": "all-purpose flour",
+        "amount": 2.0,
+        "unit": "cups",
+        "template_amount_var": "amountIng10",
+        "template_unit_var": "unitIng10",
+        "template_name_var": "nameIng10"
+      }
+    ],
+    "directions": [
+      "Preheat the oven to 350 degrees F (175 degrees C). Grease three 9-inch round cake pans.",
+      "Make the cake: Combine buttermilk and baking soda together in a small bowl; set aside.",
+      "Beat butter, shortening, and sugar together in a large bowl with an electric mixer until light and fluffy. Mix in eggs, buttermilk mixture, vanilla, coconut, baking powder, and flour; stir until just combined. Pour batter into the prepared pans.",
+      "Bake in the preheated oven until a toothpick inserted into the center of the cake comes out clean, 30 to 35 minutes. Cool in the pans for 5 minutes; transfer to a wire rack and let cool completely, 20 to 25 minutes.",
+      "Make the frosting (while cakes are cooling): Beat cream cheese, butter, vanilla, and confectioners' sugar in a medium bowl with an electric mixer until light and fluffy. Beat in cream, a little at a time, to attain the desired consistency. Stir in walnuts and coconut. Spread frosting between the cake layers and on the top and sides of cooled cake.",
+      "Yoly"
+    ],
+    "nutrition": {
+      "Total": "Sugars 79g",
+      "Saturated": "Fat 20g 102%",
+      "Cholesterol": "140mg 47%",
+      "Sodium": "397mg 17%",
+      "Dietary": "Fiber 2g 8%",
+      "Protein": "8g",
+      "Vitamin": "C 0mg 2%",
+      "Calcium": "87mg 7%",
+      "Iron": "2mg 11%",
+      "Potassium": "177mg 4%"
+    },
+    "template_vars": {
+      "amountIng1": 1.0,
+      "unitIng1": "cup",
+      "nameIng1": "buttermilk",
+      "amountIng2": 1.0,
+      "unitIng2": "teaspoon",
+      "nameIng2": "baking soda",
+      "amountIng3": 0.5,
+      "unitIng3": "cup",
+      "nameIng3": "butter",
+      "amountIng4": 0.5,
+      "unitIng4": "cup",
+      "nameIng4": "shortening",
+      "amountIng5": 2.0,
+      "unitIng5": "cups",
+      "nameIng5": "white sugar",
+      "amountIng6": 5.0,
+      "unitIng6": "large",
+      "nameIng6": "eggs",
+      "amountIng7": 1.0,
+      "unitIng7": "teaspoon",
+      "nameIng7": "vanilla extract",
+      "amountIng8": 1.0,
+      "unitIng8": "cup",
+      "nameIng8": "flaked coconut",
+      "amountIng9": 1.0,
+      "unitIng9": "teaspoon",
+      "nameIng9": "baking powder",
+      "amountIng10": 2.0,
+      "unitIng10": "cups",
+      "nameIng10": "all-purpose flour"
+    }
+  },
+  {
+    "recipe_name": "Bionicos (Mexican Fruit Bowls)",
+    "prep_time": "30 mins",
+    "cook_time": "",
+    "total_time": "30 mins",
+    "servings": "4",
+    "yield": "4 fruit bowls",
+    "rating": 4.8,
+    "url": "https://www.allrecipes.com/recipe/266532/bionicos-mexican-fruit-bowls/",
+    "cuisine_path": "/Salad/Fruit Salad Recipes/Apple Salad Recipes/",
+    "image": "https://www.allrecipes.com/thmb/xpWRKJ_gctaTRdWLpww7Y4TlpFk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5548704-bionicos-mexican-fruit-bowls-Yoly-4x3-1-4cbeb8c7d83543d7852d954f0ffa1615.jpg",
+    "ingredients": [
+      {
+        "name": "plain yogurt",
+        "amount": 0.3333333333333333,
+        "unit": "cup",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "sweetened condensed milk",
+        "amount": 0.3333333333333333,
+        "unit": "cup",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "Mexican crema",
+        "amount": 0.3333333333333333,
+        "unit": "cup",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "vanilla extract",
+        "amount": 1.0,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      }
+    ],
+    "directions": [
+      "Mix yogurt, sweetened condensed milk, and crema in a bowl. Add vanilla extract and stir until well incorporated.",
+      "Divide cantaloupe, papaya, apple, and banana among 4 individual bowls, arranging them in separate sections. Place strawberries in the center of each bowl. Top each bowl with 1/8 cup each granola, raisins, and coconut.",
+      "Drizzle 1/4 cup of the crema mixture over each fruit bowl."
+    ],
+    "nutrition": {
+      "Total": "Sugars 48g",
+      "Saturated": "Fat 10g 48%",
+      "Cholesterol": "37mg 12%",
+      "Sodium": "94mg 4%",
+      "Dietary": "Fiber 6g 23%",
+      "Protein": "8g",
+      "Vitamin": "C 65mg 324%",
+      "Calcium": "154mg 12%",
+      "Iron": "2mg 9%",
+      "Potassium": "816mg 17%"
+    },
+    "template_vars": {
+      "amountIng1": 0.3333333333333333,
+      "unitIng1": "cup",
+      "nameIng1": "plain yogurt",
+      "amountIng2": 0.3333333333333333,
+      "unitIng2": "cup",
+      "nameIng2": "sweetened condensed milk",
+      "amountIng3": 0.3333333333333333,
+      "unitIng3": "cup",
+      "nameIng3": "Mexican crema",
+      "amountIng4": 1.0,
+      "unitIng4": "teaspoon",
+      "nameIng4": "vanilla extract"
+    }
+  },
+  {
+    "recipe_name": "Baked Oatmeal",
+    "prep_time": "10 mins",
+    "cook_time": "40 mins",
+    "total_time": "50 mins",
+    "servings": "8",
+    "yield": "",
+    "rating": 4.5,
+    "url": "https://www.allrecipes.com/recipe/51013/baked-oatmeal-ii/",
+    "cuisine_path": "/Breakfast and Brunch/Cereals/Oatmeal Recipes/",
+    "image": "https://www.allrecipes.com/thmb/29vMQYGkP93KsLds9a8cS6djkxY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/608142-00f526b464254ce7a9744294dfd93047.jpg",
+    "ingredients": [
+      {
+        "name": "rolled oats",
+        "amount": 3.0,
+        "unit": "cups",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "brown sugar",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "ground cinnamon",
+        "amount": 2.0,
+        "unit": "teaspoons",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "baking powder",
+        "amount": 2.0,
+        "unit": "teaspoons",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "salt",
+        "amount": 1.0,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": null,
+        "amount": 2.0,
+        "unit": "eggs",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "milk",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng7",
+        "template_unit_var": "unitIng7",
+        "template_name_var": "nameIng7"
+      },
+      {
+        "name": "melted butter",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng8",
+        "template_unit_var": "unitIng8",
+        "template_name_var": "nameIng8"
+      },
+      {
+        "name": "vanilla extract",
+        "amount": 2.0,
+        "unit": "teaspoons",
+        "template_amount_var": "amountIng9",
+        "template_unit_var": "unitIng9",
+        "template_name_var": "nameIng9"
+      },
+      {
+        "name": "dried cranberries",
+        "amount": 0.75,
+        "unit": "cup",
+        "template_amount_var": "amountIng10",
+        "template_unit_var": "unitIng10",
+        "template_name_var": "nameIng10"
+      }
+    ],
+    "directions": [
+      "Preheat the oven to 350 degrees F (175 degrees C).",
+      "Mix together oats, brown sugar, cinnamon, baking powder, and salt in a large bowl. Beat in eggs, milk, melted butter, and vanilla extract. Stir in dried cranberries. Spread into a 9x13-inch baking dish.",
+      "Bake in the preheated oven until top is golden, about 40 minutes."
+    ],
+    "nutrition": {
+      "Total": "Sugars 36g",
+      "Saturated": "Fat 8g 42%",
+      "Cholesterol": "79mg 26%",
+      "Sodium": "502mg 22%",
+      "Dietary": "Fiber 4g 14%",
+      "Protein": "7g",
+      "Vitamin": "C 0mg 1%",
+      "Calcium": "140mg 11%",
+      "Iron": "2mg 11%",
+      "Potassium": "217mg 5%"
+    },
+    "template_vars": {
+      "amountIng1": 3.0,
+      "unitIng1": "cups",
+      "nameIng1": "rolled oats",
+      "amountIng2": 1.0,
+      "unitIng2": "cup",
+      "nameIng2": "brown sugar",
+      "amountIng3": 2.0,
+      "unitIng3": "teaspoons",
+      "nameIng3": "ground cinnamon",
+      "amountIng4": 2.0,
+      "unitIng4": "teaspoons",
+      "nameIng4": "baking powder",
+      "amountIng5": 1.0,
+      "unitIng5": "teaspoon",
+      "nameIng5": "salt",
+      "amountIng6": 2.0,
+      "unitIng6": "eggs",
+      "nameIng6": null,
+      "amountIng7": 1.0,
+      "unitIng7": "cup",
+      "nameIng7": "milk",
+      "amountIng8": 0.5,
+      "unitIng8": "cup",
+      "nameIng8": "melted butter",
+      "amountIng9": 2.0,
+      "unitIng9": "teaspoons",
+      "nameIng9": "vanilla extract",
+      "amountIng10": 0.75,
+      "unitIng10": "cup",
+      "nameIng10": "dried cranberries"
+    }
+  },
+  {
+    "recipe_name": "Spinach and Strawberry Salad",
+    "prep_time": "10 mins",
+    "cook_time": "",
+    "total_time": "10 mins",
+    "servings": "8",
+    "yield": "",
+    "rating": 4.8,
+    "url": "https://www.allrecipes.com/recipe/16409/spinach-and-strawberry-salad/",
+    "cuisine_path": "/Salad/Green Salad Recipes/Spinach Salad Recipes/",
+    "image": "https://www.allrecipes.com/thmb/7OjjcmRQC8Sb236VtRX5YljlaIQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/4535439-564adcef998c47bebfcb6d9c5aa2a3df.jpg",
+    "ingredients": [
+      {
+        "name": "spinach",
+        "amount": 2.0,
+        "unit": "bunches",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "rinsed and torn into bite-size pieces",
+        "amount": null,
+        "unit": null,
+        "template_amount_var": "amountIng2",
+        "template_unit_var": null,
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "sliced strawberries",
+        "amount": 4.0,
+        "unit": "cups",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "vegetable oil",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "white sugar",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "white wine vinegar",
+        "amount": 0.25,
+        "unit": "cup",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "sesame seeds",
+        "amount": 2.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng7",
+        "template_unit_var": "unitIng7",
+        "template_name_var": "nameIng7"
+      },
+      {
+        "name": "poppy seeds",
+        "amount": 1.0,
+        "unit": "tablespoon",
+        "template_amount_var": "amountIng8",
+        "template_unit_var": "unitIng8",
+        "template_name_var": "nameIng8"
+      },
+      {
+        "name": "paprika",
+        "amount": 0.25,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng9",
+        "template_unit_var": "unitIng9",
+        "template_name_var": "nameIng9"
+      }
+    ],
+    "directions": [
+      "Toss together spinach and strawberries in a large bowl.",
+      "Whisk oil, sugar, vinegar, sesame seeds, poppy seeds, and paprika together in a medium bowl. Pour over the spinach and strawberries, and toss to coat."
+    ],
+    "nutrition": {
+      "Total": "Sugars 17g",
+      "Saturated": "Fat 2g 11%",
+      "Sodium": "69mg 3%",
+      "Dietary": "Fiber 4g 14%",
+      "Protein": "4g",
+      "Vitamin": "C 73mg 365%",
+      "Calcium": "135mg 10%",
+      "Iron": "3mg 17%",
+      "Potassium": "621mg 13%"
+    },
+    "template_vars": {
+      "amountIng1": 2.0,
+      "unitIng1": "bunches",
+      "nameIng1": "spinach",
+      "amountIng2": null,
+      "unitIng2": null,
+      "nameIng2": "rinsed and torn into bite-size pieces",
+      "amountIng3": 4.0,
+      "unitIng3": "cups",
+      "nameIng3": "sliced strawberries",
+      "amountIng4": 0.5,
+      "unitIng4": "cup",
+      "nameIng4": "vegetable oil",
+      "amountIng5": 0.5,
+      "unitIng5": "cup",
+      "nameIng5": "white sugar",
+      "amountIng6": 0.25,
+      "unitIng6": "cup",
+      "nameIng6": "white wine vinegar",
+      "amountIng7": 2.0,
+      "unitIng7": "tablespoons",
+      "nameIng7": "sesame seeds",
+      "amountIng8": 1.0,
+      "unitIng8": "tablespoon",
+      "nameIng8": "poppy seeds",
+      "amountIng9": 0.25,
+      "unitIng9": "teaspoon",
+      "nameIng9": "paprika"
+    }
+  },
+  {
+    "recipe_name": "Cranberry Orange Cookies",
+    "prep_time": "20 mins",
+    "cook_time": "15 mins",
+    "total_time": "35 mins",
+    "servings": "48",
+    "yield": "48 cookies",
+    "rating": 4.7,
+    "url": "https://www.allrecipes.com/recipe/40180/cranberry-orange-cookies/",
+    "cuisine_path": "/Desserts/Cookies/Fruit Cookie Recipes/Cranberry/",
+    "image": "https://www.allrecipes.com/thmb/krICNTJEjihCO1W3c5BLr_zn0H8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/154003-cranberry-orange-cookies-Kimberly-Kahmann-Harvey-1x1-1-3dcc9eaeb86841a5a44913d61d6c20d1.jpg",
+    "ingredients": [
+      {
+        "name": "unsalted butter, softened",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "white sugar",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "packed brown sugar",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "egg",
+        "amount": 1.0,
+        "unit": "large",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "orange juice",
+        "amount": 2.0,
+        "unit": "tablespoons",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "grated orange zest",
+        "amount": 1.0,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "all-purpose flour",
+        "amount": 2.5,
+        "unit": "cups",
+        "template_amount_var": "amountIng7",
+        "template_unit_var": "unitIng7",
+        "template_name_var": "nameIng7"
+      },
+      {
+        "name": "baking soda",
+        "amount": 0.5,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng8",
+        "template_unit_var": "unitIng8",
+        "template_name_var": "nameIng8"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng9",
+        "template_unit_var": "unitIng9",
+        "template_name_var": "nameIng9"
+      },
+      {
+        "name": "chopped cranberries",
+        "amount": 2.0,
+        "unit": "cups",
+        "template_amount_var": "amountIng10",
+        "template_unit_var": "unitIng10",
+        "template_name_var": "nameIng10"
+      },
+      {
+        "name": "chopped walnuts (Optional)",
+        "amount": 0.5,
+        "unit": "cup",
+        "template_amount_var": "amountIng11",
+        "template_unit_var": "unitIng11",
+        "template_name_var": "nameIng11"
+      }
+    ],
+    "directions": [
+      "Preheat the oven to 375 degrees F (190 degrees C).",
+      "Make the cookies: Cream butter, white sugar, and brown sugar in a mixing bowl until smooth. Beat in egg until well blended. Mix in orange juice and zest.",
+      "Whisk together flour, baking soda, and salt in a separate bowl. Stir flour mixture into the butter mixture until combined. Mix in cranberries and walnuts until evenly distributed.",
+      "Drop dough by rounded tablespoonfuls 2 inches apart onto ungreased cookie sheets.",
+      "Bake in the preheated oven, switching racks halfway through, until edges are golden, 12 to 14 minutes. Transfer cookies to wire racks to cool completely.",
+      "Meanwhile, make the glaze: Mix together confectioners' sugar, orange juice, and zest in a small bowl until smooth.",
+      "Spread glaze over the tops of the cooled cookies; let stand until set.",
+      "Kimberly Kahmann Harvey"
+    ],
+    "nutrition": {
+      "Total": "Sugars 11g",
+      "Saturated": "Fat 3g 13%",
+      "Cholesterol": "14mg 5%",
+      "Sodium": "67mg 3%",
+      "Dietary": "Fiber 1g 2%",
+      "Protein": "1g",
+      "Vitamin": "C 2mg 8%",
+      "Calcium": "7mg 1%",
+      "Iron": "0mg 2%",
+      "Potassium": "26mg 1%"
+    },
+    "template_vars": {
+      "amountIng1": 1.0,
+      "unitIng1": "cup",
+      "nameIng1": "unsalted butter, softened",
+      "amountIng2": 1.0,
+      "unitIng2": "cup",
+      "nameIng2": "white sugar",
+      "amountIng3": 0.5,
+      "unitIng3": "cup",
+      "nameIng3": "packed brown sugar",
+      "amountIng4": 1.0,
+      "unitIng4": "large",
+      "nameIng4": "egg",
+      "amountIng5": 2.0,
+      "unitIng5": "tablespoons",
+      "nameIng5": "orange juice",
+      "amountIng6": 1.0,
+      "unitIng6": "teaspoon",
+      "nameIng6": "grated orange zest",
+      "amountIng7": 2.5,
+      "unitIng7": "cups",
+      "nameIng7": "all-purpose flour",
+      "amountIng8": 0.5,
+      "unitIng8": "teaspoon",
+      "nameIng8": "baking soda",
+      "amountIng9": 0.5,
+      "unitIng9": "teaspoon",
+      "nameIng9": "salt",
+      "amountIng10": 2.0,
+      "unitIng10": "cups",
+      "nameIng10": "chopped cranberries",
+      "amountIng11": 0.5,
+      "unitIng11": "cup",
+      "nameIng11": "chopped walnuts (Optional)"
+    }
+  },
+  {
+    "recipe_name": "Date Loaf Cake",
+    "prep_time": "25 mins",
+    "cook_time": "45 mins",
+    "total_time": "1 hrs 10 mins",
+    "servings": "12",
+    "yield": "1 - 9x5 inch loaf pan",
+    "rating": 4.3,
+    "url": "https://www.allrecipes.com/recipe/25568/date-loaf-cake/",
+    "cuisine_path": "/Cuisine/European/UK and Ireland/English/",
+    "image": "https://www.allrecipes.com/thmb/H8VpaqhX-qWRjjVbmdHNakIqRbc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6727660-date-loaf-cake-heidilarson-4x3-1-3618c14a611e4668824685b62904eeed.jpg",
+    "ingredients": [
+      {
+        "name": "dates, pitted and chopped",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng1",
+        "template_unit_var": "unitIng1",
+        "template_name_var": "nameIng1"
+      },
+      {
+        "name": "dark brown sugar",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng2",
+        "template_unit_var": "unitIng2",
+        "template_name_var": "nameIng2"
+      },
+      {
+        "name": "margarine",
+        "amount": 0.25,
+        "unit": "cup",
+        "template_amount_var": "amountIng3",
+        "template_unit_var": "unitIng3",
+        "template_name_var": "nameIng3"
+      },
+      {
+        "name": "boiling water",
+        "amount": 1.0,
+        "unit": "cup",
+        "template_amount_var": "amountIng4",
+        "template_unit_var": "unitIng4",
+        "template_name_var": "nameIng4"
+      },
+      {
+        "name": "self-rising flour",
+        "amount": 1.75,
+        "unit": "cups",
+        "template_amount_var": "amountIng5",
+        "template_unit_var": "unitIng5",
+        "template_name_var": "nameIng5"
+      },
+      {
+        "name": "baking soda",
+        "amount": 1.0,
+        "unit": "teaspoon",
+        "template_amount_var": "amountIng6",
+        "template_unit_var": "unitIng6",
+        "template_name_var": "nameIng6"
+      },
+      {
+        "name": "vanilla extract",
+        "amount": 2.0,
+        "unit": "teaspoons",
+        "template_amount_var": "amountIng7",
+        "template_unit_var": "unitIng7",
+        "template_name_var": "nameIng7"
+      }
+    ],
+    "directions": [
+      "Preheat oven to 400 degrees F (200 degrees C). Grease and flour a 9x5 inch loaf pan.",
+      "In a large bowl, combine dates, brown sugar, margarine and boiling water. Let stand 15 minutes. Stir in flour, soda and vanilla. Pour batter into prepared pan.",
+      "Bake in the preheated oven for 45 minutes. Allow to cool."
+    ],
+    "nutrition": {
+      "Total": "Sugars 26g",
+      "Saturated": "Fat 1g 4%",
+      "Sodium": "386mg 17%",
+      "Dietary": "Fiber 2g 5%",
+      "Protein": "2g",
+      "Vitamin": "C 0mg 1%",
+      "Calcium": "83mg 6%",
+      "Iron": "1mg 6%",
+      "Potassium": "130mg 3%"
+    },
+    "template_vars": {
+      "amountIng1": 1.0,
+      "unitIng1": "cup",
+      "nameIng1": "dates, pitted and chopped",
+      "amountIng2": 1.0,
+      "unitIng2": "cup",
+      "nameIng2": "dark brown sugar",
+      "amountIng3": 0.25,
+      "unitIng3": "cup",
+      "nameIng3": "margarine",
+      "amountIng4": 1.0,
+      "unitIng4": "cup",
+      "nameIng4": "boiling water",
+      "amountIng5": 1.75,
+      "unitIng5": "cups",
+      "nameIng5": "self-rising flour",
+      "amountIng6": 1.0,
+      "unitIng6": "teaspoon",
+      "nameIng6": "baking soda",
+      "amountIng7": 2.0,
+      "unitIng7": "teaspoons",
+      "nameIng7": "vanilla extract"
+    }
+  }
+]
