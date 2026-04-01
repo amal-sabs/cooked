@@ -1,13 +1,19 @@
-import { Button } from "@/components/ui/button"
-import { getRecipe } from "@/hooks/queries/recipeQueries"
-import { ChevronLeft, ChevronRight, Menu } from "lucide-react"
-import { useParams } from "react-router"
-import RecipeNotFound from "@/components/RecipeNotFound"
-import { parseAsInteger, useQueryState } from "nuqs"
-import { SidebarProvider } from "@/components/ui/sidebar"
 import { InstructionSidebar } from "@/components/instructions/InstructionSidebar"
+import RecipeNotFound from "@/components/RecipeNotFound"
+import { Button } from "@/components/ui/button"
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  type CarouselApi,
+} from "@/components/ui/carousel"
+import { SidebarProvider } from "@/components/ui/sidebar"
+import { getRecipe } from "@/hooks/queries/recipeQueries"
 import { getIngredientsForStep } from "@/utils/ingredientUtils"
-import { useEffect } from "react"
+import { ChevronLeft, ChevronRight, Menu } from "lucide-react"
+import { parseAsInteger, useQueryState } from "nuqs"
+import { useEffect, useState } from "react"
+import { useParams } from "react-router"
 
 export type InstructionViewParams = {
   id: string
@@ -16,6 +22,7 @@ export type InstructionViewParams = {
 
 export default function InstructionView() {
   const [step, setStep] = useQueryState("step", parseAsInteger.withDefault(1))
+  const [carouselApi, setCarouselApi] = useState<CarouselApi | null>(null)
 
   const params = useParams<InstructionViewParams>()
 
@@ -24,6 +31,18 @@ export default function InstructionView() {
   if (!recipe) {
     return <RecipeNotFound />
   }
+
+  useEffect(() => {
+    if (recipe.directions.length === 0) {
+      return
+    }
+
+    const clampedStep = Math.min(Math.max(step, 1), recipe.directions.length)
+
+    if (clampedStep !== step) {
+      setStep(clampedStep)
+    }
+  }, [recipe.directions.length, setStep, step])
 
   const handleKeyDown = (event: KeyboardEvent) => {
     if (event.repeat) {
@@ -53,18 +72,41 @@ export default function InstructionView() {
     return () => {
       window.removeEventListener("keydown", handleKeyDown)
     }
-  }, [])
+  }, [handleKeyDown])
 
-  const currentStepIndex = Math.min(Math.max(step, 1), recipe.directions.length)
-  const currentStepText = recipe.directions[currentStepIndex - 1] ?? ""
-  const visibleIngredients = getIngredientsForStep(
-    currentStepText,
-    recipe.ingredients
-  )
+  useEffect(() => {
+    if (!carouselApi) {
+      return
+    }
 
-  if (step > recipe.directions.length || step < 1) {
-    setStep(1)
-  }
+    const nextSlideIndex = step - 1
+
+    if (carouselApi.selectedScrollSnap() !== nextSlideIndex) {
+      carouselApi.scrollTo(nextSlideIndex)
+    }
+  }, [carouselApi, step])
+
+  useEffect(() => {
+    if (!carouselApi) {
+      return
+    }
+
+    const handleSelect = () => {
+      const selectedStep = carouselApi.selectedScrollSnap() + 1
+      if (selectedStep !== step) {
+        setStep(selectedStep)
+      }
+    }
+
+    handleSelect()
+    carouselApi.on("select", handleSelect)
+    carouselApi.on("reInit", handleSelect)
+
+    return () => {
+      carouselApi.off("select", handleSelect)
+      carouselApi.off("reInit", handleSelect)
+    }
+  }, [carouselApi, setStep, step])
 
   const getPreviousButtonText = () => {
     if (step > 1) {
@@ -79,24 +121,11 @@ export default function InstructionView() {
     return "Finished! Back to recipe preview"
   }
 
-  const handlePreviousClick = () => {
-    if (step > 1) {
-      setStep(step - 1)
-    }
-  }
-  const handleNextClick = () => {
-    if (step < recipe.directions.length) {
-      setStep(step + 1)
-    }
-  }
-
   return (
     <SidebarProvider>
-      <InstructionSidebar recipe={recipe} />
       <div className="flex h-screen w-full">
-        {/* main content */}
+        <InstructionSidebar recipe={recipe} />
         <main className="relative flex h-full flex-1 flex-col">
-          {/* header */}
           <header className="flex items-center justify-between p-4 md:p-8">
             <div className="flex items-center gap-4">
               <Button variant="ghost" size="icon-lg">
@@ -112,41 +141,66 @@ export default function InstructionView() {
           </header>
 
           <div className="flex flex-1 items-start justify-center overflow-y-auto p-4 md:items-center md:p-8">
-            <div className="flex min-h-[50vh] w-full max-w-4xl flex-col rounded-2xl bg-accent p-6 md:min-h-100 md:p-12">
-              <div className="flex gap-4 md:gap-6">
-                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary text-xl font-medium text-white">
-                  {currentStepIndex}
-                </div>
-                <p className="mt-2 text-xl leading-relaxed md:text-2xl">
-                  {currentStepText}
-                </p>
-              </div>
+            <Carousel
+              className="w-full max-w-5xl"
+              opts={{ align: "center", containScroll: false }}
+              setApi={setCarouselApi}
+            >
+              <CarouselContent>
+                {recipe.directions.map((direction, index) => {
+                  const stepIngredients = getIngredientsForStep(
+                    direction,
+                    recipe.ingredients
+                  )
 
-              {visibleIngredients.length > 0 && (
-                <div className="mt-auto pt-12">
-                  <p className="font-mediu mb-3 text-sm md:text-base">
-                    Ingredients used in this step
-                  </p>
-                  <div className="flex flex-wrap gap-3">
-                    {visibleIngredients.map((ingredient) => (
-                      <span
-                        key={ingredient.templateNameVar}
-                        className="rounded-full border border-gray-400 px-5 py-1.5 text-sm"
-                      >
-                        {ingredient.amount} {ingredient.unit} {ingredient.name}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              )}
-            </div>
+                  return (
+                    <CarouselItem
+                      className={"basis-2/3"}
+                      key={`${recipe.name}-${index}`}
+                    >
+                      <div className="flex min-h-[50vh] flex-col rounded-4xl bg-accent p-6 md:min-h-100 md:p-12">
+                        <div className="flex gap-4 md:gap-6">
+                          <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary text-xl font-medium text-white">
+                            {index + 1}
+                          </div>
+                          <p className="mt-2 text-xl leading-relaxed md:text-2xl">
+                            {direction}
+                          </p>
+                        </div>
+
+                        {stepIngredients.length > 0 && (
+                          <div className="mt-auto pt-12">
+                            <p className="mb-3 text-sm font-medium md:text-base">
+                              Ingredients used in this step
+                            </p>
+                            <div className="flex flex-wrap gap-3">
+                              {stepIngredients.map((ingredient) => (
+                                <span
+                                  key={ingredient.templateNameVar}
+                                  className="rounded-full border border-gray-400 px-5 py-1.5 text-sm"
+                                >
+                                  {ingredient.amount} {ingredient.unit}{" "}
+                                  {ingredient.name}
+                                </span>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    </CarouselItem>
+                  )
+                })}
+              </CarouselContent>
+            </Carousel>
           </div>
 
           <div className="hidden justify-center p-6 md:flex md:pb-10">
             <div className="flex w-full max-w-4xl items-center justify-between rounded-full bg-accent px-6 py-4">
               <Button
                 variant="ghost"
-                onClick={handlePreviousClick}
+                onClick={() =>
+                  setStep((currentStep) => Math.max(currentStep - 1, 1))
+                }
                 className="max-w-[40%]"
               >
                 <ChevronLeft />
@@ -154,7 +208,11 @@ export default function InstructionView() {
               </Button>
               <Button
                 variant="ghost"
-                onClick={handleNextClick}
+                onClick={() =>
+                  setStep((currentStep) =>
+                    Math.min(currentStep + 1, recipe.directions.length)
+                  )
+                }
                 className="max-w-[40%]"
               >
                 <span className="truncate">{getNextButtonText()}</span>
