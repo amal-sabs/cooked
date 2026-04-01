@@ -9,6 +9,7 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
+  useSidebar,
 } from "@/components/ui/sidebar"
 import type { RecipeModel } from "@/hooks/queries/recipeQueries"
 import { List } from "lucide-react"
@@ -24,8 +25,15 @@ type Props = {
 export function InstructionSidebar({ recipe }: Props) {
   const [step, setStep] = useQueryState("step", parseAsInteger.withDefault(1))
   const [isIngredientsDrawerOpen, setIsIngredientsDrawerOpen] = useState(false)
-
   const navigate = useNavigate()
+
+  const isMobile = window.matchMedia("(max-width: 768px)").matches
+  const { toggleSidebar } = useSidebar()
+
+  function handleInstructionClick(index: number) {
+    if (isMobile) toggleSidebar()
+    setStep(index + 1)
+  }
 
   const handleKeyDown = (event: KeyboardEvent) => {
     if (event.repeat) {
@@ -54,7 +62,7 @@ export function InstructionSidebar({ recipe }: Props) {
         <SidebarHeader>
           <div
             onClick={() => navigate("/")}
-            className="flex flex-row items-center justify-center gap-6 p-6 cursor-pointer"
+            className="flex cursor-pointer flex-row items-center justify-center gap-6 p-6"
           >
             <h1 className="flex items-center gap-2 text-3xl font-bold text-primary">
               cooked
@@ -72,7 +80,7 @@ export function InstructionSidebar({ recipe }: Props) {
                   <SidebarMenuButton
                     key={`direction-${index}`}
                     isActive={isActive}
-                    onClick={() => setStep(index + 1)}
+                    onClick={() => handleInstructionClick(index)}
                     className="cursor-pointer py-6"
                   >
                     <div

@@ -7,17 +7,32 @@ import {
   CarouselItem,
   type CarouselApi,
 } from "@/components/ui/carousel"
-import { SidebarProvider } from "@/components/ui/sidebar"
+import { SidebarProvider, useSidebar } from "@/components/ui/sidebar"
 import { getRecipe } from "@/hooks/queries/recipeQueries"
 import { getIngredientsForStep } from "@/utils/ingredientUtils"
 import { ChevronLeft, ChevronRight, Menu } from "lucide-react"
 import { parseAsInteger, useQueryState } from "nuqs"
 import { useEffect, useState } from "react"
-import { useParams } from "react-router"
+import { useNavigate, useParams } from "react-router"
 
 export type InstructionViewParams = {
   id: string
   step?: string
+}
+
+function MobileSidebarToggleButton() {
+  const { toggleSidebar } = useSidebar()
+
+  return (
+    <Button
+      variant="outline"
+      size="icon-lg"
+      className="md:hidden"
+      onClick={toggleSidebar}
+    >
+      <Menu />
+    </Button>
+  )
 }
 
 export default function InstructionView() {
@@ -25,6 +40,7 @@ export default function InstructionView() {
   const [carouselApi, setCarouselApi] = useState<CarouselApi | null>(null)
 
   const params = useParams<InstructionViewParams>()
+  const navigate = useNavigate()
 
   const recipe = getRecipe(params.id)
 
@@ -125,28 +141,32 @@ export default function InstructionView() {
     <SidebarProvider>
       <div className="flex h-screen w-full">
         <InstructionSidebar recipe={recipe} />
-        <main className="relative flex h-full flex-1 flex-col">
-          <header className="flex items-center justify-between p-4 md:p-8">
+        <main className="relative flex h-full min-w-0 flex-1 flex-col">
+          <header className="flex w-full items-center justify-between p-4 md:p-8">
             <div className="flex items-center gap-4">
-              <Button variant="ghost" size="icon-lg">
+              <Button
+                variant="ghost"
+                size="icon-lg"
+                onClick={() => {
+                  navigate(`/recipe/${params.id}`)
+                }}
+              >
                 <ChevronLeft />
               </Button>
               <h2 className="text-xl font-medium md:text-2xl">
                 Making: {recipe.name}
               </h2>
             </div>
-            <Button variant="outline" size={"icon-lg"} className="md:hidden">
-              <Menu />
-            </Button>
+            <MobileSidebarToggleButton />
           </header>
 
-          <div className="flex flex-1 items-start justify-center overflow-y-auto p-4 md:items-center md:p-8">
+          <div className="flex min-w-0 flex-1 items-start justify-center overflow-y-auto p-4 md:items-center md:p-8">
             <Carousel
-              className="w-full max-w-5xl"
+              className="w-full min-w-0 h-full"
               opts={{ align: "center", containScroll: false }}
               setApi={setCarouselApi}
             >
-              <CarouselContent>
+              <CarouselContent viewportClassName="h-full" className="h-full">
                 {recipe.directions.map((direction, index) => {
                   const stepIngredients = getIngredientsForStep(
                     direction,
@@ -155,15 +175,15 @@ export default function InstructionView() {
 
                   return (
                     <CarouselItem
-                      className={"basis-2/3"}
+                      className={"basis-6/7 select-none md:basis-6/7"}
                       key={`${recipe.name}-${index}`}
                     >
-                      <div className="flex min-h-[50vh] flex-col rounded-4xl bg-accent p-6 md:min-h-100 md:p-12">
+                      <div className="flex h-full flex-col rounded-4xl bg-accent p-6 md:min-h-100 md:p-12">
                         <div className="flex gap-4 md:gap-6">
                           <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary text-xl font-medium text-white">
                             {index + 1}
                           </div>
-                          <p className="mt-2 text-xl leading-relaxed md:text-2xl">
+                          <p className="mt-2 text-xl leading-relaxed md:text-xl">
                             {direction}
                           </p>
                         </div>
@@ -195,7 +215,7 @@ export default function InstructionView() {
           </div>
 
           <div className="hidden justify-center p-6 md:flex md:pb-10">
-            <div className="flex w-full max-w-4xl items-center justify-between rounded-full bg-accent px-6 py-4">
+            <div className="flex w-full items-center justify-between rounded-full bg-accent px-6 py-4">
               <Button
                 variant="ghost"
                 onClick={() =>
