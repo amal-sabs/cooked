@@ -124,7 +124,7 @@ export function InstructionSidebar({ recipe }: Props) {
                   <List />
                   Ingredient list
                 </div>
-                <Kbd className="ml-auto font-mono">I</Kbd>
+                {!isMobile && <Kbd className="ml-auto font-mono">I</Kbd>}
               </SidebarMenuButton>
             </SidebarMenuItem>
           </SidebarMenu>
