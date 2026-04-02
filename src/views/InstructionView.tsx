@@ -12,7 +12,7 @@ import { getRecipe } from "@/hooks/queries/recipeQueries"
 import { getIngredientsForStep } from "@/utils/ingredientUtils"
 import { ChevronLeft, ChevronRight, Menu } from "lucide-react"
 import { parseAsInteger, useQueryState } from "nuqs"
-import { useEffect, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 import { useNavigate, useParams } from "react-router"
 
 export type InstructionViewParams = {
@@ -38,6 +38,15 @@ function MobileSidebarToggleButton() {
 export default function InstructionView() {
   const [step, setStep] = useQueryState("step", parseAsInteger.withDefault(1))
   const [carouselApi, setCarouselApi] = useState<CarouselApi | null>(null)
+
+  const isMobile = window.matchMedia("(max-width: 768px)").matches
+  const isTapToNavigateEnabled = useMemo(() => {
+    const settings = localStorage.getItem("cooked-instruction-view-settings")
+    if (settings) {
+      return JSON.parse(settings).navigationStyle === "tap"
+    }
+    return false
+  }, [localStorage.getItem("cooked-instruction-view-settings")])
 
   const params = useParams<InstructionViewParams>()
   const navigate = useNavigate()
@@ -137,6 +146,16 @@ export default function InstructionView() {
     return "Finished! Back to recipe preview"
   }
 
+  const goToPreviousStep = () => {
+    setStep((currentStep) => Math.max(currentStep - 1, 1))
+  }
+
+  const goToNextStep = () => {
+    setStep((currentStep) =>
+      Math.min(currentStep + 1, recipe.directions.length)
+    )
+  }
+
   return (
     <SidebarProvider>
       <div className="flex h-screen w-full">
@@ -160,9 +179,9 @@ export default function InstructionView() {
             <MobileSidebarToggleButton />
           </header>
 
-          <div className="flex min-w-0 flex-1 items-start justify-center overflow-y-auto p-4 md:items-center md:p-8">
+          <div className="relative flex min-w-0 flex-1 items-start justify-center overflow-y-auto p-4 md:items-center md:p-8">
             <Carousel
-              className="w-full min-w-0 h-full"
+              className="h-full w-full min-w-0"
               opts={{ align: "center", containScroll: false }}
               setApi={setCarouselApi}
             >
@@ -212,15 +231,31 @@ export default function InstructionView() {
                 })}
               </CarouselContent>
             </Carousel>
+
+            {isMobile && isTapToNavigateEnabled && (
+              <div className="absolute inset-0 grid grid-cols-[30%_40%_30%] md:hidden">
+                <button
+                  type="button"
+                  aria-label="Previous step"
+                  className="h-full w-full bg-transparent"
+                  onClick={goToPreviousStep}
+                />
+                <div aria-hidden="true" />
+                <button
+                  type="button"
+                  aria-label="Next step"
+                  className="h-full w-full bg-transparent"
+                  onClick={goToNextStep}
+                />
+              </div>
+            )}
           </div>
 
           <div className="hidden justify-center p-6 md:flex md:pb-10">
             <div className="flex w-full items-center justify-between rounded-full bg-accent px-6 py-4">
               <Button
                 variant="ghost"
-                onClick={() =>
-                  setStep((currentStep) => Math.max(currentStep - 1, 1))
-                }
+                onClick={goToPreviousStep}
                 className="max-w-[40%]"
               >
                 <ChevronLeft />
@@ -228,11 +263,7 @@ export default function InstructionView() {
               </Button>
               <Button
                 variant="ghost"
-                onClick={() =>
-                  setStep((currentStep) =>
-                    Math.min(currentStep + 1, recipe.directions.length)
-                  )
-                }
+                onClick={goToNextStep}
                 className="max-w-[40%]"
               >
                 <span className="truncate">{getNextButtonText()}</span>

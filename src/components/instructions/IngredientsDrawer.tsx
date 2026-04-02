@@ -89,30 +89,33 @@ export default function IngredientsDrawer({ open, setOpen, recipe }: Props) {
     >
       <DrawerContent>
         <DrawerHeader className="text-left">
-          <DrawerTitle className="mb-4 py-4 text-2xl">Ingredients</DrawerTitle>
-          <DrawerDescription className="flex flex-col gap-4">
-            {recipe.ingredients.map((ingredient, index) => (
-              <div key={index} className="flex items-center justify-between">
-                <span className="flex items-center gap-2 font-medium">
-                  <Checkbox
-                    onCheckedChange={() => {
-                      handleCheckboxChange(ingredient.name)
-                      persistCheckedStateToLocalStorage(recipeId, {
-                        ...checkedState,
-                        [ingredient.name]: !checkedState[ingredient.name],
-                      })
-                    }}
-                    checked={checkedState[ingredient.name] || false}
-                  />
-                  {ingredient.name}
-                </span>
-                <span className="text-muted-foreground">
-                  {ingredient.amount} {ingredient.unit}
-                </span>
-              </div>
-            ))}
+          <DrawerTitle className="py-2 text-2xl">Ingredients</DrawerTitle>
+          <DrawerDescription>
+            Check off ingredients as you gather them for the recipe.
           </DrawerDescription>
         </DrawerHeader>
+        <div className="flex flex-col gap-4 p-8">
+          {recipe.ingredients.map((ingredient, index) => (
+            <div key={index} className="flex items-center justify-between">
+              <span className="flex items-center gap-2 font-medium">
+                <Checkbox
+                  onCheckedChange={() => {
+                    handleCheckboxChange(ingredient.name)
+                    persistCheckedStateToLocalStorage(recipeId, {
+                      ...checkedState,
+                      [ingredient.name]: !checkedState[ingredient.name],
+                    })
+                  }}
+                  checked={checkedState[ingredient.name] || false}
+                />
+                {ingredient.name}
+              </span>
+              <span className="text-muted-foreground">
+                {ingredient.amount} {ingredient.unit}
+              </span>
+            </div>
+          ))}
+        </div>
         <DrawerFooter className="pt-2">
           <DrawerClose asChild>
             <Button variant="outline">Close</Button>

@@ -12,11 +12,12 @@ import {
   useSidebar,
 } from "@/components/ui/sidebar"
 import type { RecipeModel } from "@/hooks/queries/recipeQueries"
-import { List } from "lucide-react"
+import { List, Settings } from "lucide-react"
 import { parseAsInteger, useQueryState } from "nuqs"
 import { useEffect, useState } from "react"
-import IngredientsDrawer from "./IngredientsDrawer"
 import { useNavigate } from "react-router"
+import IngredientsDrawer from "./IngredientsDrawer"
+import SettingsDrawer from "./SettingsDrawer"
 
 type Props = {
   recipe: RecipeModel
@@ -24,7 +25,10 @@ type Props = {
 
 export function InstructionSidebar({ recipe }: Props) {
   const [step, setStep] = useQueryState("step", parseAsInteger.withDefault(1))
-  const [isIngredientsDrawerOpen, setIsIngredientsDrawerOpen] = useState(false)
+  const [isIngredientsDrawerOpen, setIsIngredientsDrawerOpen] =
+    useState<boolean>(false)
+  const [isSettingsDrawerOpen, setIsSettingsDrawerOpen] =
+    useState<boolean>(false)
   const navigate = useNavigate()
 
   const isMobile = window.matchMedia("(max-width: 768px)").matches
@@ -100,8 +104,19 @@ export function InstructionSidebar({ recipe }: Props) {
         <SidebarFooter>
           <SidebarMenu>
             <SidebarMenuItem>
+              {isMobile && (
+                <SidebarMenuButton
+                  className="cursor-pointer gap-2 py-6"
+                  onClick={() => setIsSettingsDrawerOpen(true)}
+                >
+                  <Settings />
+                  Settings
+                </SidebarMenuButton>
+              )}
+            </SidebarMenuItem>
+            <SidebarMenuItem>
               <SidebarMenuButton
-                className="cursor-pointer py-6"
+                className="cursor-pointer gap-2 py-6"
                 onClick={() => setIsIngredientsDrawerOpen(true)}
               >
                 <List />
@@ -111,6 +126,11 @@ export function InstructionSidebar({ recipe }: Props) {
           </SidebarMenu>
         </SidebarFooter>
       </Sidebar>
+      <SettingsDrawer
+        open={isSettingsDrawerOpen}
+        setOpen={setIsSettingsDrawerOpen}
+      />
+
       <IngredientsDrawer
         recipe={recipe}
         open={isIngredientsDrawerOpen}
