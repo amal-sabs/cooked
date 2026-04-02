@@ -34,6 +34,13 @@ const IGNORED_INGREDIENT_TOKENS = new Set([
   "skinless",
 ])
 
+export const formatIngredientAmount = (amount: number): string =>
+  new Intl.NumberFormat("en-US", {
+    maximumFractionDigits: 2,
+    minimumFractionDigits: 0,
+    useGrouping: false,
+  }).format(amount)
+
 const normalizeText = (value: string): string =>
   value
     .toLowerCase()

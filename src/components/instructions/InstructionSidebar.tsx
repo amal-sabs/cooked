@@ -18,6 +18,7 @@ import { useEffect, useState } from "react"
 import { useNavigate } from "react-router"
 import IngredientsDrawer from "./IngredientsDrawer"
 import SettingsDrawer from "./SettingsDrawer"
+import { Kbd } from "../ui/kbd"
 
 type Props = {
   recipe: RecipeModel
@@ -119,8 +120,11 @@ export function InstructionSidebar({ recipe }: Props) {
                 className="cursor-pointer gap-2 py-6"
                 onClick={() => setIsIngredientsDrawerOpen(true)}
               >
-                <List />
-                Ingredient list
+                <div className="flex flex-row items-center gap-2">
+                  <List />
+                  Ingredient list
+                </div>
+                <Kbd className="ml-auto font-mono">I</Kbd>
               </SidebarMenuButton>
             </SidebarMenuItem>
           </SidebarMenu>

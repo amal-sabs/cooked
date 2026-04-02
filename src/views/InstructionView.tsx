@@ -9,7 +9,10 @@ import {
 } from "@/components/ui/carousel"
 import { SidebarProvider, useSidebar } from "@/components/ui/sidebar"
 import { getRecipe } from "@/hooks/queries/recipeQueries"
-import { getIngredientsForStep } from "@/utils/ingredientUtils"
+import {
+  formatIngredientAmount,
+  getIngredientsForStep,
+} from "@/utils/ingredientUtils"
 import { ChevronLeft, ChevronRight, Menu } from "lucide-react"
 import { parseAsInteger, useQueryState } from "nuqs"
 import { useEffect, useMemo, useState } from "react"
@@ -37,6 +40,7 @@ function MobileSidebarToggleButton() {
 
 export default function InstructionView() {
   const [step, setStep] = useQueryState("step", parseAsInteger.withDefault(1))
+
   const [carouselApi, setCarouselApi] = useState<CarouselApi | null>(null)
 
   const isMobile = window.matchMedia("(max-width: 768px)").matches
@@ -56,6 +60,11 @@ export default function InstructionView() {
   if (!recipe) {
     return <RecipeNotFound />
   }
+  const [servingCount, setServingCount] = useQueryState(
+    "servings",
+    parseAsInteger.withDefault(recipe.servings)
+  )
+  const servingMultiplier = servingCount / recipe.servings
 
   useEffect(() => {
     if (recipe.directions.length === 0) {
@@ -218,8 +227,10 @@ export default function InstructionView() {
                                   key={ingredient.templateNameVar}
                                   className="rounded-full border border-gray-400 px-5 py-1.5 text-sm"
                                 >
-                                  {ingredient.amount} {ingredient.unit}{" "}
-                                  {ingredient.name}
+                                  {formatIngredientAmount(
+                                    ingredient.amount * servingMultiplier
+                                  )}{" "}
+                                  {ingredient.unit} {ingredient.name}
                                 </span>
                               ))}
                             </div>

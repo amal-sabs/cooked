@@ -10,9 +10,12 @@ import {
   DrawerTitle,
 } from "@/components/ui/drawer"
 import type { RecipeModel } from "@/hooks/queries/recipeQueries"
+import { formatIngredientAmount } from "@/utils/ingredientUtils"
 import type { InstructionViewParams } from "@/views/InstructionView"
 import { useEffect, useState } from "react"
 import { useParams } from "react-router"
+import { parseAsInteger, useQueryState } from "nuqs"
+import { Input } from "../ui/input"
 
 type Props = {
   open: boolean
@@ -39,6 +42,12 @@ export default function IngredientsDrawer({ open, setOpen, recipe }: Props) {
   const params = useParams<InstructionViewParams>()
 
   const [checkedState, setCheckedState] = useState<Record<string, boolean>>({})
+  const [servingCount, setServingCount] = useQueryState(
+    "servings",
+    parseAsInteger.withDefault(recipe.servings)
+  )
+
+  const servingMultiplier = servingCount / recipe.servings
 
   const handleCheckboxChange = (ingredientName: string) => {
     const newCheckedState = {
@@ -94,6 +103,30 @@ export default function IngredientsDrawer({ open, setOpen, recipe }: Props) {
             Check off ingredients as you gather them for the recipe.
           </DrawerDescription>
         </DrawerHeader>
+        <div className="justify-content flex flex-col px-4">
+          <div className="flex flex-row items-center">
+            <span className="px-4 text-sm">For</span>
+            <Input
+              style={{ width: "60px" }}
+              type="number"
+              min="1"
+              value={servingCount}
+              onChange={(e) => {
+                if (e.target.value === "") {
+                  return
+                }
+                setServingCount(parseInt(e.target.value) || 1)
+              }}
+            />
+            <span className="px-4 text-sm">servings</span>
+          </div>
+          {servingCount !== recipe.servings && (
+            <span className="px-4 text-sm text-muted-foreground">
+              Original recipe serves {recipe.servings} servings.
+            </span>
+          )}
+        </div>
+
         <div className="flex flex-col gap-4 p-8">
           {recipe.ingredients.map((ingredient, index) => (
             <div key={index} className="flex items-center justify-between">
@@ -111,7 +144,8 @@ export default function IngredientsDrawer({ open, setOpen, recipe }: Props) {
                 {ingredient.name}
               </span>
               <span className="text-muted-foreground">
-                {ingredient.amount} {ingredient.unit}
+                {formatIngredientAmount(ingredient.amount * servingMultiplier)}{" "}
+                {ingredient.unit}
               </span>
             </div>
           ))}
