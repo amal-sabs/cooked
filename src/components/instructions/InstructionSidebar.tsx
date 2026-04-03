@@ -15,10 +15,9 @@ import type { RecipeModel } from "@/hooks/queries/recipeQueries"
 import { List, Settings } from "lucide-react"
 import { parseAsInteger, useQueryState } from "nuqs"
 import { useEffect, useState } from "react"
-import { useNavigate } from "react-router"
+import { Kbd } from "../ui/kbd"
 import IngredientsDrawer from "./IngredientsDrawer"
 import SettingsDrawer from "./SettingsDrawer"
-import { Kbd } from "../ui/kbd"
 
 type Props = {
   recipe: RecipeModel
@@ -30,9 +29,8 @@ export function InstructionSidebar({ recipe }: Props) {
     useState<boolean>(false)
   const [isSettingsDrawerOpen, setIsSettingsDrawerOpen] =
     useState<boolean>(false)
-  const navigate = useNavigate()
 
-  const isMobile = window.matchMedia("(max-width: 768px)").matches
+  const isMobile = globalThis.matchMedia("(max-width: 768px)").matches
   const { toggleSidebar } = useSidebar()
 
   function handleInstructionClick(index: number) {
@@ -55,9 +53,9 @@ export function InstructionSidebar({ recipe }: Props) {
   }
 
   useEffect(() => {
-    window.addEventListener("keydown", handleKeyDown)
+    globalThis.addEventListener("keydown", handleKeyDown)
     return () => {
-      window.removeEventListener("keydown", handleKeyDown)
+      globalThis.removeEventListener("keydown", handleKeyDown)
     }
   }, [])
 
@@ -65,15 +63,15 @@ export function InstructionSidebar({ recipe }: Props) {
     <>
       <Sidebar>
         <SidebarHeader>
-          <div
-            onClick={() => navigate("/")}
+          <a
+            href="/"
             className="flex cursor-pointer flex-row items-center justify-center gap-6 p-6"
           >
             <h1 className="flex items-center gap-2 text-3xl font-bold text-primary">
               cooked
             </h1>
             <img src={cookedLogo} alt="Cooked logo" className="h-8 w-auto" />
-          </div>
+          </a>
         </SidebarHeader>
         <SidebarContent>
           <SidebarGroup title="Instructions">

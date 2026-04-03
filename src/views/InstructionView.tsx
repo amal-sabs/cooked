@@ -43,7 +43,7 @@ export default function InstructionView() {
 
   const [carouselApi, setCarouselApi] = useState<CarouselApi | null>(null)
 
-  const isMobile = window.matchMedia("(max-width: 768px)").matches
+  const isMobile = globalThis.matchMedia("(max-width: 768px)").matches
   const isTapToNavigateEnabled = useMemo(() => {
     const settings = localStorage.getItem("cooked-instruction-view-settings")
     if (settings) {
@@ -56,27 +56,26 @@ export default function InstructionView() {
   const navigate = useNavigate()
 
   const recipe = getRecipe(params.id)
+  const recipeServings = recipe?.servings ?? 1
+  const directionsLength = recipe?.directions.length ?? 0
 
-  if (!recipe) {
-    return <RecipeNotFound />
-  }
-  const [servingCount, setServingCount] = useQueryState(
+  const [servingCount, _] = useQueryState(
     "servings",
-    parseAsInteger.withDefault(recipe.servings)
+    parseAsInteger.withDefault(recipeServings)
   )
-  const servingMultiplier = servingCount / recipe.servings
+  const servingMultiplier = servingCount / recipeServings
 
   useEffect(() => {
-    if (recipe.directions.length === 0) {
+    if (directionsLength === 0) {
       return
     }
 
-    const clampedStep = Math.min(Math.max(step, 1), recipe.directions.length)
+    const clampedStep = Math.min(Math.max(step, 1), directionsLength)
 
     if (clampedStep !== step) {
       setStep(clampedStep)
     }
-  }, [recipe.directions.length, setStep, step])
+  }, [directionsLength, setStep, step])
 
   const handleKeyDown = (event: KeyboardEvent) => {
     if (event.repeat) {
@@ -89,9 +88,7 @@ export default function InstructionView() {
       event.key.toLowerCase() === "arrowright" ||
       event.key.toLowerCase() === "arrowdown"
     ) {
-      setStep((currentStep) =>
-        Math.min(currentStep + 1, recipe.directions.length)
-      )
+      setStep((currentStep) => Math.min(currentStep + 1, directionsLength))
     }
     if (
       event.key.toLowerCase() === "arrowleft" ||
@@ -102,9 +99,9 @@ export default function InstructionView() {
   }
 
   useEffect(() => {
-    window.addEventListener("keydown", handleKeyDown)
+    globalThis.addEventListener("keydown", handleKeyDown)
     return () => {
-      window.removeEventListener("keydown", handleKeyDown)
+      globalThis.removeEventListener("keydown", handleKeyDown)
     }
   }, [handleKeyDown])
 
@@ -143,12 +140,20 @@ export default function InstructionView() {
   }, [carouselApi, setStep, step])
 
   const getPreviousButtonText = () => {
+    if (!recipe) {
+      return "Previous"
+    }
+
     if (step > 1) {
       return recipe.directions[step - 2] ?? "Previous"
     }
     return "Back to recipe preview"
   }
   const getNextButtonText = () => {
+    if (!recipe) {
+      return "Next"
+    }
+
     if (step < recipe.directions.length) {
       return recipe.directions[step] ?? "Next"
     }
@@ -160,9 +165,11 @@ export default function InstructionView() {
   }
 
   const goToNextStep = () => {
-    setStep((currentStep) =>
-      Math.min(currentStep + 1, recipe.directions.length)
-    )
+    setStep((currentStep) => Math.min(currentStep + 1, directionsLength))
+  }
+
+  if (!recipe) {
+    return <RecipeNotFound />
   }
 
   return (
