@@ -2090,9 +2090,9 @@
         "template_name_var": "nameIng5"
       },
       {
-        "name": ", lightly beaten",
+        "name": "egg , lightly beaten",
         "amount": 1.0,
-        "unit": "egg",
+        "unit": null,
         "template_amount_var": "amountIng6",
         "template_unit_var": "unitIng6",
         "template_name_var": "nameIng6"
@@ -2157,8 +2157,8 @@
       "unitIng5": "cup",
       "nameIng5": "canola oil",
       "amountIng6": 1.0,
-      "unitIng6": "egg",
-      "nameIng6": ", lightly beaten",
+      "unitIng6": null,
+      "nameIng6": "egg , lightly beaten",
       "amountIng7": 0.25,
       "unitIng7": "cup",
       "nameIng7": "honey",
