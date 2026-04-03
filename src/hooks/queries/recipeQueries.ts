@@ -186,6 +186,7 @@ export type RecipeModel = {
   directions: string[]
   nutrition: Record<string, string>
   templateVars: Record<string, string | number>
+  categories: string[]
 }
 
 const parseServings = (servings: string): number => {
@@ -198,6 +199,22 @@ const parseTags = (cuisinePath: string): string[] =>
     .split("/")
     .map((tag) => tag.trim())
     .filter(Boolean)
+
+export const inferCategories = (cuisinePath: string, totalMinutes?: number): string[] => {
+  const tags = parseTags(cuisinePath);
+  const categories = new Set<string>();  
+  const allTags = tags.map(t => t.toLowerCase()).join(" ");
+  if (/bread|pastry|bake|muffin|scone/.test(allTags)) categories.add("Bread");
+  if (/dessert|cookie|cake|candy/.test(allTags)) categories.add("Dessert");
+  if (/drink|beverage|cocktail|juice|smoothie/.test(allTags)) categories.add("Beverage");
+  if (/soup|stew|chili/.test(allTags)) categories.add("Soup");
+  if (/salad/.test(allTags)) categories.add("Salad");
+  if (/breakfast|brunch/.test(allTags)) categories.add("Breakfast");
+  if (/meat|poultry|seafood|chicken|pork|lamb|main/.test(allTags)) categories.add("Main");
+  if (/side|sauce|condiment/.test(allTags)) categories.add("Side");
+  if (totalMinutes && totalMinutes <= 30) categories.add("Quick");
+  return categories.size > 0 ? [...categories] : ["Other"];
+};
 
 const parseRecipe = (rawRecipe: RawRecipeModel): RecipeModel => ({
   name: rawRecipe.recipe_name,
@@ -221,6 +238,7 @@ const parseRecipe = (rawRecipe: RawRecipeModel): RecipeModel => ({
   directions: rawRecipe.directions,
   nutrition: rawRecipe.nutrition,
   templateVars: rawRecipe.template_vars,
+  categories: inferCategories(rawRecipe.cuisine_path, parseInt(rawRecipe.cook_time)),
 })
 
 // index corresponds to the recipe's position in the original JSON file, which is also used in the URL for recipe details
@@ -240,7 +258,10 @@ export const getRecipe = (index: string | undefined): RecipeModel | null => {
   return recipe || null
 }
 
+const cachedRecipes: RecipeModel[] | null = null;
+
 export const getRecipeList = (): RecipeModel[] => {
+  if (cachedRecipes) return cachedRecipes;
   const rawRecipes = recipesTemplate as unknown as RawRecipeModel[]
   return rawRecipes.map(parseRecipe)
 }
