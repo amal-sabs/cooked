@@ -155,33 +155,25 @@
         "template_name_var": "nameIng1"
       },
       {
-        "name": "red apple",
+        "name": "red apple, cored and chopped, unpeeled",
         "amount": 1.0,
-        "unit": "unpeeled",
+        "unit": null,
         "template_amount_var": "amountIng2",
         "template_unit_var": "unitIng2",
         "template_name_var": "nameIng2"
       },
       {
-        "name": "cored and chopped",
-        "amount": null,
-        "unit": null,
-        "template_amount_var": "amountIng3",
-        "template_unit_var": null,
-        "template_name_var": "nameIng3"
-      },
-      {
-        "name": "Granny Smith apple, cored and chopped",
+        "name": "Granny Smith apple, cored and chopped, unpeeled",
         "amount": 1.0,
-        "unit": "unpeeled",
+        "unit": null,
         "template_amount_var": "amountIng4",
         "template_unit_var": "unitIng4",
         "template_name_var": "nameIng4"
       },
       {
-        "name": ", grated",
+        "name": "carrot, grated",
         "amount": 1.0,
-        "unit": "carrot",
+        "unit": null, 
         "template_amount_var": "amountIng5",
         "template_unit_var": "unitIng5",
         "template_name_var": "nameIng5"
@@ -195,9 +187,9 @@
         "template_name_var": "nameIng6"
       },
       {
-        "name": "onions, finely chopped",
+        "name": "green onions, finely chopped",
         "amount": 2.0,
-        "unit": "green",
+        "unit": null,
         "template_amount_var": "amountIng7",
         "template_unit_var": "unitIng7",
         "template_name_var": "nameIng7"
@@ -219,7 +211,7 @@
         "template_name_var": "nameIng9"
       },
       {
-        "name": "lemon juice or to taste",
+        "name": "lemon juice",
         "amount": 1.0,
         "unit": "tablespoon",
         "template_amount_var": "amountIng10",
@@ -248,23 +240,20 @@
       "unitIng1": "cups",
       "nameIng1": "chopped cabbage",
       "amountIng2": 1.0,
-      "unitIng2": "unpeeled",
-      "nameIng2": "red apple",
-      "amountIng3": null,
-      "unitIng3": null,
-      "nameIng3": "cored and chopped",
+      "unitIng2": null,
+      "nameIng2": "red apple, unpeeled, cored and chopped",
       "amountIng4": 1.0,
-      "unitIng4": "unpeeled",
-      "nameIng4": "Granny Smith apple, cored and chopped",
+      "unitIng4": null,
+      "nameIng4": "Granny Smith apple, cored and chopped, unpeeled",
       "amountIng5": 1.0,
-      "unitIng5": "carrot",
-      "nameIng5": ", grated",
+      "unitIng5": null,
+      "nameIng5": "carrot, grated",
       "amountIng6": 0.5,
       "unitIng6": "cup",
       "nameIng6": "finely chopped red bell pepper",
       "amountIng7": 2.0,
-      "unitIng7": "green",
-      "nameIng7": "onions, finely chopped",
+      "unitIng7": null,
+      "nameIng7": "green onions, finely chopped",
       "amountIng8": 0.3333333333333333,
       "unitIng8": "cup",
       "nameIng8": "mayonnaise",
@@ -273,7 +262,7 @@
       "nameIng9": "brown sugar",
       "amountIng10": 1.0,
       "unitIng10": "tablespoon",
-      "nameIng10": "lemon juice or to taste"
+      "nameIng10": "lemon juice"
     }
   },
   {
