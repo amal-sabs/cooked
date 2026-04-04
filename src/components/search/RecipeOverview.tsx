@@ -1,7 +1,7 @@
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious, type CarouselApi } from '@/components/ui/carousel';
 import RecipeCard from './RecipeCard';
 import { getRecipeList, type RecipeModel } from '@/hooks/queries/recipeQueries';
-import { useState, useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 
 interface RecipeCategory {
   name: string;
@@ -11,11 +11,11 @@ interface RecipeCategory {
 export default function RecipeOverview({ categories }: { categories: RecipeCategory[] }) {
   const recipeList = getRecipeList();
 
-  const [apis, setApis] = useState<Record<string, CarouselApi>>({});
+  const apisRef = useRef<Record<string, CarouselApi>>({});
 
   useEffect(() => {
-    Object.values(apis).forEach(api => api?.scrollTo(0));
-  }, [categories, apis]);
+    Object.values(apisRef.current).forEach(api => api?.scrollTo(0));
+  }, [categories]);
 
   return (
     <div>
@@ -25,7 +25,9 @@ export default function RecipeOverview({ categories }: { categories: RecipeCateg
           <Carousel
             className="w-full"
             opts={{ align: "start", loop: true, containScroll: false }}
-            setApi={(api) => setApis(prev => ({ ...prev, [category.name]: api }))}
+            setApi={(api) => {
+              apisRef.current[category.name] = api;
+            }}
           >
             <CarouselContent viewportClassName="pt-2 pb-2 px-2">
               {category.recipes.map((recipe) => {
