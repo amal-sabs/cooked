@@ -87,7 +87,7 @@ export default function RecipeView() {
 
               <Button
                 size="lg"
-                className="mt-2"
+                className="mt-2 cursor-pointer transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg focus-visible:ring-2 focus-visible:ring-primary/40"
                 onClick={() => navigate(`/recipe/${params.id}/instructions`)}
               >
                 Start cooking
