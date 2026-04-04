@@ -112,7 +112,7 @@ export default function RecipeView() {
                   return (
                     <li
                       key={ingredient.templateNameVar}
-                      className="flex items-start gap-3 text-lg"
+                      className="flex items-center gap-3 text-lg"
                     >
                       <Checkbox aria-label={`Mark ${ingredient.name} as ready`} />
                       <span>{ingredientText}</span>
