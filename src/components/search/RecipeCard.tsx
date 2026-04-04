@@ -1,10 +1,22 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import StarRating from './StarRating';
 import type { RecipeModel } from '@/hooks/queries/recipeQueries';
+import { useNavigate } from 'react-router';
 
-export default function RecipeCard({ recipe }: { recipe: RecipeModel }) {
+type RecipeCardProps = {
+  recipe: RecipeModel
+  to: string
+}
+
+export default function RecipeCard({ recipe, to }: RecipeCardProps) {
+  const navigate = useNavigate();
+
   return (
-    <Card className="overflow-hidden">
+    <Card
+      className="cursor-pointer overflow-hidden transition-shadow hover:shadow-md"
+      role="button"
+      onClick={() => navigate(to)}
+    >
       <CardHeader className="p-0">
         <img src={recipe.image} alt={recipe.name} className="w-full h-48 object-cover" />
       </CardHeader>
