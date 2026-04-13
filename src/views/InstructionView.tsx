@@ -38,6 +38,7 @@ function MobileSidebarToggleButton() {
   )
 }
 
+// step-by-step view (this comment is useless i know i'm just trying to redeploy)
 export default function InstructionView() {
   const [step, setStep] = useQueryState("step", parseAsInteger.withDefault(1))
 
