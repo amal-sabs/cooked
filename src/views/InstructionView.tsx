@@ -160,11 +160,17 @@ export default function InstructionView() {
     return "Finished! Back to recipe preview"
   }
 
-  const goToPreviousStep = () => {
+  const goToPreviousStep = (sideTap?: boolean) => {
+    if (step === 1 && !sideTap) {
+      navigate(`/recipe/${params.id}`)
+    }
     setStep((currentStep) => Math.max(currentStep - 1, 1))
   }
 
-  const goToNextStep = () => {
+  const goToNextStep = (sideTap?: boolean) => {
+    if (step === directionsLength && !sideTap) {
+      navigate(`/recipe/${params.id}`)
+    }
     setStep((currentStep) => Math.min(currentStep + 1, directionsLength))
   }
 
@@ -213,7 +219,7 @@ export default function InstructionView() {
                       className={"basis-6/7 select-none md:basis-6/7"}
                       key={`${recipe.name}-${index}`}
                     >
-                      <div className="flex h-full flex-col rounded-4xl bg-accent p-6 md:min-h-100 md:p-12 overflow-y-auto no-scrollbar">
+                      <div className="no-scrollbar flex h-full flex-col overflow-y-auto rounded-4xl bg-accent p-6 md:min-h-100 md:p-12">
                         <div className="flex gap-4 md:gap-6">
                           <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary text-xl font-medium text-white">
                             {index + 1}
@@ -256,14 +262,14 @@ export default function InstructionView() {
                   type="button"
                   aria-label="Previous step"
                   className="h-full w-full bg-transparent"
-                  onClick={goToPreviousStep}
+                  onClick={() => goToPreviousStep(true)}
                 />
                 <div aria-hidden="true" />
                 <button
                   type="button"
                   aria-label="Next step"
                   className="h-full w-full bg-transparent"
-                  onClick={goToNextStep}
+                  onClick={() => goToNextStep(true)}
                 />
               </div>
             )}
@@ -273,7 +279,7 @@ export default function InstructionView() {
             <div className="flex w-full items-center justify-between rounded-full bg-accent px-6 py-4">
               <Button
                 variant="ghost"
-                onClick={goToPreviousStep}
+                onClick={() => goToPreviousStep(false)}
                 className="max-w-[40%]"
               >
                 <ChevronLeft />
@@ -281,7 +287,7 @@ export default function InstructionView() {
               </Button>
               <Button
                 variant="ghost"
-                onClick={goToNextStep}
+                onClick={() => goToNextStep(false)}
                 className="max-w-[40%]"
               >
                 <span className="truncate">{getNextButtonText()}</span>
