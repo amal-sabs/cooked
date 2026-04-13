@@ -213,7 +213,7 @@ export default function InstructionView() {
                       className={"basis-6/7 select-none md:basis-6/7"}
                       key={`${recipe.name}-${index}`}
                     >
-                      <div className="flex h-full flex-col rounded-4xl bg-accent p-6 md:min-h-100 md:p-12">
+                      <div className="flex h-full flex-col rounded-4xl bg-accent p-6 md:min-h-100 md:p-12 overflow-y-auto no-scrollbar">
                         <div className="flex gap-4 md:gap-6">
                           <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary text-xl font-medium text-white">
                             {index + 1}
