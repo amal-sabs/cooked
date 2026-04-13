@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![cooked full logo](https://github.com/amal-sabs/cooked/blob/main/public/cooked_full_logo.svg)
+![cooked full logo](https://github.com/amal-sabs/cooked/blob/main/public/cooked_logo_full.svg)
 
 </div>
 
